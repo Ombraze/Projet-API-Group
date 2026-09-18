@@ -1,5 +1,9 @@
+import enum
 from pydantic import BaseModel, Field
 
+class Activable(enum.Enum):
+    YES = "yes"
+    NO = "no"
 
 class Item(BaseModel):
     id: int = Field(..., description="L'id de l'item")
@@ -7,6 +11,7 @@ class Item(BaseModel):
     prix: int = Field(..., description="Le prix de l'item")
     description: str = Field(..., description="La description de l'item")
     categorie: str = Field(..., description="La categorie de l'item")
+    activable: Activable = Field(..., description="Si l'item est activable ou non")
     role: str = Field(..., description="Le role de l'item")
     statistiques_item: dict[str, float] = Field(..., description="Les statistiques de l'item")
     tags_item: list[str] = Field(default_factory=list, description="Les tags de l'item")
