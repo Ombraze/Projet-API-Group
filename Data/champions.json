@@ -10,8 +10,33 @@
       "nom": "Aatrox",
       "titre": "Épée des Darkin",
       "roles": [
-        "Combattant"
+        "fight"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2588,
+        "hpperlevel": 114.0,
+        "mp": 0,
+        "mpperlevel": 0.0,
+        "movespeed": 345,
+        "armor": 119.6,
+        "armorperlevel": 4.8,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 175,
+        "hpregen": 11.5,
+        "hpregenperlevel": 0.5,
+        "mpregen": 0.0,
+        "mpregenperlevel": 0.0,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 60.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.5,
+        "attackspeed": 0.928
+      },
       "ressource": "Puits de sang"
     },
     {
@@ -20,9 +45,34 @@
       "nom": "Ahri",
       "titre": "Renarde à neuf queues",
       "roles": [
-        "Mage",
-        "Assassin"
+        "mage",
+        "assassin"
       ],
+      "lanes": [
+        "jgl"
+      ],
+      "stats": {
+        "hp": 2358,
+        "hpperlevel": 104.0,
+        "mp": 843,
+        "mpperlevel": 25.0,
+        "movespeed": 330,
+        "armor": 92.4,
+        "armorperlevel": 4.2,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 550,
+        "hpregen": 12.7,
+        "hpregenperlevel": 0.6,
+        "mpregen": 21.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 53.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.2,
+        "attackspeed": 0.918
+      },
       "ressource": "Mana"
     },
     {
@@ -31,8 +81,33 @@
       "nom": "Akali",
       "titre": "Assassine rebelle",
       "roles": [
-        "Assassin"
+        "assassin"
       ],
+      "lanes": [
+        "jgl"
+      ],
+      "stats": {
+        "hp": 2623,
+        "hpperlevel": 119.0,
+        "mp": 200,
+        "mpperlevel": 0.0,
+        "movespeed": 345,
+        "armor": 102.9,
+        "armorperlevel": 4.7,
+        "spellblock": 71.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 24.3,
+        "hpregenperlevel": 0.9,
+        "mpregen": 50.0,
+        "mpregenperlevel": 0.0,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 62.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.2,
+        "attackspeed": 0.965
+      },
       "ressource": "Énergie"
     },
     {
@@ -41,9 +116,34 @@
       "nom": "Akshan",
       "titre": "Sentinelle rebelle",
       "roles": [
-        "Tireur",
-        "Assassin"
+        "marksman",
+        "assassin"
       ],
+      "lanes": [
+        "jgl"
+      ],
+      "stats": {
+        "hp": 2429,
+        "hpperlevel": 107.0,
+        "mp": 1030,
+        "mpperlevel": 40.0,
+        "movespeed": 330,
+        "armor": 105.9,
+        "armorperlevel": 4.7,
+        "spellblock": 51.7,
+        "spellblockperlevel": 1.1,
+        "attackrange": 500,
+        "hpregen": 14.8,
+        "hpregenperlevel": 0.65,
+        "mpregen": 20.1,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 52.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 4.0,
+        "attackspeed": 1.072
+      },
       "ressource": "Mana"
     },
     {
@@ -52,9 +152,34 @@
       "nom": "Alistar",
       "titre": "Minotaure",
       "roles": [
-        "Tank",
-        "Support"
+        "tank",
+        "support"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2725,
+        "hpperlevel": 120.0,
+        "mp": 1030,
+        "mpperlevel": 40.0,
+        "movespeed": 335,
+        "armor": 119.9,
+        "armorperlevel": 4.7,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 22.95,
+        "hpregenperlevel": 0.85,
+        "mpregen": 22.1,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 62.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.125,
+        "attackspeed": 0.851
+      },
       "ressource": "Mana"
     },
     {
@@ -63,9 +188,34 @@
       "nom": "Ambessa",
       "titre": "Matriarche de guerre",
       "roles": [
-        "Combattant",
-        "Assassin"
+        "fight",
+        "assassin"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2500,
+        "hpperlevel": 110.0,
+        "mp": 200,
+        "mpperlevel": 0.0,
+        "movespeed": 335,
+        "armor": 118.3,
+        "armorperlevel": 4.9,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 21.25,
+        "hpregenperlevel": 0.75,
+        "mpregen": 50.0,
+        "mpregenperlevel": 0.0,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 63.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.5,
+        "attackspeed": 0.891
+      },
       "ressource": "Énergie"
     },
     {
@@ -74,9 +224,34 @@
       "nom": "Amumu",
       "titre": "Momie mélancolique",
       "roles": [
-        "Tank",
-        "Support"
+        "tank",
+        "support"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2283,
+        "hpperlevel": 94.0,
+        "mp": 965,
+        "mpperlevel": 40.0,
+        "movespeed": 335,
+        "armor": 101.0,
+        "armorperlevel": 4.0,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 23.45,
+        "hpregenperlevel": 0.85,
+        "mpregen": 16.75,
+        "mpregenperlevel": 0.55,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 57.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.18,
+        "attackspeed": 1.009
+      },
       "ressource": "Mana"
     },
     {
@@ -85,8 +260,33 @@
       "nom": "Anivia",
       "titre": "Cryophénix",
       "roles": [
-        "Mage"
+        "mage"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2114,
+        "hpperlevel": 92.0,
+        "mp": 1260,
+        "mpperlevel": 45.0,
+        "movespeed": 325,
+        "armor": 88.7,
+        "armorperlevel": 4.1,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 600,
+        "hpregen": 14.85,
+        "hpregenperlevel": 0.55,
+        "mpregen": 21.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 51.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 1.68,
+        "attackspeed": 0.846
+      },
       "ressource": "Mana"
     },
     {
@@ -95,9 +295,34 @@
       "nom": "Annie",
       "titre": "Enfant des ténèbres",
       "roles": [
-        "Mage",
-        "Support"
+        "mage",
+        "support"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2192,
+        "hpperlevel": 96.0,
+        "mp": 843,
+        "mpperlevel": 25.0,
+        "movespeed": 335,
+        "armor": 91.0,
+        "armorperlevel": 4.0,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 625,
+        "hpregen": 14.85,
+        "hpregenperlevel": 0.55,
+        "mpregen": 21.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 50.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 1.36,
+        "attackspeed": 0.751
+      },
       "ressource": "Mana"
     },
     {
@@ -106,8 +331,33 @@
       "nom": "Aphelios",
       "titre": "Arme des Lunaris",
       "roles": [
-        "Tireur"
+        "marksman"
       ],
+      "lanes": [
+        "adc"
+      ],
+      "stats": {
+        "hp": 2334,
+        "hpperlevel": 102.0,
+        "mp": 1062,
+        "mpperlevel": 42.0,
+        "movespeed": 325,
+        "armor": 97.4,
+        "armorperlevel": 4.2,
+        "spellblock": 51.7,
+        "spellblockperlevel": 1.1,
+        "attackrange": 550,
+        "hpregen": 12.6,
+        "hpregenperlevel": 0.55,
+        "mpregen": 13.3,
+        "mpregenperlevel": 0.4,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 55.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.1,
+        "attackspeed": 0.902
+      },
       "ressource": "Mana"
     },
     {
@@ -116,9 +366,34 @@
       "nom": "Ashe",
       "titre": "Archère de givre",
       "roles": [
-        "Tireur",
-        "Support"
+        "marksman",
+        "support"
       ],
+      "lanes": [
+        "adc"
+      ],
+      "stats": {
+        "hp": 2327,
+        "hpperlevel": 101.0,
+        "mp": 875,
+        "mpperlevel": 35.0,
+        "movespeed": 325,
+        "armor": 104.2,
+        "armorperlevel": 4.6,
+        "spellblock": 51.7,
+        "spellblockperlevel": 1.1,
+        "attackrange": 600,
+        "hpregen": 12.85,
+        "hpregenperlevel": 0.55,
+        "mpregen": 18.05,
+        "mpregenperlevel": 0.65,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 59.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.0,
+        "attackspeed": 0.994
+      },
       "ressource": "Mana"
     },
     {
@@ -127,8 +402,33 @@
       "nom": "Aurelion Sol",
       "titre": "Forgeur d'étoiles",
       "roles": [
-        "Mage"
+        "mage"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2130,
+        "hpperlevel": 90.0,
+        "mp": 1210,
+        "mpperlevel": 40.0,
+        "movespeed": 340,
+        "armor": 90.0,
+        "armorperlevel": 4.0,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 550,
+        "hpregen": 14.85,
+        "hpregenperlevel": 0.55,
+        "mpregen": 20.75,
+        "mpregenperlevel": 0.75,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 58.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 1.5,
+        "attackspeed": 0.784
+      },
       "ressource": "Mana"
     },
     {
@@ -137,9 +437,34 @@
       "nom": "Aurora",
       "titre": "Sorcière d'entre les mondes",
       "roles": [
-        "Mage",
-        "Assassin"
+        "mage",
+        "assassin"
       ],
+      "lanes": [
+        "jgl"
+      ],
+      "stats": {
+        "hp": 2477,
+        "hpperlevel": 110.0,
+        "mp": 985,
+        "mpperlevel": 30.0,
+        "movespeed": 335,
+        "armor": 99.5,
+        "armorperlevel": 4.5,
+        "spellblock": 54.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 550,
+        "hpregen": 15.35,
+        "hpregenperlevel": 0.55,
+        "mpregen": 21.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 53.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.0,
+        "attackspeed": 0.895
+      },
       "ressource": "Mana"
     },
     {
@@ -148,9 +473,34 @@
       "nom": "Azir",
       "titre": "Empereur des sables",
       "roles": [
-        "Mage",
-        "Tireur"
+        "mage",
+        "marksman"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2411,
+        "hpperlevel": 108.0,
+        "mp": 1000,
+        "mpperlevel": 40.0,
+        "movespeed": 330,
+        "armor": 110.0,
+        "armorperlevel": 5.0,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 525,
+        "hpregen": 19.75,
+        "hpregenperlevel": 0.75,
+        "mpregen": 21.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 56.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 5.0,
+        "attackspeed": 1.156
+      },
       "ressource": "Mana"
     },
     {
@@ -159,9 +509,34 @@
       "nom": "Bard",
       "titre": "Gardien errant",
       "roles": [
-        "Support",
-        "Mage"
+        "support",
+        "mage"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2381,
+        "hpperlevel": 103.0,
+        "mp": 1200,
+        "mpperlevel": 50.0,
+        "movespeed": 335,
+        "armor": 111.9,
+        "armorperlevel": 4.7,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 500,
+        "hpregen": 14.85,
+        "hpregenperlevel": 0.55,
+        "mpregen": 13.65,
+        "mpregenperlevel": 0.45,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 52.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.0,
+        "attackspeed": 0.882
+      },
       "ressource": "Mana"
     },
     {
@@ -170,8 +545,33 @@
       "nom": "Bel'Veth",
       "titre": "Impératrice du Néant",
       "roles": [
-        "Combattant"
+        "fight"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2365,
+        "hpperlevel": 105.0,
+        "mp": 45,
+        "mpperlevel": 0.0,
+        "movespeed": 340,
+        "armor": 113.0,
+        "armorperlevel": 5.0,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 150,
+        "hpregen": 16.2,
+        "hpregenperlevel": 0.6,
+        "mpregen": 0.0,
+        "mpregenperlevel": 0.0,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 55.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 0.0,
+        "attackspeed": 0.67
+      },
       "ressource": ""
     },
     {
@@ -180,9 +580,34 @@
       "nom": "Blitzcrank",
       "titre": "Golem de vapeur",
       "roles": [
-        "Tank",
-        "Support"
+        "tank",
+        "support"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2453,
+        "hpperlevel": 109.0,
+        "mp": 947,
+        "mpperlevel": 40.0,
+        "movespeed": 325,
+        "armor": 116.9,
+        "armorperlevel": 4.7,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 20.25,
+        "hpregenperlevel": 0.75,
+        "mpregen": 22.1,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 62.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 1.13,
+        "attackspeed": 0.745
+      },
       "ressource": "Mana"
     },
     {
@@ -191,9 +616,34 @@
       "nom": "Brand",
       "titre": "Vengeur flamboyant",
       "roles": [
-        "Mage",
-        "Support"
+        "mage",
+        "support"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2355,
+        "hpperlevel": 105.0,
+        "mp": 826,
+        "mpperlevel": 21.0,
+        "movespeed": 340,
+        "armor": 95.4,
+        "armorperlevel": 4.2,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 550,
+        "hpregen": 14.85,
+        "hpregenperlevel": 0.55,
+        "mpregen": 21.2,
+        "mpregenperlevel": 0.6,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 57.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.0,
+        "attackspeed": 0.913
+      },
       "ressource": "Mana"
     },
     {
@@ -202,9 +652,34 @@
       "nom": "Braum",
       "titre": "Cœur de Freljord",
       "roles": [
-        "Tank",
-        "Support"
+        "tank",
+        "support"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2514,
+        "hpperlevel": 112.0,
+        "mp": 1076,
+        "mpperlevel": 45.0,
+        "movespeed": 335,
+        "armor": 120.0,
+        "armorperlevel": 5.0,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 25.5,
+        "hpregenperlevel": 1.0,
+        "mpregen": 20.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 55.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.5,
+        "attackspeed": 1.027
+      },
       "ressource": "Mana"
     },
     {
@@ -213,9 +688,34 @@
       "nom": "Briar",
       "titre": "Faim insatiable",
       "roles": [
-        "Combattant",
-        "Assassin"
+        "fight",
+        "assassin"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2240,
+        "hpperlevel": 95.0,
+        "mp": 0,
+        "mpperlevel": 0.0,
+        "movespeed": 340,
+        "armor": 106.5,
+        "armorperlevel": 4.5,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 0.0,
+        "hpregenperlevel": 0.0,
+        "mpregen": 0.0,
+        "mpregenperlevel": 0.0,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 60.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.0,
+        "attackspeed": 0.863
+      },
       "ressource": "Fureur"
     },
     {
@@ -224,8 +724,33 @@
       "nom": "Caitlyn",
       "titre": "Shérif de Piltover",
       "roles": [
-        "Tireur"
+        "marksman"
       ],
+      "lanes": [
+        "adc"
+      ],
+      "stats": {
+        "hp": 2399,
+        "hpperlevel": 107.0,
+        "mp": 995,
+        "mpperlevel": 40.0,
+        "movespeed": 325,
+        "armor": 106.9,
+        "armorperlevel": 4.7,
+        "spellblock": 51.7,
+        "spellblockperlevel": 1.1,
+        "attackrange": 650,
+        "hpregen": 12.85,
+        "hpregenperlevel": 0.55,
+        "mpregen": 19.3,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 62.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 4.0,
+        "attackspeed": 1.144
+      },
       "ressource": "Mana"
     },
     {
@@ -234,9 +759,34 @@
       "nom": "Camille",
       "titre": "Ombre d'acier",
       "roles": [
-        "Combattant",
-        "Assassin"
+        "fight",
+        "assassin"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2333,
+        "hpperlevel": 99.0,
+        "mp": 1259,
+        "mpperlevel": 52.0,
+        "movespeed": 340,
+        "armor": 111.5,
+        "armorperlevel": 4.5,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 22.1,
+        "hpregenperlevel": 0.8,
+        "mpregen": 20.9,
+        "mpregenperlevel": 0.75,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 68.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.5,
+        "attackspeed": 0.918
+      },
       "ressource": "Mana"
     },
     {
@@ -245,8 +795,33 @@
       "nom": "Cassiopeia",
       "titre": "Étreinte du serpent",
       "roles": [
-        "Mage"
+        "mage"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2296,
+        "hpperlevel": 98.0,
+        "mp": 1160,
+        "mpperlevel": 40.0,
+        "movespeed": 335,
+        "armor": 97.9,
+        "armorperlevel": 4.7,
+        "spellblock": 54.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 550,
+        "hpregen": 14.0,
+        "hpregenperlevel": 0.5,
+        "mpregen": 21.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 53.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 1.5,
+        "attackspeed": 0.812
+      },
       "ressource": "Mana"
     },
     {
@@ -255,9 +830,34 @@
       "nom": "Cho'Gath",
       "titre": "Terreur noire",
       "roles": [
-        "Tank",
-        "Mage"
+        "tank",
+        "mage"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2242,
+        "hpperlevel": 94.0,
+        "mp": 1290,
+        "mpperlevel": 60.0,
+        "movespeed": 345,
+        "armor": 114.5,
+        "armorperlevel": 4.5,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 23.45,
+        "hpregenperlevel": 0.85,
+        "mpregen": 14.85,
+        "mpregenperlevel": 0.45,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 69.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 1.44,
+        "attackspeed": 0.819
+      },
       "ressource": "Mana"
     },
     {
@@ -266,9 +866,34 @@
       "nom": "Corki",
       "titre": "Artilleur téméraire",
       "roles": [
-        "Tireur",
-        "Mage"
+        "marksman",
+        "mage"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2310,
+        "hpperlevel": 100.0,
+        "mp": 1030,
+        "mpperlevel": 40.0,
+        "movespeed": 325,
+        "armor": 103.5,
+        "armorperlevel": 4.5,
+        "spellblock": 51.7,
+        "spellblockperlevel": 1.1,
+        "attackrange": 550,
+        "hpregen": 14.85,
+        "hpregenperlevel": 0.55,
+        "mpregen": 19.3,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 52.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.8,
+        "attackspeed": 0.951
+      },
       "ressource": "Mana"
     },
     {
@@ -277,9 +902,34 @@
       "nom": "Darius",
       "titre": "Main de Noxus",
       "roles": [
-        "Combattant",
-        "Tank"
+        "fight",
+        "tank"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2590,
+        "hpperlevel": 114.0,
+        "mp": 1249,
+        "mpperlevel": 58.0,
+        "movespeed": 340,
+        "armor": 125.4,
+        "armorperlevel": 5.2,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 175,
+        "hpregen": 26.15,
+        "hpregenperlevel": 0.95,
+        "mpregen": 12.55,
+        "mpregenperlevel": 0.35,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 64.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 1.0,
+        "attackspeed": 0.731
+      },
       "ressource": "Mana"
     },
     {
@@ -288,9 +938,34 @@
       "nom": "Diana",
       "titre": "Mépris de la lune",
       "roles": [
-        "Combattant",
-        "Assassin"
+        "fight",
+        "assassin"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2493,
+        "hpperlevel": 109.0,
+        "mp": 800,
+        "mpperlevel": 25.0,
+        "movespeed": 345,
+        "armor": 104.1,
+        "armorperlevel": 4.3,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 150,
+        "hpregen": 20.95,
+        "hpregenperlevel": 0.85,
+        "mpregen": 21.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 57.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.0,
+        "attackspeed": 0.838
+      },
       "ressource": "Mana"
     },
     {
@@ -299,9 +974,34 @@
       "nom": "Dr. Mundo",
       "titre": "Dément de Zaun",
       "roles": [
-        "Tank",
-        "Combattant"
+        "tank",
+        "fight"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2391,
+        "hpperlevel": 103.0,
+        "mp": 0,
+        "mpperlevel": 0.0,
+        "movespeed": 345,
+        "armor": 108.5,
+        "armorperlevel": 4.5,
+        "spellblock": 68.1,
+        "spellblockperlevel": 2.3,
+        "attackrange": 125,
+        "hpregen": 15.5,
+        "hpregenperlevel": 0.5,
+        "mpregen": 0.0,
+        "mpregenperlevel": 0.0,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 61.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.3,
+        "attackspeed": 1.046
+      },
       "ressource": "Aucune"
     },
     {
@@ -310,8 +1010,33 @@
       "nom": "Draven",
       "titre": "Glorieux exécuteur",
       "roles": [
-        "Tireur"
+        "marksman"
       ],
+      "lanes": [
+        "adc"
+      ],
+      "stats": {
+        "hp": 2443,
+        "hpperlevel": 104.0,
+        "mp": 1024,
+        "mpperlevel": 39.0,
+        "movespeed": 330,
+        "armor": 105.5,
+        "armorperlevel": 4.5,
+        "spellblock": 51.7,
+        "spellblockperlevel": 1.1,
+        "attackrange": 550,
+        "hpregen": 15.65,
+        "hpregenperlevel": 0.7,
+        "mpregen": 19.1,
+        "mpregenperlevel": 0.65,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 62.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.7,
+        "attackspeed": 0.991
+      },
       "ressource": "Mana"
     },
     {
@@ -320,9 +1045,34 @@
       "nom": "Ekko",
       "titre": "Fractureur du temps",
       "roles": [
-        "Assassin",
-        "Mage"
+        "assassin",
+        "mage"
       ],
+      "lanes": [
+        "jgl"
+      ],
+      "stats": {
+        "hp": 2338,
+        "hpperlevel": 99.0,
+        "mp": 1470,
+        "mpperlevel": 70.0,
+        "movespeed": 340,
+        "armor": 103.4,
+        "armorperlevel": 4.2,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 24.3,
+        "hpregenperlevel": 0.9,
+        "mpregen": 20.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 58.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.3,
+        "attackspeed": 1.074
+      },
       "ressource": "Mana"
     },
     {
@@ -331,9 +1081,34 @@
       "nom": "Elise",
       "titre": "Reine araignée",
       "roles": [
-        "Assassin",
-        "Mage"
+        "assassin",
+        "mage"
       ],
+      "lanes": [
+        "jgl"
+      ],
+      "stats": {
+        "hp": 2473,
+        "hpperlevel": 109.0,
+        "mp": 1174,
+        "mpperlevel": 50.0,
+        "movespeed": 330,
+        "armor": 106.5,
+        "armorperlevel": 4.5,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 550,
+        "hpregen": 15.7,
+        "hpregenperlevel": 0.6,
+        "mpregen": 19.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 55.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 1.75,
+        "attackspeed": 0.811
+      },
       "ressource": "Mana"
     },
     {
@@ -342,9 +1117,34 @@
       "nom": "Evelynn",
       "titre": "Démon sadique",
       "roles": [
-        "Assassin",
-        "Mage"
+        "assassin",
+        "mage"
       ],
+      "lanes": [
+        "jgl"
+      ],
+      "stats": {
+        "hp": 2308,
+        "hpperlevel": 98.0,
+        "mp": 1029,
+        "mpperlevel": 42.0,
+        "movespeed": 335,
+        "armor": 116.9,
+        "armorperlevel": 4.7,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 21.25,
+        "hpregenperlevel": 0.75,
+        "mpregen": 18.31,
+        "mpregenperlevel": 0.6,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 61.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.1,
+        "attackspeed": 0.905
+      },
       "ressource": "Mana"
     },
     {
@@ -353,9 +1153,34 @@
       "nom": "Ezreal",
       "titre": "Explorateur prodigue",
       "roles": [
-        "Tireur",
-        "Mage"
+        "marksman",
+        "mage"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2334,
+        "hpperlevel": 102.0,
+        "mp": 1565,
+        "mpperlevel": 70.0,
+        "movespeed": 325,
+        "armor": 95.4,
+        "armorperlevel": 4.2,
+        "spellblock": 51.7,
+        "spellblockperlevel": 1.1,
+        "attackrange": 550,
+        "hpregen": 15.05,
+        "hpregenperlevel": 0.65,
+        "mpregen": 25.5,
+        "mpregenperlevel": 1.0,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 60.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.5,
+        "attackspeed": 0.891
+      },
       "ressource": "Mana"
     },
     {
@@ -364,9 +1189,34 @@
       "nom": "Fiddlesticks",
       "titre": "Effroi nocturne",
       "roles": [
-        "Mage",
-        "Support"
+        "mage",
+        "support"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2452,
+        "hpperlevel": 106.0,
+        "mp": 976,
+        "mpperlevel": 28.0,
+        "movespeed": 335,
+        "armor": 113.9,
+        "armorperlevel": 4.7,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 480,
+        "hpregen": 15.7,
+        "hpregenperlevel": 0.6,
+        "mpregen": 21.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 55.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.11,
+        "attackspeed": 0.849
+      },
       "ressource": "Mana"
     },
     {
@@ -375,9 +1225,34 @@
       "nom": "Fiora",
       "titre": "Sublime bretteuse",
       "roles": [
-        "Combattant",
-        "Assassin"
+        "fight",
+        "assassin"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2303,
+        "hpperlevel": 99.0,
+        "mp": 1320,
+        "mpperlevel": 60.0,
+        "movespeed": 345,
+        "armor": 112.9,
+        "armorperlevel": 4.7,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 150,
+        "hpregen": 17.85,
+        "hpregenperlevel": 0.55,
+        "mpregen": 19.9,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 66.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.2,
+        "attackspeed": 1.065
+      },
       "ressource": "Mana"
     },
     {
@@ -386,9 +1261,34 @@
       "nom": "Fizz",
       "titre": "Filou des mers",
       "roles": [
-        "Assassin",
-        "Combattant"
+        "assassin",
+        "fight"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2442,
+        "hpperlevel": 106.0,
+        "mp": 1201,
+        "mpperlevel": 52.0,
+        "movespeed": 335,
+        "armor": 104.2,
+        "armorperlevel": 4.6,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 175,
+        "hpregen": 19.9,
+        "hpregenperlevel": 0.7,
+        "mpregen": 19.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 58.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.1,
+        "attackspeed": 1.005
+      },
       "ressource": "Mana"
     },
     {
@@ -397,9 +1297,34 @@
       "nom": "Galio",
       "titre": "Colosse",
       "roles": [
-        "Tank",
-        "Mage"
+        "tank",
+        "mage"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2742,
+        "hpperlevel": 126.0,
+        "mp": 1090,
+        "mpperlevel": 40.0,
+        "movespeed": 340,
+        "armor": 103.9,
+        "armorperlevel": 4.7,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 150,
+        "hpregen": 21.6,
+        "hpregenperlevel": 0.8,
+        "mpregen": 21.4,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 59.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 1.5,
+        "attackspeed": 0.784
+      },
       "ressource": "Mana"
     },
     {
@@ -408,8 +1333,33 @@
       "nom": "Gangplank",
       "titre": "Fléau des mers",
       "roles": [
-        "Combattant"
+        "fight"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2568,
+        "hpperlevel": 114.0,
+        "mp": 1300,
+        "mpperlevel": 60.0,
+        "movespeed": 345,
+        "armor": 110.9,
+        "armorperlevel": 4.7,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 16.2,
+        "hpregenperlevel": 0.6,
+        "mpregen": 19.9,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 64.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.2,
+        "attackspeed": 1.016
+      },
       "ressource": "Mana"
     },
     {
@@ -418,9 +1368,34 @@
       "nom": "Garen",
       "titre": "Force de Demacia",
       "roles": [
-        "Combattant",
-        "Tank"
+        "fight",
+        "tank"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2356,
+        "hpperlevel": 98.0,
+        "mp": 0,
+        "mpperlevel": 0.0,
+        "movespeed": 340,
+        "armor": 109.4,
+        "armorperlevel": 4.2,
+        "spellblock": 58.35,
+        "spellblockperlevel": 1.55,
+        "attackrange": 175,
+        "hpregen": 16.5,
+        "hpregenperlevel": 0.5,
+        "mpregen": 0.0,
+        "mpregenperlevel": 0.0,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 69.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.65,
+        "attackspeed": 1.013
+      },
       "ressource": "Aucune"
     },
     {
@@ -429,9 +1404,34 @@
       "nom": "Gnar",
       "titre": "Chaînon manquant",
       "roles": [
-        "Combattant",
-        "Tank"
+        "fight",
+        "tank"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 1883,
+        "hpperlevel": 79.0,
+        "mp": 100,
+        "mpperlevel": 0.0,
+        "movespeed": 335,
+        "armor": 94.9,
+        "armorperlevel": 3.7,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 175,
+        "hpregen": 25.75,
+        "hpregenperlevel": 1.25,
+        "mpregen": 0.0,
+        "mpregenperlevel": 0.0,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 60.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 6.0,
+        "attackspeed": 1.262
+      },
       "ressource": "Rage"
     },
     {
@@ -440,9 +1440,34 @@
       "nom": "Gragas",
       "titre": "Agitateur",
       "roles": [
-        "Combattant",
-        "Mage"
+        "fight",
+        "mage"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2595,
+        "hpperlevel": 115.0,
+        "mp": 1199,
+        "mpperlevel": 47.0,
+        "movespeed": 330,
+        "armor": 123.0,
+        "armorperlevel": 5.0,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 14.0,
+        "hpregenperlevel": 0.5,
+        "mpregen": 19.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 64.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.05,
+        "attackspeed": 0.91
+      },
       "ressource": "Mana"
     },
     {
@@ -451,8 +1476,33 @@
       "nom": "Graves",
       "titre": "Hors-la-loi",
       "roles": [
-        "Tireur"
+        "marksman"
       ],
+      "lanes": [
+        "adc"
+      ],
+      "stats": {
+        "hp": 2427,
+        "hpperlevel": 106.0,
+        "mp": 1005,
+        "mpperlevel": 40.0,
+        "movespeed": 340,
+        "armor": 111.2,
+        "armorperlevel": 4.6,
+        "spellblock": 51.7,
+        "spellblockperlevel": 1.1,
+        "attackrange": 425,
+        "hpregen": 19.9,
+        "hpregenperlevel": 0.7,
+        "mpregen": 19.9,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 66.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.0,
+        "attackspeed": 0.717
+      },
       "ressource": "Mana"
     },
     {
@@ -461,8 +1511,33 @@
       "nom": "Gwen",
       "titre": "Couturière sacrée",
       "roles": [
-        "Combattant"
+        "fight"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2575,
+        "hpperlevel": 115.0,
+        "mp": 1010,
+        "mpperlevel": 40.0,
+        "movespeed": 340,
+        "armor": 122.3,
+        "armorperlevel": 4.9,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 150,
+        "hpregen": 24.3,
+        "hpregenperlevel": 0.9,
+        "mpregen": 19.4,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 63.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.25,
+        "attackspeed": 0.954
+      },
       "ressource": "Mana"
     },
     {
@@ -471,9 +1546,34 @@
       "nom": "Hecarim",
       "titre": "Ombre de la guerre",
       "roles": [
-        "Combattant",
-        "Tank"
+        "fight",
+        "tank"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2427,
+        "hpperlevel": 106.0,
+        "mp": 960,
+        "mpperlevel": 40.0,
+        "movespeed": 345,
+        "armor": 124.65,
+        "armorperlevel": 5.45,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 175,
+        "hpregen": 19.75,
+        "hpregenperlevel": 0.75,
+        "mpregen": 20.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 66.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.5,
+        "attackspeed": 0.955
+      },
       "ressource": "Mana"
     },
     {
@@ -482,9 +1582,34 @@
       "nom": "Heimerdinger",
       "titre": "Inventeur réputé",
       "roles": [
-        "Mage",
-        "Support"
+        "mage",
+        "support"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2343,
+        "hpperlevel": 105.0,
+        "mp": 725,
+        "mpperlevel": 20.0,
+        "movespeed": 340,
+        "armor": 90.4,
+        "armorperlevel": 4.2,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 550,
+        "hpregen": 16.35,
+        "hpregenperlevel": 0.55,
+        "mpregen": 21.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 56.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 1.36,
+        "attackspeed": 0.81
+      },
       "ressource": "Mana"
     },
     {
@@ -493,9 +1618,34 @@
       "nom": "Hwei",
       "titre": "Visionnaire",
       "roles": [
-        "Mage",
-        "Support"
+        "mage",
+        "support"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2433,
+        "hpperlevel": 109.0,
+        "mp": 990,
+        "mpperlevel": 30.0,
+        "movespeed": 330,
+        "armor": 100.9,
+        "armorperlevel": 4.7,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 550,
+        "hpregen": 14.85,
+        "hpregenperlevel": 0.55,
+        "mpregen": 20.25,
+        "mpregenperlevel": 0.75,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 54.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.5,
+        "attackspeed": 0.983
+      },
       "ressource": "Mana"
     },
     {
@@ -504,9 +1654,34 @@
       "nom": "Illaoi",
       "titre": "Prêtresse du kraken",
       "roles": [
-        "Combattant",
-        "Tank"
+        "fight",
+        "tank"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2611,
+        "hpperlevel": 115.0,
+        "mp": 1200,
+        "mpperlevel": 50.0,
+        "movespeed": 350,
+        "armor": 120.0,
+        "armorperlevel": 5.0,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 23.1,
+        "hpregenperlevel": 0.8,
+        "mpregen": 20.25,
+        "mpregenperlevel": 0.75,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 65.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.5,
+        "attackspeed": 0.891
+      },
       "ressource": "Mana"
     },
     {
@@ -515,9 +1690,34 @@
       "nom": "Irelia",
       "titre": "Danseuse des lames",
       "roles": [
-        "Combattant",
-        "Assassin"
+        "fight",
+        "assassin"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2585,
+        "hpperlevel": 115.0,
+        "mp": 1200,
+        "mpperlevel": 50.0,
+        "movespeed": 335,
+        "armor": 115.9,
+        "armorperlevel": 4.7,
+        "spellblock": 64.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 200,
+        "hpregen": 17.95,
+        "hpregenperlevel": 0.85,
+        "mpregen": 21.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 65.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.5,
+        "attackspeed": 0.935
+      },
       "ressource": "Mana"
     },
     {
@@ -526,9 +1726,34 @@
       "nom": "Ivern",
       "titre": "Aîné de la forêt",
       "roles": [
-        "Support",
-        "Mage"
+        "support",
+        "mage"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2313,
+        "hpperlevel": 99.0,
+        "mp": 1470,
+        "mpperlevel": 60.0,
+        "movespeed": 330,
+        "armor": 106.9,
+        "armorperlevel": 4.7,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 475,
+        "hpregen": 21.45,
+        "hpregenperlevel": 0.85,
+        "mpregen": 18.75,
+        "mpregenperlevel": 0.75,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 50.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.4,
+        "attackspeed": 1.016
+      },
       "ressource": "Mana"
     },
     {
@@ -537,9 +1762,34 @@
       "nom": "Janna",
       "titre": "Avatar de l'air",
       "roles": [
-        "Support",
-        "Mage"
+        "support",
+        "mage"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2100,
+        "hpperlevel": 90.0,
+        "mp": 1210,
+        "mpperlevel": 50.0,
+        "movespeed": 325,
+        "armor": 104.5,
+        "armorperlevel": 4.5,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 550,
+        "hpregen": 14.85,
+        "hpregenperlevel": 0.55,
+        "mpregen": 18.3,
+        "mpregenperlevel": 0.4,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 47.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.0,
+        "attackspeed": 0.944
+      },
       "ressource": "Mana"
     },
     {
@@ -548,9 +1798,34 @@
       "nom": "Jarvan IV",
       "titre": "Exemple demacien",
       "roles": [
-        "Combattant",
-        "Tank"
+        "fight",
+        "tank"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2408,
+        "hpperlevel": 104.0,
+        "mp": 1235,
+        "mpperlevel": 55.0,
+        "movespeed": 340,
+        "armor": 114.2,
+        "armorperlevel": 4.6,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 175,
+        "hpregen": 19.9,
+        "hpregenperlevel": 0.7,
+        "mpregen": 14.15,
+        "mpregenperlevel": 0.45,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 64.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.5,
+        "attackspeed": 0.938
+      },
       "ressource": "Mana"
     },
     {
@@ -559,8 +1834,33 @@
       "nom": "Jax",
       "titre": "Maître d'armes",
       "roles": [
-        "Combattant"
+        "fight"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2401,
+        "hpperlevel": 103.0,
+        "mp": 1223,
+        "mpperlevel": 52.0,
+        "movespeed": 350,
+        "armor": 107.4,
+        "armorperlevel": 4.2,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 17.85,
+        "hpregenperlevel": 0.55,
+        "mpregen": 20.1,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 68.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.4,
+        "attackspeed": 1.007
+      },
       "ressource": "Mana"
     },
     {
@@ -569,9 +1869,34 @@
       "nom": "Jayce",
       "titre": "Protecteur du futur",
       "roles": [
-        "Combattant",
-        "Tireur"
+        "fight",
+        "marksman"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2443,
+        "hpperlevel": 109.0,
+        "mp": 1140,
+        "mpperlevel": 45.0,
+        "movespeed": 335,
+        "armor": 107.0,
+        "armorperlevel": 5.0,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 125,
+        "hpregen": 16.2,
+        "hpregenperlevel": 0.6,
+        "mpregen": 19.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 59.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.0,
+        "attackspeed": 0.994
+      },
       "ressource": "Mana"
     },
     {
@@ -580,9 +1905,34 @@
       "nom": "Jhin",
       "titre": "Virtuose",
       "roles": [
-        "Tireur",
-        "Mage"
+        "marksman",
+        "mage"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2474,
+        "hpperlevel": 107.0,
+        "mp": 1150,
+        "mpperlevel": 50.0,
+        "movespeed": 330,
+        "armor": 103.9,
+        "armorperlevel": 4.7,
+        "spellblock": 51.7,
+        "spellblockperlevel": 1.1,
+        "attackrange": 550,
+        "hpregen": 13.1,
+        "hpregenperlevel": 0.55,
+        "mpregen": 19.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 61.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 0.0,
+        "attackspeed": 0.625
+      },
       "ressource": "Mana"
     },
     {
@@ -591,8 +1941,33 @@
       "nom": "Jinx",
       "titre": "Gâchette folle",
       "roles": [
-        "Tireur"
+        "marksman"
       ],
+      "lanes": [
+        "adc"
+      ],
+      "stats": {
+        "hp": 2415,
+        "hpperlevel": 105.0,
+        "mp": 1110,
+        "mpperlevel": 50.0,
+        "movespeed": 325,
+        "armor": 97.4,
+        "armorperlevel": 4.2,
+        "spellblock": 51.7,
+        "spellblockperlevel": 1.1,
+        "attackrange": 525,
+        "hpregen": 12.25,
+        "hpregenperlevel": 0.5,
+        "mpregen": 23.7,
+        "mpregenperlevel": 1.0,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 59.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 1.0,
+        "attackspeed": 0.731
+      },
       "ressource": "Mana"
     },
     {
@@ -601,9 +1976,34 @@
       "nom": "K'Santé",
       "titre": "Fierté de Nazumah",
       "roles": [
-        "Tank",
-        "Combattant"
+        "tank",
+        "fight"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2665,
+        "hpperlevel": 120.0,
+        "mp": 1340,
+        "mpperlevel": 60.0,
+        "movespeed": 330,
+        "armor": 124.4,
+        "armorperlevel": 5.2,
+        "spellblock": 65.7,
+        "spellblockperlevel": 2.1,
+        "attackrange": 150,
+        "hpregen": 26.5,
+        "hpregenperlevel": 1.0,
+        "mpregen": 24.0,
+        "mpregenperlevel": 1.0,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 64.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.5,
+        "attackspeed": 0.98
+      },
       "ressource": "Mana"
     },
     {
@@ -612,9 +2012,34 @@
       "nom": "Kai'Sa",
       "titre": "Fille du Néant",
       "roles": [
-        "Tireur",
-        "Mage"
+        "marksman",
+        "mage"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2374,
+        "hpperlevel": 102.0,
+        "mp": 1025,
+        "mpperlevel": 40.0,
+        "movespeed": 335,
+        "armor": 96.4,
+        "armorperlevel": 4.2,
+        "spellblock": 51.7,
+        "spellblockperlevel": 1.1,
+        "attackrange": 525,
+        "hpregen": 13.35,
+        "hpregenperlevel": 0.55,
+        "mpregen": 20.1,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 59.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 1.8,
+        "attackspeed": 0.841
+      },
       "ressource": "Mana"
     },
     {
@@ -623,8 +2048,33 @@
       "nom": "Kalista",
       "titre": "Lance de la vengeance",
       "roles": [
-        "Tireur"
+        "marksman"
       ],
+      "lanes": [
+        "adc"
+      ],
+      "stats": {
+        "hp": 2498,
+        "hpperlevel": 114.0,
+        "mp": 1065,
+        "mpperlevel": 45.0,
+        "movespeed": 330,
+        "armor": 112.4,
+        "armorperlevel": 5.2,
+        "spellblock": 51.7,
+        "spellblockperlevel": 1.1,
+        "attackrange": 525,
+        "hpregen": 16.75,
+        "hpregenperlevel": 0.75,
+        "mpregen": 19.9,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 57.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 4.5,
+        "attackspeed": 1.225
+      },
       "ressource": "Mana"
     },
     {
@@ -633,9 +2083,34 @@
       "nom": "Karma",
       "titre": "Sagesse incarnée",
       "roles": [
-        "Mage",
-        "Support"
+        "mage",
+        "support"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2483,
+        "hpperlevel": 109.0,
+        "mp": 1054,
+        "mpperlevel": 40.0,
+        "movespeed": 335,
+        "armor": 113.0,
+        "armorperlevel": 5.0,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 525,
+        "hpregen": 14.85,
+        "hpregenperlevel": 0.55,
+        "mpregen": 26.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 49.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.3,
+        "attackspeed": 0.869
+      },
       "ressource": "Mana"
     },
     {
@@ -644,8 +2119,33 @@
       "nom": "Karthus",
       "titre": "Liche",
       "roles": [
-        "Mage"
+        "mage"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2490,
+        "hpperlevel": 110.0,
+        "mp": 994,
+        "mpperlevel": 31.0,
+        "movespeed": 335,
+        "armor": 100.9,
+        "armorperlevel": 4.7,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 450,
+        "hpregen": 15.85,
+        "hpregenperlevel": 0.55,
+        "mpregen": 21.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 46.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.11,
+        "attackspeed": 0.849
+      },
       "ressource": "Mana"
     },
     {
@@ -654,9 +2154,34 @@
       "nom": "Kassadin",
       "titre": "Chasseur du Néant",
       "roles": [
-        "Assassin",
-        "Mage"
+        "assassin",
+        "mage"
       ],
+      "lanes": [
+        "jgl"
+      ],
+      "stats": {
+        "hp": 2567,
+        "hpperlevel": 113.0,
+        "mp": 1879,
+        "mpperlevel": 87.0,
+        "movespeed": 335,
+        "armor": 89.0,
+        "armorperlevel": 4.0,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 150,
+        "hpregen": 14.5,
+        "hpregenperlevel": 0.5,
+        "mpregen": 19.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 59.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.7,
+        "attackspeed": 1.043
+      },
       "ressource": "Mana"
     },
     {
@@ -665,9 +2190,34 @@
       "nom": "Katarina",
       "titre": "Lame sinistre",
       "roles": [
-        "Assassin",
-        "Mage"
+        "assassin",
+        "mage"
       ],
+      "lanes": [
+        "jgl"
+      ],
+      "stats": {
+        "hp": 2508,
+        "hpperlevel": 108.0,
+        "mp": 0,
+        "mpperlevel": 0.0,
+        "movespeed": 335,
+        "armor": 111.9,
+        "armorperlevel": 4.7,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 19.4,
+        "hpregenperlevel": 0.7,
+        "mpregen": 0.0,
+        "mpregenperlevel": 0.0,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 58.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.74,
+        "attackspeed": 0.964
+      },
       "ressource": "Aucune"
     },
     {
@@ -676,9 +2226,34 @@
       "nom": "Kayle",
       "titre": "Vertueuse",
       "roles": [
-        "Tireur",
-        "Mage"
+        "marksman",
+        "mage"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2234,
+        "hpperlevel": 92.0,
+        "mp": 1180,
+        "mpperlevel": 50.0,
+        "movespeed": 335,
+        "armor": 97.4,
+        "armorperlevel": 4.2,
+        "spellblock": 44.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 175,
+        "hpregen": 13.5,
+        "hpregenperlevel": 0.5,
+        "mpregen": 21.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 50.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 1.5,
+        "attackspeed": 0.784
+      },
       "ressource": "Mana"
     },
     {
@@ -687,9 +2262,34 @@
       "nom": "Kayn",
       "titre": "Faucheur de l'ombre",
       "roles": [
-        "Combattant",
-        "Assassin"
+        "fight",
+        "assassin"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2406,
+        "hpperlevel": 103.0,
+        "mp": 1260,
+        "mpperlevel": 50.0,
+        "movespeed": 340,
+        "armor": 114.5,
+        "armorperlevel": 4.5,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 175,
+        "hpregen": 20.75,
+        "hpregenperlevel": 0.75,
+        "mpregen": 27.65,
+        "mpregenperlevel": 0.95,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 68.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.7,
+        "attackspeed": 0.976
+      },
       "ressource": "Mana"
     },
     {
@@ -698,8 +2298,33 @@
       "nom": "Kennen",
       "titre": "Cœur de la tempête",
       "roles": [
-        "Mage"
+        "mage"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2246,
+        "hpperlevel": 98.0,
+        "mp": 200,
+        "mpperlevel": 0.0,
+        "movespeed": 335,
+        "armor": 113.15,
+        "armorperlevel": 4.95,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 550,
+        "hpregen": 16.55,
+        "hpregenperlevel": 0.65,
+        "mpregen": 50.0,
+        "mpregenperlevel": 0.0,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 48.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.4,
+        "attackspeed": 0.986
+      },
       "ressource": "Énergie"
     },
     {
@@ -708,8 +2333,33 @@
       "nom": "Kha'Zix",
       "titre": "Faucheur du Néant",
       "roles": [
-        "Assassin"
+        "assassin"
       ],
+      "lanes": [
+        "jgl"
+      ],
+      "stats": {
+        "hp": 2326,
+        "hpperlevel": 99.0,
+        "mp": 1007,
+        "mpperlevel": 40.0,
+        "movespeed": 345,
+        "armor": 103.4,
+        "armorperlevel": 4.2,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 20.25,
+        "hpregenperlevel": 0.75,
+        "mpregen": 16.09,
+        "mpregenperlevel": 0.5,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 60.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.7,
+        "attackspeed": 0.975
+      },
       "ressource": "Mana"
     },
     {
@@ -718,8 +2368,33 @@
       "nom": "Kindred",
       "titre": "Chasseurs éternels",
       "roles": [
-        "Tireur"
+        "marksman"
       ],
+      "lanes": [
+        "adc"
+      ],
+      "stats": {
+        "hp": 2363,
+        "hpperlevel": 104.0,
+        "mp": 895,
+        "mpperlevel": 35.0,
+        "movespeed": 325,
+        "armor": 108.9,
+        "armorperlevel": 4.7,
+        "spellblock": 51.7,
+        "spellblockperlevel": 1.1,
+        "attackrange": 500,
+        "hpregen": 16.35,
+        "hpregenperlevel": 0.55,
+        "mpregen": 13.8,
+        "mpregenperlevel": 0.4,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 65.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.5,
+        "attackspeed": 0.997
+      },
       "ressource": "Mana"
     },
     {
@@ -728,8 +2403,33 @@
       "nom": "Kled",
       "titre": "Cavalier colérique",
       "roles": [
-        "Combattant"
+        "fight"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 1838,
+        "hpperlevel": 84.0,
+        "mp": 100,
+        "mpperlevel": 0.0,
+        "movespeed": 345,
+        "armor": 123.4,
+        "armorperlevel": 5.2,
+        "spellblock": 62.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 18.75,
+        "hpregenperlevel": 0.75,
+        "mpregen": 0.0,
+        "mpregenperlevel": 0.0,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 65.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.5,
+        "attackspeed": 0.997
+      },
       "ressource": "Courage"
     },
     {
@@ -738,9 +2438,34 @@
       "nom": "Kog'Maw",
       "titre": "Gueule des abysses",
       "roles": [
-        "Tireur",
-        "Mage"
+        "marksman",
+        "mage"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2318,
+        "hpperlevel": 99.0,
+        "mp": 1005,
+        "mpperlevel": 40.0,
+        "movespeed": 330,
+        "armor": 99.65,
+        "armorperlevel": 4.45,
+        "spellblock": 51.7,
+        "spellblockperlevel": 1.1,
+        "attackrange": 500,
+        "hpregen": 13.1,
+        "hpregenperlevel": 0.55,
+        "mpregen": 20.65,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 61.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.65,
+        "attackspeed": 0.965
+      },
       "ressource": "Mana"
     },
     {
@@ -749,9 +2474,34 @@
       "nom": "LeBlanc",
       "titre": "Manipulatrice",
       "roles": [
-        "Assassin",
-        "Mage"
+        "assassin",
+        "mage"
       ],
+      "lanes": [
+        "jgl"
+      ],
+      "stats": {
+        "hp": 2434,
+        "hpperlevel": 108.0,
+        "mp": 825,
+        "mpperlevel": 25.0,
+        "movespeed": 340,
+        "armor": 93.4,
+        "armorperlevel": 4.2,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 525,
+        "hpregen": 16.85,
+        "hpregenperlevel": 0.55,
+        "mpregen": 21.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 55.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 1.5,
+        "attackspeed": 0.826
+      },
       "ressource": "Mana"
     },
     {
@@ -760,9 +2510,34 @@
       "nom": "Lee Sin",
       "titre": "Moine aveugle",
       "roles": [
-        "Combattant",
-        "Assassin"
+        "fight",
+        "assassin"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2481,
+        "hpperlevel": 108.0,
+        "mp": 200,
+        "mpperlevel": 0.0,
+        "movespeed": 345,
+        "armor": 112.5,
+        "armorperlevel": 4.5,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 19.4,
+        "hpregenperlevel": 0.7,
+        "mpregen": 50.0,
+        "mpregenperlevel": 0.0,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 66.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.0,
+        "attackspeed": 0.983
+      },
       "ressource": "Énergie"
     },
     {
@@ -771,9 +2546,34 @@
       "nom": "Leona",
       "titre": "Aube radieuse",
       "roles": [
-        "Tank",
-        "Support"
+        "tank",
+        "support"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2363,
+        "hpperlevel": 101.0,
+        "mp": 982,
+        "mpperlevel": 40.0,
+        "movespeed": 335,
+        "armor": 124.6,
+        "armorperlevel": 4.8,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 22.95,
+        "hpregenperlevel": 0.85,
+        "mpregen": 19.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 60.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.9,
+        "attackspeed": 0.933
+      },
       "ressource": "Mana"
     },
     {
@@ -782,9 +2582,34 @@
       "nom": "Lillia",
       "titre": "Fleur timide",
       "roles": [
-        "Combattant",
-        "Mage"
+        "fight",
+        "mage"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2390,
+        "hpperlevel": 105.0,
+        "mp": 1260,
+        "mpperlevel": 50.0,
+        "movespeed": 330,
+        "armor": 98.5,
+        "armorperlevel": 4.5,
+        "spellblock": 58.35,
+        "spellblockperlevel": 1.55,
+        "attackrange": 325,
+        "hpregen": 11.85,
+        "hpregenperlevel": 0.55,
+        "mpregen": 27.65,
+        "mpregenperlevel": 0.95,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 61.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.7,
+        "attackspeed": 0.912
+      },
       "ressource": "Mana"
     },
     {
@@ -793,8 +2618,33 @@
       "nom": "Lissandra",
       "titre": "Sorcière de glace",
       "roles": [
-        "Mage"
+        "mage"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2490,
+        "hpperlevel": 110.0,
+        "mp": 985,
+        "mpperlevel": 30.0,
+        "movespeed": 325,
+        "armor": 93.4,
+        "armorperlevel": 4.2,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 550,
+        "hpregen": 16.35,
+        "hpregenperlevel": 0.55,
+        "mpregen": 14.8,
+        "mpregenperlevel": 0.4,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 55.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 1.5,
+        "attackspeed": 0.823
+      },
       "ressource": "Mana"
     },
     {
@@ -803,9 +2653,34 @@
       "nom": "Locke",
       "titre": "Exorciste cendré",
       "roles": [
-        "Assassin",
-        "Mage"
+        "assassin",
+        "mage"
       ],
+      "lanes": [
+        "jgl"
+      ],
+      "stats": {
+        "hp": 2473,
+        "hpperlevel": 109.0,
+        "mp": 1470,
+        "mpperlevel": 70.0,
+        "movespeed": 340,
+        "armor": 103.4,
+        "armorperlevel": 4.2,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 24.3,
+        "hpregenperlevel": 0.9,
+        "mpregen": 20.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 58.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.3,
+        "attackspeed": 1.074
+      },
       "ressource": "Mana"
     },
     {
@@ -814,9 +2689,34 @@
       "nom": "Lucian",
       "titre": "Purificateur",
       "roles": [
-        "Tireur",
-        "Assassin"
+        "marksman",
+        "assassin"
       ],
+      "lanes": [
+        "jgl"
+      ],
+      "stats": {
+        "hp": 2341,
+        "hpperlevel": 100.0,
+        "mp": 1051,
+        "mpperlevel": 43.0,
+        "movespeed": 335,
+        "armor": 99.4,
+        "armorperlevel": 4.2,
+        "spellblock": 51.7,
+        "spellblockperlevel": 1.1,
+        "attackrange": 500,
+        "hpregen": 14.8,
+        "hpregenperlevel": 0.65,
+        "mpregen": 20.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 60.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.5,
+        "attackspeed": 0.909
+      },
       "ressource": "Mana"
     },
     {
@@ -825,9 +2725,34 @@
       "nom": "Lulu",
       "titre": "Sorcière féérique",
       "roles": [
-        "Support",
-        "Mage"
+        "support",
+        "mage"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2129,
+        "hpperlevel": 92.0,
+        "mp": 1285,
+        "mpperlevel": 55.0,
+        "movespeed": 330,
+        "armor": 104.2,
+        "armorperlevel": 4.6,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 550,
+        "hpregen": 16.2,
+        "hpregenperlevel": 0.6,
+        "mpregen": 21.2,
+        "mpregenperlevel": 0.6,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 47.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.25,
+        "attackspeed": 0.864
+      },
       "ressource": "Mana"
     },
     {
@@ -836,9 +2761,34 @@
       "nom": "Lux",
       "titre": "Dame de lumière",
       "roles": [
-        "Mage",
-        "Support"
+        "mage",
+        "support"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2263,
+        "hpperlevel": 99.0,
+        "mp": 840,
+        "mpperlevel": 23.5,
+        "movespeed": 330,
+        "armor": 109.4,
+        "armorperlevel": 5.2,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 550,
+        "hpregen": 14.85,
+        "hpregenperlevel": 0.55,
+        "mpregen": 22.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 54.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.0,
+        "attackspeed": 1.01
+      },
       "ressource": "Mana"
     },
     {
@@ -847,9 +2797,34 @@
       "nom": "Malphite",
       "titre": "Éclat du monolithe",
       "roles": [
-        "Tank",
-        "Mage"
+        "tank",
+        "mage"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2433,
+        "hpperlevel": 104.0,
+        "mp": 1300,
+        "mpperlevel": 60.0,
+        "movespeed": 335,
+        "armor": 124.15,
+        "armorperlevel": 4.95,
+        "spellblock": 62.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 16.35,
+        "hpregenperlevel": 0.55,
+        "mpregen": 16.65,
+        "mpregenperlevel": 0.55,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 62.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.4,
+        "attackspeed": 1.161
+      },
       "ressource": "Mana"
     },
     {
@@ -858,8 +2833,33 @@
       "nom": "Malzahar",
       "titre": "Prophète du Néant",
       "roles": [
-        "Mage"
+        "mage"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2297,
+        "hpperlevel": 101.0,
+        "mp": 851,
+        "mpperlevel": 28.0,
+        "movespeed": 335,
+        "armor": 97.9,
+        "armorperlevel": 4.7,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 500,
+        "hpregen": 16.2,
+        "hpregenperlevel": 0.6,
+        "mpregen": 21.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 55.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 1.5,
+        "attackspeed": 0.784
+      },
       "ressource": "Mana"
     },
     {
@@ -868,9 +2868,34 @@
       "nom": "Maokai",
       "titre": "Tréant torturé",
       "roles": [
-        "Tank",
-        "Support"
+        "tank",
+        "support"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2518,
+        "hpperlevel": 109.0,
+        "mp": 1106,
+        "mpperlevel": 43.0,
+        "movespeed": 335,
+        "armor": 123.4,
+        "armorperlevel": 5.2,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 17.75,
+        "hpregenperlevel": 0.75,
+        "mpregen": 16.2,
+        "mpregenperlevel": 0.6,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 64.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.125,
+        "attackspeed": 1.089
+      },
       "ressource": "Mana"
     },
     {
@@ -879,9 +2904,34 @@
       "nom": "Maître Yi",
       "titre": "Fine lame Wuju",
       "roles": [
-        "Combattant",
-        "Assassin"
+        "fight",
+        "assassin"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2425,
+        "hpperlevel": 105.0,
+        "mp": 965,
+        "mpperlevel": 42.0,
+        "movespeed": 355,
+        "armor": 118.0,
+        "armorperlevel": 5.0,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 175,
+        "hpregen": 18.55,
+        "hpregenperlevel": 0.65,
+        "mpregen": 14.9,
+        "mpregenperlevel": 0.45,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 65.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.5,
+        "attackspeed": 0.968
+      },
       "ressource": "Mana"
     },
     {
@@ -890,9 +2940,34 @@
       "nom": "Mel",
       "titre": "Reflet de l'âme",
       "roles": [
-        "Mage",
-        "Support"
+        "mage",
+        "support"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2313,
+        "hpperlevel": 99.0,
+        "mp": 956,
+        "mpperlevel": 28.0,
+        "movespeed": 330,
+        "armor": 109.4,
+        "armorperlevel": 5.2,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 550,
+        "hpregen": 15.35,
+        "hpregenperlevel": 0.55,
+        "mpregen": 24.3,
+        "mpregenperlevel": 0.9,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 54.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.5,
+        "attackspeed": 0.891
+      },
       "ressource": "Mana"
     },
     {
@@ -901,9 +2976,34 @@
       "nom": "Milio",
       "titre": "Douce flamme",
       "roles": [
-        "Support",
-        "Mage"
+        "support",
+        "mage"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2056,
+        "hpperlevel": 88.0,
+        "mp": 1096,
+        "mpperlevel": 43.0,
+        "movespeed": 330,
+        "armor": 104.2,
+        "armorperlevel": 4.6,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 525,
+        "hpregen": 13.5,
+        "hpregenperlevel": 0.5,
+        "mpregen": 18.3,
+        "mpregenperlevel": 0.4,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 48.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.0,
+        "attackspeed": 0.944
+      },
       "ressource": "Mana"
     },
     {
@@ -912,9 +3012,34 @@
       "nom": "Miss Fortune",
       "titre": "Chasseuse de primes",
       "roles": [
-        "Tireur",
-        "Mage"
+        "marksman",
+        "mage"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2325,
+        "hpperlevel": 100.0,
+        "mp": 980,
+        "mpperlevel": 40.0,
+        "movespeed": 325,
+        "armor": 93.0,
+        "armorperlevel": 4.0,
+        "spellblock": 51.7,
+        "spellblockperlevel": 1.1,
+        "attackrange": 550,
+        "hpregen": 14.8,
+        "hpregenperlevel": 0.65,
+        "mpregen": 21.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 55.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.0,
+        "attackspeed": 0.991
+      },
       "ressource": "Mana"
     },
     {
@@ -923,9 +3048,34 @@
       "nom": "Mordekaiser",
       "titre": "Revenant de fer",
       "roles": [
-        "Combattant",
-        "Mage"
+        "fight",
+        "mage"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2413,
+        "hpperlevel": 104.0,
+        "mp": 100,
+        "mpperlevel": 0.0,
+        "movespeed": 335,
+        "armor": 108.4,
+        "armorperlevel": 4.2,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 175,
+        "hpregen": 17.75,
+        "hpregenperlevel": 0.75,
+        "mpregen": 0.0,
+        "mpregenperlevel": 0.0,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 61.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 1.0,
+        "attackspeed": 0.731
+      },
       "ressource": "Bouclier"
     },
     {
@@ -934,9 +3084,34 @@
       "nom": "Morgana",
       "titre": "Déchue",
       "roles": [
-        "Support",
-        "Mage"
+        "support",
+        "mage"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2398,
+        "hpperlevel": 104.0,
+        "mp": 1360,
+        "mpperlevel": 60.0,
+        "movespeed": 335,
+        "armor": 96.4,
+        "armorperlevel": 4.2,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 450,
+        "hpregen": 12.3,
+        "hpregenperlevel": 0.4,
+        "mpregen": 17.8,
+        "mpregenperlevel": 0.4,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 56.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 1.53,
+        "attackspeed": 0.788
+      },
       "ressource": "Mana"
     },
     {
@@ -945,9 +3120,34 @@
       "nom": "Naafiri",
       "titre": "la meute de fer",
       "roles": [
-        "Assassin",
-        "Combattant"
+        "assassin",
+        "fight"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2395,
+        "hpperlevel": 105.0,
+        "mp": 1335,
+        "mpperlevel": 55.0,
+        "movespeed": 340,
+        "armor": 99.4,
+        "armorperlevel": 4.2,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 16.45,
+        "hpregenperlevel": 0.6,
+        "mpregen": 24.5,
+        "mpregenperlevel": 1.0,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 55.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.1,
+        "attackspeed": 0.9
+      },
       "ressource": "Mana"
     },
     {
@@ -956,9 +3156,34 @@
       "nom": "Nami",
       "titre": "Aquamancienne",
       "roles": [
-        "Support",
-        "Mage"
+        "support",
+        "mage"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2056,
+        "hpperlevel": 88.0,
+        "mp": 1096,
+        "mpperlevel": 43.0,
+        "movespeed": 335,
+        "armor": 117.4,
+        "armorperlevel": 5.2,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 550,
+        "hpregen": 14.85,
+        "hpregenperlevel": 0.55,
+        "mpregen": 18.3,
+        "mpregenperlevel": 0.4,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 54.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.61,
+        "attackspeed": 0.93
+      },
       "ressource": "Mana"
     },
     {
@@ -967,9 +3192,34 @@
       "nom": "Nasus",
       "titre": "Gardien des sables",
       "roles": [
-        "Combattant",
-        "Tank"
+        "fight",
+        "tank"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2418,
+        "hpperlevel": 104.0,
+        "mp": 1380,
+        "mpperlevel": 62.0,
+        "movespeed": 350,
+        "armor": 113.9,
+        "armorperlevel": 4.7,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 24.3,
+        "hpregenperlevel": 0.9,
+        "mpregen": 15.95,
+        "mpregenperlevel": 0.5,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 67.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.48,
+        "attackspeed": 1.015
+      },
       "ressource": "Mana"
     },
     {
@@ -978,9 +3228,34 @@
       "nom": "Nautilus",
       "titre": "Titan des profondeurs",
       "roles": [
-        "Tank",
-        "Support"
+        "tank",
+        "support"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2346,
+        "hpperlevel": 100.0,
+        "mp": 1199,
+        "mpperlevel": 47.0,
+        "movespeed": 325,
+        "armor": 123.15,
+        "armorperlevel": 4.95,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 175,
+        "hpregen": 17.85,
+        "hpregenperlevel": 0.55,
+        "mpregen": 17.15,
+        "mpregenperlevel": 0.5,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 58.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 1.0,
+        "attackspeed": 0.826
+      },
       "ressource": "Mana"
     },
     {
@@ -989,9 +3264,34 @@
       "nom": "Neeko",
       "titre": "Caméléon curieux",
       "roles": [
-        "Mage",
-        "Support"
+        "mage",
+        "support"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2378,
+        "hpperlevel": 104.0,
+        "mp": 960,
+        "mpperlevel": 30.0,
+        "movespeed": 340,
+        "armor": 109.4,
+        "armorperlevel": 5.2,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 550,
+        "hpregen": 20.25,
+        "hpregenperlevel": 0.75,
+        "mpregen": 18.9,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 48.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.5,
+        "attackspeed": 0.997
+      },
       "ressource": "Mana"
     },
     {
@@ -1000,9 +3300,34 @@
       "nom": "Nidalee",
       "titre": "Chasseresse bestiale",
       "roles": [
-        "Assassin",
-        "Mage"
+        "assassin",
+        "mage"
       ],
+      "lanes": [
+        "jgl"
+      ],
+      "stats": {
+        "hp": 2463,
+        "hpperlevel": 109.0,
+        "mp": 1060,
+        "mpperlevel": 45.0,
+        "movespeed": 335,
+        "armor": 117.0,
+        "armorperlevel": 5.0,
+        "spellblock": 54.65,
+        "spellblockperlevel": 1.45,
+        "attackrange": 525,
+        "hpregen": 16.2,
+        "hpregenperlevel": 0.6,
+        "mpregen": 19.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 58.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.22,
+        "attackspeed": 0.987
+      },
       "ressource": "Mana"
     },
     {
@@ -1011,9 +3336,34 @@
       "nom": "Nilah",
       "titre": "Joie incarnée",
       "roles": [
-        "Combattant",
-        "Assassin"
+        "fight",
+        "assassin"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2287,
+        "hpperlevel": 101.0,
+        "mp": 945,
+        "mpperlevel": 35.0,
+        "movespeed": 340,
+        "armor": 98.4,
+        "armorperlevel": 4.2,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 225,
+        "hpregen": 21.3,
+        "hpregenperlevel": 0.9,
+        "mpregen": 20.1,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 58.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 1.25,
+        "attackspeed": 0.845
+      },
       "ressource": "Mana"
     },
     {
@@ -1022,9 +3372,34 @@
       "nom": "Nocturne",
       "titre": "Éternel cauchemar",
       "roles": [
-        "Combattant",
-        "Assassin"
+        "fight",
+        "assassin"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2493,
+        "hpperlevel": 109.0,
+        "mp": 870,
+        "mpperlevel": 35.0,
+        "movespeed": 345,
+        "armor": 107.4,
+        "armorperlevel": 4.2,
+        "spellblock": 58.35,
+        "spellblockperlevel": 1.55,
+        "attackrange": 125,
+        "hpregen": 19.75,
+        "hpregenperlevel": 0.75,
+        "mpregen": 14.65,
+        "mpregenperlevel": 0.45,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 62.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.7,
+        "attackspeed": 1.052
+      },
       "ressource": "Mana"
     },
     {
@@ -1033,9 +3408,34 @@
       "nom": "Nunu et Willump",
       "titre": "Le Garçon et son yéti",
       "roles": [
-        "Tank",
-        "Mage"
+        "tank",
+        "mage"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2140,
+        "hpperlevel": 90.0,
+        "mp": 994,
+        "mpperlevel": 42.0,
+        "movespeed": 345,
+        "armor": 100.4,
+        "armorperlevel": 4.2,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 18.6,
+        "hpregenperlevel": 0.8,
+        "mpregen": 15.5,
+        "mpregenperlevel": 0.5,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 61.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.25,
+        "attackspeed": 0.864
+      },
       "ressource": "Mana"
     },
     {
@@ -1044,9 +3444,34 @@
       "nom": "Olaf",
       "titre": "Berzerker",
       "roles": [
-        "Combattant",
-        "Tank"
+        "fight",
+        "tank"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2668,
+        "hpperlevel": 119.0,
+        "mp": 1166,
+        "mpperlevel": 50.0,
+        "movespeed": 350,
+        "armor": 106.4,
+        "armorperlevel": 4.2,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 16.7,
+        "hpregenperlevel": 0.6,
+        "mpregen": 17.7,
+        "mpregenperlevel": 0.6,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 68.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.7,
+        "attackspeed": 1.05
+      },
       "ressource": "Mana"
     },
     {
@@ -1055,9 +3480,34 @@
       "nom": "Orianna",
       "titre": "Demoiselle mécanique",
       "roles": [
-        "Mage",
-        "Support"
+        "mage",
+        "support"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2435,
+        "hpperlevel": 110.0,
+        "mp": 843,
+        "mpperlevel": 25.0,
+        "movespeed": 325,
+        "armor": 91.4,
+        "armorperlevel": 4.2,
+        "spellblock": 48.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 525,
+        "hpregen": 16.35,
+        "hpregenperlevel": 0.55,
+        "mpregen": 21.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 44.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.5,
+        "attackspeed": 1.05
+      },
       "ressource": "Mana"
     },
     {
@@ -1066,8 +3516,33 @@
       "nom": "Ornn",
       "titre": "Dieu de la forge volcanique",
       "roles": [
-        "Tank"
+        "tank"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2513,
+        "hpperlevel": 109.0,
+        "mp": 1446,
+        "mpperlevel": 65.0,
+        "movespeed": 335,
+        "armor": 121.4,
+        "armorperlevel": 5.2,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 175,
+        "hpregen": 24.3,
+        "hpregenperlevel": 0.9,
+        "mpregen": 18.2,
+        "mpregenperlevel": 0.6,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 69.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.0,
+        "attackspeed": 0.838
+      },
       "ressource": "Mana"
     },
     {
@@ -1076,9 +3551,34 @@
       "nom": "Pantheon",
       "titre": "Lance éternelle",
       "roles": [
-        "Combattant",
-        "Assassin"
+        "fight",
+        "assassin"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2503,
+        "hpperlevel": 109.0,
+        "mp": 844,
+        "mpperlevel": 31.0,
+        "movespeed": 345,
+        "armor": 124.15,
+        "armorperlevel": 4.95,
+        "spellblock": 62.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 175,
+        "hpregen": 17.05,
+        "hpregenperlevel": 0.65,
+        "mpregen": 15.0,
+        "mpregenperlevel": 0.45,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 64.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.95,
+        "attackspeed": 0.988
+      },
       "ressource": "Mana"
     },
     {
@@ -1087,9 +3587,34 @@
       "nom": "Poppy",
       "titre": "Gardienne du marteau",
       "roles": [
-        "Tank",
-        "Combattant"
+        "tank",
+        "fight"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2480,
+        "hpperlevel": 110.0,
+        "mp": 1065,
+        "mpperlevel": 45.0,
+        "movespeed": 345,
+        "armor": 120.0,
+        "armorperlevel": 5.0,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 22.6,
+        "hpregenperlevel": 0.8,
+        "mpregen": 18.9,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 56.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.5,
+        "attackspeed": 0.938
+      },
       "ressource": "Mana"
     },
     {
@@ -1098,9 +3623,34 @@
       "nom": "Pyke",
       "titre": "Éventreur des abysses",
       "roles": [
-        "Support",
-        "Assassin"
+        "support",
+        "assassin"
       ],
+      "lanes": [
+        "jgl"
+      ],
+      "stats": {
+        "hp": 2540,
+        "hpperlevel": 110.0,
+        "mp": 1265,
+        "mpperlevel": 50.0,
+        "movespeed": 330,
+        "armor": 116.9,
+        "armorperlevel": 4.7,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 150,
+        "hpregen": 15.5,
+        "hpregenperlevel": 0.5,
+        "mpregen": 25.0,
+        "mpregenperlevel": 1.0,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 62.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.5,
+        "attackspeed": 0.95
+      },
       "ressource": "Mana"
     },
     {
@@ -1109,8 +3659,33 @@
       "nom": "Qiyana",
       "titre": "Impératrice des éléments",
       "roles": [
-        "Assassin"
+        "assassin"
       ],
+      "lanes": [
+        "jgl"
+      ],
+      "stats": {
+        "hp": 2545,
+        "hpperlevel": 115.0,
+        "mp": 1395,
+        "mpperlevel": 60.0,
+        "movespeed": 335,
+        "armor": 107.5,
+        "armorperlevel": 4.5,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 150,
+        "hpregen": 23.3,
+        "hpregenperlevel": 0.9,
+        "mpregen": 19.9,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 64.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.1,
+        "attackspeed": 0.934
+      },
       "ressource": "Mana"
     },
     {
@@ -1119,9 +3694,34 @@
       "nom": "Quinn",
       "titre": "Ailes de Demacia",
       "roles": [
-        "Tireur",
-        "Assassin"
+        "marksman",
+        "assassin"
       ],
+      "lanes": [
+        "jgl"
+      ],
+      "stats": {
+        "hp": 2384,
+        "hpperlevel": 107.0,
+        "mp": 864,
+        "mpperlevel": 35.0,
+        "movespeed": 330,
+        "armor": 107.9,
+        "armorperlevel": 4.7,
+        "spellblock": 51.7,
+        "spellblockperlevel": 1.1,
+        "attackrange": 525,
+        "hpregen": 14.85,
+        "hpregenperlevel": 0.55,
+        "mpregen": 13.8,
+        "mpregenperlevel": 0.4,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 59.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.1,
+        "attackspeed": 1.02
+      },
       "ressource": "Mana"
     },
     {
@@ -1130,8 +3730,33 @@
       "nom": "Rakan",
       "titre": "Charmeur",
       "roles": [
-        "Support"
+        "support"
       ],
+      "lanes": [
+        "sup"
+      ],
+      "stats": {
+        "hp": 2293,
+        "hpperlevel": 99.0,
+        "mp": 1165,
+        "mpperlevel": 50.0,
+        "movespeed": 335,
+        "armor": 113.3,
+        "armorperlevel": 4.9,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 300,
+        "hpregen": 13.5,
+        "hpregenperlevel": 0.5,
+        "mpregen": 17.25,
+        "mpregenperlevel": 0.5,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 62.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.0,
+        "attackspeed": 0.959
+      },
       "ressource": "Mana"
     },
     {
@@ -1140,8 +3765,33 @@
       "nom": "Rammus",
       "titre": "Tatou blindé",
       "roles": [
-        "Tank"
+        "tank"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2345,
+        "hpperlevel": 100.0,
+        "mp": 871,
+        "mpperlevel": 33.0,
+        "movespeed": 335,
+        "armor": 111.5,
+        "armorperlevel": 4.5,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 17.35,
+        "hpregenperlevel": 0.55,
+        "mpregen": 16.35,
+        "mpregenperlevel": 0.5,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 65.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.215,
+        "attackspeed": 0.964
+      },
       "ressource": "Mana"
     },
     {
@@ -1150,9 +3800,34 @@
       "nom": "Rek'Sai",
       "titre": "Traqueuse du Néant",
       "roles": [
-        "Combattant",
-        "Tank"
+        "fight",
+        "tank"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2283,
+        "hpperlevel": 99.0,
+        "mp": 100,
+        "mpperlevel": 0.0,
+        "movespeed": 340,
+        "armor": 111.5,
+        "armorperlevel": 4.5,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 175,
+        "hpregen": 11.0,
+        "hpregenperlevel": 0.5,
+        "mpregen": 0.0,
+        "mpregenperlevel": 0.0,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 62.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.0,
+        "attackspeed": 0.894
+      },
       "ressource": "Rage"
     },
     {
@@ -1161,9 +3836,34 @@
       "nom": "Rell",
       "titre": "Cavalière de fer",
       "roles": [
-        "Tank",
-        "Support"
+        "tank",
+        "support"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2388,
+        "hpperlevel": 104.0,
+        "mp": 1000,
+        "mpperlevel": 40.0,
+        "movespeed": 315,
+        "armor": 98.0,
+        "armorperlevel": 4.0,
+        "spellblock": 58.6,
+        "spellblockperlevel": 1.8,
+        "attackrange": 175,
+        "hpregen": 21.95,
+        "hpregenperlevel": 0.85,
+        "mpregen": 18.9,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 55.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.0,
+        "attackspeed": 0.838
+      },
       "ressource": "Mana"
     },
     {
@@ -1172,9 +3872,34 @@
       "nom": "Renata Glasc",
       "titre": "Baronne de la chimie",
       "roles": [
-        "Support",
-        "Mage"
+        "support",
+        "mage"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2143,
+        "hpperlevel": 94.0,
+        "mp": 1200,
+        "mpperlevel": 50.0,
+        "movespeed": 330,
+        "armor": 106.9,
+        "armorperlevel": 4.7,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 550,
+        "hpregen": 14.85,
+        "hpregenperlevel": 0.55,
+        "mpregen": 20.0,
+        "mpregenperlevel": 0.5,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 49.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.11,
+        "attackspeed": 0.849
+      },
       "ressource": "Mana"
     },
     {
@@ -1183,9 +3908,34 @@
       "nom": "Renekton",
       "titre": "Dévoreur des sables",
       "roles": [
-        "Combattant",
-        "Tank"
+        "fight",
+        "tank"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2547,
+        "hpperlevel": 111.0,
+        "mp": 100,
+        "mpperlevel": 0.0,
+        "movespeed": 345,
+        "armor": 123.4,
+        "armorperlevel": 5.2,
+        "spellblock": 62.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 20.75,
+        "hpregenperlevel": 0.75,
+        "mpregen": 0.0,
+        "mpregenperlevel": 0.0,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 69.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.75,
+        "attackspeed": 0.976
+      },
       "ressource": "Fureur"
     },
     {
@@ -1194,9 +3944,34 @@
       "nom": "Rengar",
       "titre": "Fier traqueur",
       "roles": [
-        "Assassin",
-        "Combattant"
+        "assassin",
+        "fight"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2358,
+        "hpperlevel": 104.0,
+        "mp": 4,
+        "mpperlevel": 0.0,
+        "movespeed": 345,
+        "armor": 105.4,
+        "armorperlevel": 4.2,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 14.5,
+        "hpregenperlevel": 0.5,
+        "mpregen": 0.0,
+        "mpregenperlevel": 0.0,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 68.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.0,
+        "attackspeed": 1.007
+      },
       "ressource": "Férocité"
     },
     {
@@ -1205,9 +3980,34 @@
       "nom": "Riven",
       "titre": "Exilée brisée",
       "roles": [
-        "Combattant",
-        "Assassin"
+        "fight",
+        "assassin"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2330,
+        "hpperlevel": 100.0,
+        "mp": 0,
+        "mpperlevel": 0.0,
+        "movespeed": 340,
+        "armor": 107.8,
+        "armorperlevel": 4.4,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 17.0,
+        "hpregenperlevel": 0.5,
+        "mpregen": 0.0,
+        "mpregenperlevel": 0.0,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 64.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.5,
+        "attackspeed": 0.997
+      },
       "ressource": "Aucune"
     },
     {
@@ -1216,9 +4016,34 @@
       "nom": "Rumble",
       "titre": "Menace mécanisée",
       "roles": [
-        "Combattant",
-        "Mage"
+        "fight",
+        "mage"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2425,
+        "hpperlevel": 105.0,
+        "mp": 150,
+        "mpperlevel": 0.0,
+        "movespeed": 345,
+        "armor": 115.9,
+        "armorperlevel": 4.7,
+        "spellblock": 54.35,
+        "spellblockperlevel": 1.55,
+        "attackrange": 125,
+        "hpregen": 17.2,
+        "hpregenperlevel": 0.6,
+        "mpregen": 0.0,
+        "mpregenperlevel": 0.0,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 64.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 1.85,
+        "attackspeed": 0.847
+      },
       "ressource": "Vapeur"
     },
     {
@@ -1227,8 +4052,33 @@
       "nom": "Ryze",
       "titre": "Mage runique",
       "roles": [
-        "Mage"
+        "mage"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2728,
+        "hpperlevel": 124.0,
+        "mp": 1490,
+        "mpperlevel": 70.0,
+        "movespeed": 340,
+        "armor": 93.4,
+        "armorperlevel": 4.2,
+        "spellblock": 54.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 550,
+        "hpregen": 21.6,
+        "hpregenperlevel": 0.8,
+        "mpregen": 25.0,
+        "mpregenperlevel": 1.0,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 55.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.11,
+        "attackspeed": 0.894
+      },
       "ressource": "Mana"
     },
     {
@@ -1237,9 +4087,34 @@
       "nom": "Samira",
       "titre": "Rose du désert",
       "roles": [
-        "Tireur",
-        "Assassin"
+        "marksman",
+        "assassin"
       ],
+      "lanes": [
+        "jgl"
+      ],
+      "stats": {
+        "hp": 2466,
+        "hpperlevel": 108.0,
+        "mp": 995,
+        "mpperlevel": 38.0,
+        "movespeed": 335,
+        "armor": 105.9,
+        "armorperlevel": 4.7,
+        "spellblock": 51.7,
+        "spellblockperlevel": 1.1,
+        "attackrange": 500,
+        "hpregen": 12.6,
+        "hpregenperlevel": 0.55,
+        "mpregen": 20.1,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 57.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.3,
+        "attackspeed": 1.027
+      },
       "ressource": "Mana"
     },
     {
@@ -1248,8 +4123,33 @@
       "nom": "Sejuani",
       "titre": "Fureur du nord",
       "roles": [
-        "Tank"
+        "tank"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2568,
+        "hpperlevel": 114.0,
+        "mp": 1080,
+        "mpperlevel": 40.0,
+        "movespeed": 340,
+        "armor": 126.65,
+        "armorperlevel": 5.45,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 150,
+        "hpregen": 25.5,
+        "hpregenperlevel": 1.0,
+        "mpregen": 18.9,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 66.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.5,
+        "attackspeed": 1.097
+      },
       "ressource": "Mana"
     },
     {
@@ -1258,9 +4158,34 @@
       "nom": "Senna",
       "titre": "Rédemptrice",
       "roles": [
-        "Support",
-        "Tireur"
+        "support",
+        "marksman"
       ],
+      "lanes": [
+        "adc"
+      ],
+      "stats": {
+        "hp": 2043,
+        "hpperlevel": 89.0,
+        "mp": 1115,
+        "mpperlevel": 45.0,
+        "movespeed": 330,
+        "armor": 93.0,
+        "armorperlevel": 4.0,
+        "spellblock": 51.7,
+        "spellblockperlevel": 1.1,
+        "attackrange": 600,
+        "hpregen": 12.85,
+        "hpregenperlevel": 0.55,
+        "mpregen": 23.4,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 50.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.6,
+        "attackspeed": 0.901
+      },
       "ressource": "Mana"
     },
     {
@@ -1269,9 +4194,34 @@
       "nom": "Sett",
       "titre": "Patron",
       "roles": [
-        "Combattant",
-        "Tank"
+        "fight",
+        "tank"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2608,
+        "hpperlevel": 114.0,
+        "mp": 0,
+        "mpperlevel": 0.0,
+        "movespeed": 340,
+        "armor": 112.9,
+        "armorperlevel": 4.7,
+        "spellblock": 62.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 15.5,
+        "hpregenperlevel": 0.5,
+        "mpregen": 0.0,
+        "mpregenperlevel": 0.0,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 60.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 1.75,
+        "attackspeed": 0.811
+      },
       "ressource": "Agressivité"
     },
     {
@@ -1280,8 +4230,33 @@
       "nom": "Shaco",
       "titre": "Bouffon des ténèbres",
       "roles": [
-        "Assassin"
+        "assassin"
       ],
+      "lanes": [
+        "jgl"
+      ],
+      "stats": {
+        "hp": 2313,
+        "hpperlevel": 99.0,
+        "mp": 977,
+        "mpperlevel": 40.0,
+        "movespeed": 345,
+        "armor": 98.0,
+        "armorperlevel": 4.0,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 17.85,
+        "hpregenperlevel": 0.55,
+        "mpregen": 11.95,
+        "mpregenperlevel": 0.35,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 63.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.0,
+        "attackspeed": 1.048
+      },
       "ressource": "Mana"
     },
     {
@@ -1290,8 +4265,33 @@
       "nom": "Shen",
       "titre": "Œil du crépuscule",
       "roles": [
-        "Tank"
+        "tank"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2293,
+        "hpperlevel": 99.0,
+        "mp": 400,
+        "mpperlevel": 0.0,
+        "movespeed": 340,
+        "armor": 105.4,
+        "armorperlevel": 4.2,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 21.25,
+        "hpregenperlevel": 0.75,
+        "mpregen": 50.0,
+        "mpregenperlevel": 0.0,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 64.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.0,
+        "attackspeed": 1.134
+      },
       "ressource": "Énergie"
     },
     {
@@ -1300,9 +4300,34 @@
       "nom": "Shyvana",
       "titre": "Demi-dragon",
       "roles": [
-        "Combattant",
-        "Tank"
+        "fight",
+        "tank"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2240,
+        "hpperlevel": 95.0,
+        "mp": 100,
+        "mpperlevel": 0.0,
+        "movespeed": 350,
+        "armor": 103.0,
+        "armorperlevel": 4.0,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 150,
+        "hpregen": 18.05,
+        "hpregenperlevel": 0.65,
+        "mpregen": 0.0,
+        "mpregenperlevel": 0.0,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 62.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.0,
+        "attackspeed": 0.855
+      },
       "ressource": "Fureur"
     },
     {
@@ -1311,9 +4336,34 @@
       "nom": "Singed",
       "titre": "Chimiste fou",
       "roles": [
-        "Tank",
-        "Mage"
+        "tank",
+        "mage"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2282,
+        "hpperlevel": 96.0,
+        "mp": 1095,
+        "mpperlevel": 45.0,
+        "movespeed": 345,
+        "armor": 105.4,
+        "armorperlevel": 4.2,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 18.85,
+        "hpregenperlevel": 0.55,
+        "mpregen": 16.85,
+        "mpregenperlevel": 0.55,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 63.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 1.9,
+        "attackspeed": 0.926
+      },
       "ressource": "Mana"
     },
     {
@@ -1322,9 +4372,34 @@
       "nom": "Sion",
       "titre": "Colosse mort-vivant",
       "roles": [
-        "Tank",
-        "Combattant"
+        "tank",
+        "fight"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2134,
+        "hpperlevel": 87.0,
+        "mp": 1284,
+        "mpperlevel": 52.0,
+        "movespeed": 345,
+        "armor": 107.4,
+        "armorperlevel": 4.2,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 175,
+        "hpregen": 22.6,
+        "hpregenperlevel": 0.8,
+        "mpregen": 18.2,
+        "mpregenperlevel": 0.6,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 68.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 1.3,
+        "attackspeed": 0.829
+      },
       "ressource": "Mana"
     },
     {
@@ -1333,8 +4408,33 @@
       "nom": "Sivir",
       "titre": "Mercenaire du désert",
       "roles": [
-        "Tireur"
+        "marksman"
       ],
+      "lanes": [
+        "adc"
+      ],
+      "stats": {
+        "hp": 2368,
+        "hpperlevel": 104.0,
+        "mp": 1105,
+        "mpperlevel": 45.0,
+        "movespeed": 335,
+        "armor": 98.0,
+        "armorperlevel": 4.0,
+        "spellblock": 51.7,
+        "spellblockperlevel": 1.1,
+        "attackrange": 500,
+        "hpregen": 12.6,
+        "hpregenperlevel": 0.55,
+        "mpregen": 19.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 60.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 1.6,
+        "attackspeed": 0.795
+      },
       "ressource": "Mana"
     },
     {
@@ -1343,9 +4443,34 @@
       "nom": "Skarner",
       "titre": "Souverain originel",
       "roles": [
-        "Tank",
-        "Combattant"
+        "tank",
+        "fight"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2500,
+        "hpperlevel": 110.0,
+        "mp": 1000,
+        "mpperlevel": 40.0,
+        "movespeed": 335,
+        "armor": 109.5,
+        "armorperlevel": 4.5,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 150,
+        "hpregen": 20.25,
+        "hpregenperlevel": 0.75,
+        "mpregen": 19.95,
+        "mpregenperlevel": 0.75,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 63.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.0,
+        "attackspeed": 0.838
+      },
       "ressource": "Mana"
     },
     {
@@ -1354,9 +4479,34 @@
       "nom": "Smolder",
       "titre": "Dragonnet flamboyant",
       "roles": [
-        "Tireur",
-        "Mage"
+        "marksman",
+        "mage"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2275,
+        "hpperlevel": 100.0,
+        "mp": 980,
+        "mpperlevel": 40.0,
+        "movespeed": 330,
+        "armor": 92.0,
+        "armorperlevel": 4.0,
+        "spellblock": 51.7,
+        "spellblockperlevel": 1.1,
+        "attackrange": 550,
+        "hpregen": 13.95,
+        "hpregenperlevel": 0.6,
+        "mpregen": 20.4,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 58.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 4.0,
+        "attackspeed": 1.072
+      },
       "ressource": "Mana"
     },
     {
@@ -1365,9 +4515,34 @@
       "nom": "Sona",
       "titre": "Virtuose de la harpe",
       "roles": [
-        "Support",
-        "Mage"
+        "support",
+        "mage"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2097,
+        "hpperlevel": 91.0,
+        "mp": 1105,
+        "mpperlevel": 45.0,
+        "movespeed": 325,
+        "armor": 97.4,
+        "armorperlevel": 4.2,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 550,
+        "hpregen": 14.85,
+        "hpregenperlevel": 0.55,
+        "mpregen": 18.3,
+        "mpregenperlevel": 0.4,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 49.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.3,
+        "attackspeed": 0.896
+      },
       "ressource": "Mana"
     },
     {
@@ -1376,9 +4551,34 @@
       "nom": "Soraka",
       "titre": "Enfant des étoiles",
       "roles": [
-        "Support",
-        "Mage"
+        "support",
+        "mage"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2101,
+        "hpperlevel": 88.0,
+        "mp": 1105,
+        "mpperlevel": 40.0,
+        "movespeed": 325,
+        "armor": 117.0,
+        "armorperlevel": 5.0,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 550,
+        "hpregen": 11.0,
+        "hpregenperlevel": 0.5,
+        "mpregen": 18.3,
+        "mpregenperlevel": 0.4,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 50.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.14,
+        "attackspeed": 0.852
+      },
       "ressource": "Mana"
     },
     {
@@ -1387,9 +4587,34 @@
       "nom": "Swain",
       "titre": "Grand général noxien",
       "roles": [
-        "Mage",
-        "Support"
+        "mage",
+        "support"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2278,
+        "hpperlevel": 99.0,
+        "mp": 893,
+        "mpperlevel": 29.0,
+        "movespeed": 330,
+        "armor": 104.9,
+        "armorperlevel": 4.7,
+        "spellblock": 57.35,
+        "spellblockperlevel": 1.55,
+        "attackrange": 525,
+        "hpregen": 11.5,
+        "hpregenperlevel": 0.5,
+        "mpregen": 23.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 58.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.11,
+        "attackspeed": 0.849
+      },
       "ressource": "Mana"
     },
     {
@@ -1398,9 +4623,34 @@
       "nom": "Sylas",
       "titre": "Révolutionnaire déchaîné",
       "roles": [
-        "Mage",
-        "Assassin"
+        "mage",
+        "assassin"
       ],
+      "lanes": [
+        "jgl"
+      ],
+      "stats": {
+        "hp": 2674,
+        "hpperlevel": 122.0,
+        "mp": 1590,
+        "mpperlevel": 70.0,
+        "movespeed": 340,
+        "armor": 117.4,
+        "armorperlevel": 5.2,
+        "spellblock": 75.35,
+        "spellblockperlevel": 2.55,
+        "attackrange": 175,
+        "hpregen": 24.3,
+        "hpregenperlevel": 0.9,
+        "mpregen": 21.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 61.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.5,
+        "attackspeed": 1.029
+      },
       "ressource": "Mana"
     },
     {
@@ -1409,8 +4659,33 @@
       "nom": "Syndra",
       "titre": "Souveraine obscure",
       "roles": [
-        "Mage"
+        "mage"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2283,
+        "hpperlevel": 100.0,
+        "mp": 1160,
+        "mpperlevel": 40.0,
+        "movespeed": 330,
+        "armor": 93.0,
+        "armorperlevel": 4.0,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 550,
+        "hpregen": 16.7,
+        "hpregenperlevel": 0.6,
+        "mpregen": 21.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 54.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.0,
+        "attackspeed": 0.882
+      },
       "ressource": "Mana"
     },
     {
@@ -1419,9 +4694,34 @@
       "nom": "Séraphine",
       "titre": "Chanteuse rêveuse",
       "roles": [
-        "Support",
-        "Mage"
+        "support",
+        "mage"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2185,
+        "hpperlevel": 95.0,
+        "mp": 1040,
+        "mpperlevel": 40.0,
+        "movespeed": 330,
+        "armor": 97.4,
+        "armorperlevel": 4.2,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 525,
+        "hpregen": 16.7,
+        "hpregenperlevel": 0.6,
+        "mpregen": 27.65,
+        "mpregenperlevel": 0.95,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 50.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.0,
+        "attackspeed": 0.896
+      },
       "ressource": "Mana"
     },
     {
@@ -1430,9 +4730,34 @@
       "nom": "Tahm Kench",
       "titre": "Roi des rivières",
       "roles": [
-        "Tank",
-        "Support"
+        "tank",
+        "support"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2391,
+        "hpperlevel": 103.0,
+        "mp": 1175,
+        "mpperlevel": 50.0,
+        "movespeed": 335,
+        "armor": 118.9,
+        "armorperlevel": 4.7,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 175,
+        "hpregen": 15.85,
+        "hpregenperlevel": 0.55,
+        "mpregen": 25.0,
+        "mpregenperlevel": 1.0,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 56.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.5,
+        "attackspeed": 0.938
+      },
       "ressource": "Mana"
     },
     {
@@ -1441,9 +4766,34 @@
       "nom": "Taliyah",
       "titre": "Tisseuse de pierres",
       "roles": [
-        "Mage",
-        "Support"
+        "mage",
+        "support"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2318,
+        "hpperlevel": 104.0,
+        "mp": 980,
+        "mpperlevel": 30.0,
+        "movespeed": 330,
+        "armor": 97.9,
+        "armorperlevel": 4.7,
+        "spellblock": 50.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 525,
+        "hpregen": 17.55,
+        "hpregenperlevel": 0.65,
+        "mpregen": 21.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 58.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 1.36,
+        "attackspeed": 0.81
+      },
       "ressource": "Mana"
     },
     {
@@ -1452,8 +4802,33 @@
       "nom": "Talon",
       "titre": "Lame des ténèbres",
       "roles": [
-        "Assassin"
+        "assassin"
       ],
+      "lanes": [
+        "jgl"
+      ],
+      "stats": {
+        "hp": 2511,
+        "hpperlevel": 109.0,
+        "mp": 1029,
+        "mpperlevel": 37.0,
+        "movespeed": 335,
+        "armor": 109.9,
+        "armorperlevel": 4.7,
+        "spellblock": 70.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 21.25,
+        "hpregenperlevel": 0.75,
+        "mpregen": 21.2,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 68.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.9,
+        "attackspeed": 0.933
+      },
       "ressource": "Mana"
     },
     {
@@ -1462,9 +4837,34 @@
       "nom": "Taric",
       "titre": "Bouclier de Valoran",
       "roles": [
-        "Support",
-        "Tank"
+        "support",
+        "tank"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2328,
+        "hpperlevel": 99.0,
+        "mp": 1320,
+        "mpperlevel": 60.0,
+        "movespeed": 340,
+        "armor": 113.1,
+        "armorperlevel": 4.3,
+        "spellblock": 62.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 150,
+        "hpregen": 14.5,
+        "hpregenperlevel": 0.5,
+        "mpregen": 22.1,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 55.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.0,
+        "attackspeed": 0.838
+      },
       "ressource": "Mana"
     },
     {
@@ -1473,9 +4873,34 @@
       "nom": "Teemo",
       "titre": "Éclaireur de Bandle",
       "roles": [
-        "Tireur",
-        "Mage"
+        "marksman",
+        "mage"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2383,
+        "hpperlevel": 104.0,
+        "mp": 759,
+        "mpperlevel": 25.0,
+        "movespeed": 330,
+        "armor": 100.5,
+        "armorperlevel": 4.5,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 500,
+        "hpregen": 16.55,
+        "hpregenperlevel": 0.65,
+        "mpregen": 17.25,
+        "mpregenperlevel": 0.45,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 54.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.38,
+        "attackspeed": 1.086
+      },
       "ressource": "Mana"
     },
     {
@@ -1484,9 +4909,34 @@
       "nom": "Thresh",
       "titre": "Garde aux chaînes",
       "roles": [
-        "Support",
-        "Tank"
+        "support",
+        "tank"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2660,
+        "hpperlevel": 120.0,
+        "mp": 1022,
+        "mpperlevel": 44.0,
+        "movespeed": 330,
+        "armor": 33.0,
+        "armorperlevel": 0.0,
+        "spellblock": 56.35,
+        "spellblockperlevel": 1.55,
+        "attackrange": 450,
+        "hpregen": 16.35,
+        "hpregenperlevel": 0.55,
+        "mpregen": 19.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 56.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.5,
+        "attackspeed": 0.997
+      },
       "ressource": "Mana"
     },
     {
@@ -1495,9 +4945,34 @@
       "nom": "Tristana",
       "titre": "Canonnière yordle",
       "roles": [
-        "Tireur",
-        "Assassin"
+        "marksman",
+        "assassin"
       ],
+      "lanes": [
+        "jgl"
+      ],
+      "stats": {
+        "hp": 2374,
+        "hpperlevel": 102.0,
+        "mp": 844,
+        "mpperlevel": 32.0,
+        "movespeed": 325,
+        "armor": 98.0,
+        "armorperlevel": 4.0,
+        "spellblock": 51.7,
+        "spellblockperlevel": 1.1,
+        "attackrange": 550,
+        "hpregen": 12.5,
+        "hpregenperlevel": 0.5,
+        "mpregen": 14.85,
+        "mpregenperlevel": 0.45,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 60.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 1.5,
+        "attackspeed": 0.823
+      },
       "ressource": "Mana"
     },
     {
@@ -1506,9 +4981,34 @@
       "nom": "Trundle",
       "titre": "Roi des trolls",
       "roles": [
-        "Combattant",
-        "Tank"
+        "fight",
+        "tank"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2520,
+        "hpperlevel": 110.0,
+        "mp": 1105,
+        "mpperlevel": 45.0,
+        "movespeed": 350,
+        "armor": 113.5,
+        "armorperlevel": 4.5,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 175,
+        "hpregen": 18.75,
+        "hpregenperlevel": 0.75,
+        "mpregen": 17.7,
+        "mpregenperlevel": 0.6,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 68.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.9,
+        "attackspeed": 1.0
+      },
       "ressource": "Mana"
     },
     {
@@ -1517,9 +5017,34 @@
       "nom": "Tryndamere",
       "titre": "Roi barbare",
       "roles": [
-        "Combattant",
-        "Assassin"
+        "fight",
+        "assassin"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2532,
+        "hpperlevel": 108.0,
+        "mp": 100,
+        "mpperlevel": 0.0,
+        "movespeed": 345,
+        "armor": 114.6,
+        "armorperlevel": 4.8,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 175,
+        "hpregen": 23.8,
+        "hpregenperlevel": 0.9,
+        "mpregen": 0.0,
+        "mpregenperlevel": 0.0,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 66.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.4,
+        "attackspeed": 1.057
+      },
       "ressource": "Fureur"
     },
     {
@@ -1528,9 +5053,34 @@
       "nom": "Twisted Fate",
       "titre": "Maître des cartes",
       "roles": [
-        "Mage",
-        "Tireur"
+        "mage",
+        "marksman"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2440,
+        "hpperlevel": 108.0,
+        "mp": 996,
+        "mpperlevel": 39.0,
+        "movespeed": 330,
+        "armor": 97.95,
+        "armorperlevel": 4.35,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 525,
+        "hpregen": 15.7,
+        "hpregenperlevel": 0.6,
+        "mpregen": 21.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 52.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.5,
+        "attackspeed": 0.891
+      },
       "ressource": "Mana"
     },
     {
@@ -1539,9 +5089,34 @@
       "nom": "Twitch",
       "titre": "Semeur de peste",
       "roles": [
-        "Tireur",
-        "Assassin"
+        "marksman",
+        "assassin"
       ],
+      "lanes": [
+        "jgl"
+      ],
+      "stats": {
+        "hp": 2296,
+        "hpperlevel": 98.0,
+        "mp": 980,
+        "mpperlevel": 40.0,
+        "movespeed": 330,
+        "armor": 95.0,
+        "armorperlevel": 4.0,
+        "spellblock": 51.7,
+        "spellblockperlevel": 1.1,
+        "attackrange": 550,
+        "hpregen": 13.95,
+        "hpregenperlevel": 0.6,
+        "mpregen": 19.15,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 59.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.0,
+        "attackspeed": 1.025
+      },
       "ressource": "Mana"
     },
     {
@@ -1550,9 +5125,34 @@
       "nom": "Udyr",
       "titre": "Gardien des esprits",
       "roles": [
-        "Combattant",
-        "Tank"
+        "fight",
+        "tank"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2228,
+        "hpperlevel": 92.0,
+        "mp": 1121,
+        "mpperlevel": 50.0,
+        "movespeed": 350,
+        "armor": 110.9,
+        "armorperlevel": 4.7,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 18.75,
+        "hpregenperlevel": 0.75,
+        "mpregen": 15.15,
+        "mpregenperlevel": 0.45,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 62.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.0,
+        "attackspeed": 0.982
+      },
       "ressource": "Mana"
     },
     {
@@ -1561,9 +5161,34 @@
       "nom": "Urgot",
       "titre": "Broyeur",
       "roles": [
-        "Combattant",
-        "Tank"
+        "fight",
+        "tank"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2389,
+        "hpperlevel": 102.0,
+        "mp": 1105,
+        "mpperlevel": 45.0,
+        "movespeed": 330,
+        "armor": 121.0,
+        "armorperlevel": 5.0,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 350,
+        "hpregen": 19.4,
+        "hpregenperlevel": 0.7,
+        "mpregen": 20.85,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 63.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.75,
+        "attackspeed": 1.023
+      },
       "ressource": "Mana"
     },
     {
@@ -1572,9 +5197,34 @@
       "nom": "Varus",
       "titre": "Flèche de la vengeance",
       "roles": [
-        "Tireur",
-        "Mage"
+        "marksman",
+        "mage"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2385,
+        "hpperlevel": 105.0,
+        "mp": 1000,
+        "mpperlevel": 40.0,
+        "movespeed": 330,
+        "armor": 92.0,
+        "armorperlevel": 4.0,
+        "spellblock": 51.7,
+        "spellblockperlevel": 1.1,
+        "attackrange": 575,
+        "hpregen": 12.85,
+        "hpregenperlevel": 0.55,
+        "mpregen": 21.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 59.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.5,
+        "attackspeed": 1.05
+      },
       "ressource": "Mana"
     },
     {
@@ -1583,9 +5233,34 @@
       "nom": "Vayne",
       "titre": "Chasseresse nocturne",
       "roles": [
-        "Tireur",
-        "Assassin"
+        "marksman",
+        "assassin"
       ],
+      "lanes": [
+        "jgl"
+      ],
+      "stats": {
+        "hp": 2246,
+        "hpperlevel": 98.0,
+        "mp": 827,
+        "mpperlevel": 35.0,
+        "movespeed": 330,
+        "armor": 101.2,
+        "armorperlevel": 4.6,
+        "spellblock": 51.7,
+        "spellblockperlevel": 1.1,
+        "attackrange": 550,
+        "hpregen": 12.5,
+        "hpregenperlevel": 0.5,
+        "mpregen": 13.8,
+        "mpregenperlevel": 0.4,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 60.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.8,
+        "attackspeed": 0.971
+      },
       "ressource": "Mana"
     },
     {
@@ -1594,8 +5269,33 @@
       "nom": "Veigar",
       "titre": "Seigneur des maléfices",
       "roles": [
-        "Mage"
+        "mage"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2416,
+        "hpperlevel": 108.0,
+        "mp": 932,
+        "mpperlevel": 26.0,
+        "movespeed": 340,
+        "armor": 106.4,
+        "armorperlevel": 5.2,
+        "spellblock": 54.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 550,
+        "hpregen": 16.7,
+        "hpregenperlevel": 0.6,
+        "mpregen": 21.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 52.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.24,
+        "attackspeed": 0.863
+      },
       "ressource": "Mana"
     },
     {
@@ -1604,9 +5304,34 @@
       "nom": "Vel'Koz",
       "titre": "Œil du Néant",
       "roles": [
-        "Mage",
-        "Support"
+        "mage",
+        "support"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2324,
+        "hpperlevel": 102.0,
+        "mp": 826,
+        "mpperlevel": 21.0,
+        "movespeed": 340,
+        "armor": 101.9,
+        "armorperlevel": 4.7,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 525,
+        "hpregen": 14.85,
+        "hpregenperlevel": 0.55,
+        "mpregen": 21.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 55.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 1.59,
+        "attackspeed": 0.817
+      },
       "ressource": "Mana"
     },
     {
@@ -1615,8 +5340,33 @@
       "nom": "Vex",
       "titre": "Ombre du désespoir",
       "roles": [
-        "Mage"
+        "mage"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2358,
+        "hpperlevel": 104.0,
+        "mp": 1034,
+        "mpperlevel": 32.0,
+        "movespeed": 335,
+        "armor": 98.65,
+        "armorperlevel": 4.45,
+        "spellblock": 50.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 550,
+        "hpregen": 16.7,
+        "hpregenperlevel": 0.6,
+        "mpregen": 19.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 54.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 1.0,
+        "attackspeed": 0.783
+      },
       "ressource": "Mana"
     },
     {
@@ -1625,9 +5375,34 @@
       "nom": "Vi",
       "titre": "Pacifieuse de Piltover",
       "roles": [
-        "Combattant",
-        "Assassin"
+        "fight",
+        "assassin"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2440,
+        "hpperlevel": 105.0,
+        "mp": 1400,
+        "mpperlevel": 65.0,
+        "movespeed": 340,
+        "armor": 109.9,
+        "armorperlevel": 4.7,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 27.0,
+        "hpregenperlevel": 1.0,
+        "mpregen": 19.05,
+        "mpregenperlevel": 0.65,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 63.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.0,
+        "attackspeed": 0.863
+      },
       "ressource": "Mana"
     },
     {
@@ -1636,9 +5411,34 @@
       "nom": "Viego",
       "titre": "Roi déchu",
       "roles": [
-        "Combattant",
-        "Assassin"
+        "fight",
+        "assassin"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2483,
+        "hpperlevel": 109.0,
+        "mp": 10000,
+        "mpperlevel": 0.0,
+        "movespeed": 345,
+        "armor": 112.2,
+        "armorperlevel": 4.6,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 200,
+        "hpregen": 18.9,
+        "hpregenperlevel": 0.7,
+        "mpregen": 0.0,
+        "mpregenperlevel": 0.0,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 57.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.75,
+        "attackspeed": 0.966
+      },
       "ressource": "Aucune"
     },
     {
@@ -1647,8 +5447,33 @@
       "nom": "Viktor",
       "titre": "Héraut de l'arcane",
       "roles": [
-        "Mage"
+        "mage"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2300,
+        "hpperlevel": 100.0,
+        "mp": 1170,
+        "mpperlevel": 45.0,
+        "movespeed": 335,
+        "armor": 97.8,
+        "armorperlevel": 4.4,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 525,
+        "hpregen": 19.05,
+        "hpregenperlevel": 0.65,
+        "mpregen": 21.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 53.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.11,
+        "attackspeed": 0.894
+      },
       "ressource": "Mana"
     },
     {
@@ -1657,9 +5482,34 @@
       "nom": "Vladimir",
       "titre": "Saigneur pourpre",
       "roles": [
-        "Mage",
-        "Combattant"
+        "mage",
+        "fight"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2470,
+        "hpperlevel": 110.0,
+        "mp": 2,
+        "mpperlevel": 0.0,
+        "movespeed": 330,
+        "armor": 100.5,
+        "armorperlevel": 4.5,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 450,
+        "hpregen": 17.2,
+        "hpregenperlevel": 0.6,
+        "mpregen": 0.0,
+        "mpregenperlevel": 0.0,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 55.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.0,
+        "attackspeed": 0.882
+      },
       "ressource": "Afflux sanguin"
     },
     {
@@ -1668,9 +5518,34 @@
       "nom": "Volibear",
       "titre": "Tempête impitoyable",
       "roles": [
-        "Combattant",
-        "Tank"
+        "fight",
+        "tank"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2418,
+        "hpperlevel": 104.0,
+        "mp": 1540,
+        "mpperlevel": 70.0,
+        "movespeed": 340,
+        "armor": 123.4,
+        "armorperlevel": 5.2,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 150,
+        "hpregen": 21.75,
+        "hpregenperlevel": 0.75,
+        "mpregen": 14.75,
+        "mpregenperlevel": 0.5,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 65.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.0,
+        "attackspeed": 0.838
+      },
       "ressource": "Mana"
     },
     {
@@ -1679,9 +5554,34 @@
       "nom": "Warwick",
       "titre": "Fureur déchaînée de Zaun",
       "roles": [
-        "Combattant",
-        "Tank"
+        "fight",
+        "tank"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2303,
+        "hpperlevel": 99.0,
+        "mp": 875,
+        "mpperlevel": 35.0,
+        "movespeed": 335,
+        "armor": 107.8,
+        "armorperlevel": 4.4,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 16.75,
+        "hpregenperlevel": 0.75,
+        "mpregen": 17.65,
+        "mpregenperlevel": 0.6,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 65.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.0,
+        "attackspeed": 0.855
+      },
       "ressource": "Mana"
     },
     {
@@ -1690,9 +5590,34 @@
       "nom": "Wukong",
       "titre": "Roi des singes",
       "roles": [
-        "Combattant",
-        "Tank"
+        "fight",
+        "tank"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2293,
+        "hpperlevel": 99.0,
+        "mp": 1435,
+        "mpperlevel": 65.0,
+        "movespeed": 340,
+        "armor": 110.9,
+        "armorperlevel": 4.7,
+        "spellblock": 62.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 175,
+        "hpregen": 14.55,
+        "hpregenperlevel": 0.65,
+        "mpregen": 21.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 66.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.0,
+        "attackspeed": 1.042
+      },
       "ressource": "Mana"
     },
     {
@@ -1701,8 +5626,33 @@
       "nom": "Xayah",
       "titre": "Rebelle",
       "roles": [
-        "Tireur"
+        "marksman"
       ],
+      "lanes": [
+        "adc"
+      ],
+      "stats": {
+        "hp": 2449,
+        "hpperlevel": 107.0,
+        "mp": 1020,
+        "mpperlevel": 40.0,
+        "movespeed": 330,
+        "armor": 96.4,
+        "armorperlevel": 4.2,
+        "spellblock": 51.7,
+        "spellblockperlevel": 1.1,
+        "attackrange": 525,
+        "hpregen": 16.0,
+        "hpregenperlevel": 0.75,
+        "mpregen": 21.85,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 60.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.9,
+        "attackspeed": 1.094
+      },
       "ressource": "Mana"
     },
     {
@@ -1711,9 +5661,34 @@
       "nom": "Xerath",
       "titre": "Mage suprême",
       "roles": [
-        "Mage",
-        "Support"
+        "mage",
+        "support"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2377,
+        "hpperlevel": 106.0,
+        "mp": 774,
+        "mpperlevel": 22.0,
+        "movespeed": 340,
+        "armor": 101.9,
+        "armorperlevel": 4.7,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 525,
+        "hpregen": 14.85,
+        "hpregenperlevel": 0.55,
+        "mpregen": 20.45,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 55.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 1.36,
+        "attackspeed": 0.81
+      },
       "ressource": "Mana"
     },
     {
@@ -1722,9 +5697,34 @@
       "nom": "Xin Zhao",
       "titre": "Sénéchal de Demacia",
       "roles": [
-        "Combattant",
-        "Tank"
+        "fight",
+        "tank"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2422,
+        "hpperlevel": 106.0,
+        "mp": 1209,
+        "mpperlevel": 55.0,
+        "movespeed": 345,
+        "armor": 109.8,
+        "armorperlevel": 4.4,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 175,
+        "hpregen": 19.9,
+        "hpregenperlevel": 0.7,
+        "mpregen": 14.9,
+        "mpregenperlevel": 0.45,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 63.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.5,
+        "attackspeed": 1.029
+      },
       "ressource": "Mana"
     },
     {
@@ -1733,9 +5733,34 @@
       "nom": "Yasuo",
       "titre": "Disgracié",
       "roles": [
-        "Combattant",
-        "Assassin"
+        "fight",
+        "assassin"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2460,
+        "hpperlevel": 110.0,
+        "mp": 100,
+        "mpperlevel": 0.0,
+        "movespeed": 345,
+        "armor": 110.2,
+        "armorperlevel": 4.6,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 175,
+        "hpregen": 21.8,
+        "hpregenperlevel": 0.9,
+        "mpregen": 0.0,
+        "mpregenperlevel": 0.0,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 60.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.5,
+        "attackspeed": 1.112
+      },
       "ressource": "Impulsion"
     },
     {
@@ -1744,9 +5769,34 @@
       "nom": "Yone",
       "titre": "Inoublié",
       "roles": [
-        "Combattant",
-        "Assassin"
+        "fight",
+        "assassin"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2405,
+        "hpperlevel": 105.0,
+        "mp": 500,
+        "mpperlevel": 0.0,
+        "movespeed": 345,
+        "armor": 111.2,
+        "armorperlevel": 4.6,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 175,
+        "hpregen": 20.25,
+        "hpregenperlevel": 0.75,
+        "mpregen": 0.0,
+        "mpregenperlevel": 0.0,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 62.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.5,
+        "attackspeed": 0.997
+      },
       "ressource": "Impulsion"
     },
     {
@@ -1755,9 +5805,34 @@
       "nom": "Yorick",
       "titre": "Berger des âmes",
       "roles": [
-        "Combattant",
-        "Tank"
+        "fight",
+        "tank"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2588,
+        "hpperlevel": 114.0,
+        "mp": 1320,
+        "mpperlevel": 60.0,
+        "movespeed": 340,
+        "armor": 112.5,
+        "armorperlevel": 4.5,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 175,
+        "hpregen": 21.6,
+        "hpregenperlevel": 0.8,
+        "mpregen": 20.25,
+        "mpregenperlevel": 0.75,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 62.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.0,
+        "attackspeed": 0.838
+      },
       "ressource": "Mana"
     },
     {
@@ -1766,8 +5841,33 @@
       "nom": "Yunara",
       "titre": "Foi inébranlable",
       "roles": [
-        "Tireur"
+        "marksman"
       ],
+      "lanes": [
+        "adc"
+      ],
+      "stats": {
+        "hp": 2460,
+        "hpperlevel": 110.0,
+        "mp": 1040,
+        "mpperlevel": 45.0,
+        "movespeed": 325,
+        "armor": 99.8,
+        "armorperlevel": 4.4,
+        "spellblock": 51.7,
+        "spellblockperlevel": 1.1,
+        "attackrange": 575,
+        "hpregen": 13.35,
+        "hpregenperlevel": 0.55,
+        "mpregen": 20.25,
+        "mpregenperlevel": 0.75,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 55.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.0,
+        "attackspeed": 0.871
+      },
       "ressource": "Mana"
     },
     {
@@ -1776,9 +5876,34 @@
       "nom": "Yuumi",
       "titre": "Gardienne du Grimoire",
       "roles": [
-        "Support",
-        "Mage"
+        "support",
+        "mage"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 1673,
+        "hpperlevel": 69.0,
+        "mp": 1205,
+        "mpperlevel": 45.0,
+        "movespeed": 330,
+        "armor": 96.4,
+        "armorperlevel": 4.2,
+        "spellblock": 43.7,
+        "spellblockperlevel": 1.1,
+        "attackrange": 425,
+        "hpregen": 14.35,
+        "hpregenperlevel": 0.55,
+        "mpregen": 16.8,
+        "mpregenperlevel": 0.4,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 49.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 1.0,
+        "attackspeed": 0.731
+      },
       "ressource": "Mana"
     },
     {
@@ -1787,8 +5912,33 @@
       "nom": "Zaahen",
       "titre": "Incorruptible",
       "roles": [
-        "Combattant"
+        "fight"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2578,
+        "hpperlevel": 114.0,
+        "mp": 1285,
+        "mpperlevel": 55.0,
+        "movespeed": 345,
+        "armor": 121.0,
+        "armorperlevel": 5.0,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 175,
+        "hpregen": 21.1,
+        "hpregenperlevel": 0.8,
+        "mpregen": 20.9,
+        "mpregenperlevel": 0.75,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 63.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.5,
+        "attackspeed": 0.891
+      },
       "ressource": "Mana"
     },
     {
@@ -1797,9 +5947,34 @@
       "nom": "Zac",
       "titre": "Arme secrète",
       "roles": [
-        "Tank",
-        "Combattant"
+        "tank",
+        "fight"
       ],
+      "lanes": [
+        "top"
+      ],
+      "stats": {
+        "hp": 2538,
+        "hpperlevel": 109.0,
+        "mp": 0,
+        "mpperlevel": 0.0,
+        "movespeed": 340,
+        "armor": 121.4,
+        "armorperlevel": 5.2,
+        "spellblock": 66.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 175,
+        "hpregen": 13.5,
+        "hpregenperlevel": 0.5,
+        "mpregen": 0.0,
+        "mpregenperlevel": 0.0,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 60.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 1.6,
+        "attackspeed": 0.936
+      },
       "ressource": "Aucune"
     },
     {
@@ -1808,8 +5983,33 @@
       "nom": "Zed",
       "titre": "Maître des ombres",
       "roles": [
-        "Assassin"
+        "assassin"
       ],
+      "lanes": [
+        "jgl"
+      ],
+      "stats": {
+        "hp": 2337,
+        "hpperlevel": 99.0,
+        "mp": 200,
+        "mpperlevel": 0.0,
+        "movespeed": 345,
+        "armor": 111.9,
+        "armorperlevel": 4.7,
+        "spellblock": 63.85,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 18.05,
+        "hpregenperlevel": 0.65,
+        "mpregen": 50.0,
+        "mpregenperlevel": 0.0,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 63.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 3.3,
+        "attackspeed": 1.016
+      },
       "ressource": "Énergie"
     },
     {
@@ -1818,8 +6018,33 @@
       "nom": "Zeri",
       "titre": "Étincelle de Zaun",
       "roles": [
-        "Tireur"
+        "marksman"
       ],
+      "lanes": [
+        "adc"
+      ],
+      "stats": {
+        "hp": 2470,
+        "hpperlevel": 110.0,
+        "mp": 1015,
+        "mpperlevel": 45.0,
+        "movespeed": 330,
+        "armor": 95.4,
+        "armorperlevel": 4.2,
+        "spellblock": 51.7,
+        "spellblockperlevel": 1.1,
+        "attackrange": 550,
+        "hpregen": 15.15,
+        "hpregenperlevel": 0.7,
+        "mpregen": 19.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 56.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.0,
+        "attackspeed": 0.882
+      },
       "ressource": "Mana"
     },
     {
@@ -1828,8 +6053,33 @@
       "nom": "Ziggs",
       "titre": "Expert des Hexplosifs",
       "roles": [
-        "Mage"
+        "mage"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2408,
+        "hpperlevel": 106.0,
+        "mp": 880,
+        "mpperlevel": 23.5,
+        "movespeed": 325,
+        "armor": 100.9,
+        "armorperlevel": 4.7,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 550,
+        "hpregen": 16.7,
+        "hpregenperlevel": 0.6,
+        "mpregen": 21.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 55.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.0,
+        "attackspeed": 0.879
+      },
       "ressource": "Mana"
     },
     {
@@ -1838,9 +6088,34 @@
       "nom": "Zilean",
       "titre": "Gardien du Temps",
       "roles": [
-        "Support",
-        "Mage"
+        "support",
+        "mage"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2206,
+        "hpperlevel": 96.0,
+        "mp": 1302,
+        "mpperlevel": 50.0,
+        "movespeed": 335,
+        "armor": 109.0,
+        "armorperlevel": 5.0,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 550,
+        "hpregen": 14.0,
+        "hpregenperlevel": 0.5,
+        "mpregen": 24.95,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 52.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.13,
+        "attackspeed": 0.896
+      },
       "ressource": "Mana"
     },
     {
@@ -1849,8 +6124,33 @@
       "nom": "Zoé",
       "titre": "Manifestation du Crépuscule",
       "roles": [
-        "Mage"
+        "mage"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2432,
+        "hpperlevel": 106.0,
+        "mp": 850,
+        "mpperlevel": 25.0,
+        "movespeed": 340,
+        "armor": 100.9,
+        "armorperlevel": 4.7,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 550,
+        "hpregen": 17.7,
+        "hpregenperlevel": 0.6,
+        "mpregen": 19.05,
+        "mpregenperlevel": 0.65,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 58.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.5,
+        "attackspeed": 0.938
+      },
       "ressource": "Mana"
     },
     {
@@ -1859,9 +6159,34 @@
       "nom": "Zyra",
       "titre": "Dame aux ronces",
       "roles": [
-        "Mage",
-        "Support"
+        "mage",
+        "support"
       ],
+      "lanes": [
+        "mid"
+      ],
+      "stats": {
+        "hp": 2155,
+        "hpperlevel": 93.0,
+        "mp": 843,
+        "mpperlevel": 25.0,
+        "movespeed": 340,
+        "armor": 100.4,
+        "armorperlevel": 4.2,
+        "spellblock": 52.1,
+        "spellblockperlevel": 1.3,
+        "attackrange": 575,
+        "hpregen": 14.0,
+        "hpregenperlevel": 0.5,
+        "mpregen": 20.6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0.0,
+        "attackdamage": 53.0,
+        "attackdamageperlevel": 0.0,
+        "attackspeedperlevel": 2.11,
+        "attackspeed": 0.925
+      },
       "ressource": "Mana"
     }
   ]
