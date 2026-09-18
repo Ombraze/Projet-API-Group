@@ -9,7 +9,7 @@ class Lane(Enum):
     SUP = "sup"
 
 class LaneList(Enum):
-    ROLES = [Role.TOP, Role.JGL, Role.MID, Role.ADC, Role.SUP]
+    LANE = [Lane.TOP, Lane.JGL, Lane.MID, Lane.ADC, Lane.SUP]
     def get_role(self, type: str):
-        return next((role for role in self.ROLES if role.value == type), None)
+        return next((role for role in self.LANE if role.value == type), None)
     

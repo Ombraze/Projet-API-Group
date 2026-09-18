@@ -3,10 +3,6 @@ from pydantic import Field
 
 class Role(Enum):
     FIGHT = "fight"
-    SUPPORT = "support"
-    TANK = "tank"
-    MAGE = "mage"
-    ASSASSIN = "assassin"
     MARKSMAN = "marksman"
     SUPPORT = "support"
     TANK = "tank"
