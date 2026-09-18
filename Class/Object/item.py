@@ -8,20 +8,29 @@ class Item(BaseModel):
     description: str = Field(..., description="La description de l'item")
     categorie: str = Field(..., description="La categorie de l'item")
     role: str = Field(..., description="Le role de l'item")
-    statistiques_item: dict[str, float] = Field(..., description="Les statistiques de l'item")
-    tags_item: list[str] = Field(default_factory=list, description="Les tags de l'item")
+    statistiques: dict[str, float] = Field(..., description="Les statistiques de l'item")
+    tags: list[str] = Field(default_factory=list, description="Les tags de l'item")
     sub_item_ids: list[int] = Field(default_factory=list, description="Les ids des composants de l'item")
 
-
-class Showw_Item(BaseModel):
+#request model
+class Show_Item(BaseModel):
     nom: str = Field(..., description="Le nom de l'item")
     prix: int = Field(..., description="Le prix de l'item")
     description: str = Field(..., description="La description de l'item")
     categorie: str = Field(..., description="La categorie de l'item")
-    role_item: str = Field(..., description="Le role de l'item")
-    statistiques_item: dict[str, float] = Field(..., description="Les statistiques de l'item")
-    tags_item: list[str] = Field(default_factory=list, description="Les tags de l'item")
+    role: str = Field(..., description="Le role de l'item")
+    statistiques: dict[str, float] = Field(..., description="Les statistiques de l'item")
+    tags: list[str] = Field(default_factory=list, description="Les tags de l'item")
     sub_item_ids: list[int] = Field(default_factory=list, description="Les ids des composants de l'item")
+
+#loader class
+class ItemData(BaseModel):
+    patch: str
+    source: str
+    carte: str
+    filtre: str
+    count: int
+    items: list[Item]
 
 
 class ItemList(BaseModel):
