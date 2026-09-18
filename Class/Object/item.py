@@ -1,0 +1,45 @@
+import enum
+from pydantic import BaseModel, Field
+
+class Activable(enum.Enum):
+    YES = "yes"
+    NO = "no"
+
+class Item(BaseModel):
+    id: int = Field(..., description="L'id de l'item")
+    nom: str = Field(..., description="Le nom de l'item")
+    prix: int = Field(..., description="Le prix de l'item")
+    description: str = Field(..., description="La description de l'item")
+    categorie: str = Field(..., description="La categorie de l'item")
+    activable: Activable = Field(..., description="Si l'item est activable ou non")
+    role: str = Field(..., description="Le role de l'item")
+    statistiques_item: dict[str, float] = Field(..., description="Les statistiques de l'item")
+    tags_item: list[str] = Field(default_factory=list, description="Les tags de l'item")
+    sub_item_ids: list[int] = Field(default_factory=list, description="Les ids des composants de l'item")
+
+
+class Showw_Item(BaseModel):
+    nom: str = Field(..., description="Le nom de l'item")
+    prix: int = Field(..., description="Le prix de l'item")
+    description: str = Field(..., description="La description de l'item")
+    categorie: str = Field(..., description="La categorie de l'item")
+    role_item: str = Field(..., description="Le role de l'item")
+    statistiques_item: dict[str, float] = Field(..., description="Les statistiques de l'item")
+    tags_item: list[str] = Field(default_factory=list, description="Les tags de l'item")
+    sub_item_ids: list[int] = Field(default_factory=list, description="Les ids des composants de l'item")
+
+
+class ItemList(BaseModel):
+    items: list[Item]
+    def __init__(self, items: list[Item]):
+        self.items = items
+    def add_item(self, item: Item):
+        self.items.append(item)
+    def remove_item(self, item: Item):
+        self.items.remove(item)
+    def get_item(self, id: int):
+        return next((item for item in self.items if item.id == id), None)
+    def get_items(self):
+        return self.items
+    def get_item_by_name(self, name: str):
+        return next((item for item in self.items if item.name == name), None)
