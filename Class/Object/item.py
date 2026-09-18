@@ -11,7 +11,7 @@ class Item(BaseModel):
     prix: int = Field(..., description="Le prix de l'item")
     description: str = Field(..., description="La description de l'item")
     categorie: str = Field(..., description="La categorie de l'item")
-    activable: Activable = Field(..., description="Si l'item est activable ou non")
+    activable: Activable = Field(Activable.NO, description="Si l'item est activable ou non")
     role: str = Field(..., description="Le role de l'item")
     statistiques: dict[str, float] = Field(..., description="Les statistiques de l'item")
     tags: list[str] = Field(default_factory=list, description="Les tags de l'item")

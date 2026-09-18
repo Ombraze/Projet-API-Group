@@ -7,7 +7,7 @@
     {
       "id": 266,
       "cle": "Aatrox",
-      "nom": "Aatrox",
+      "name": "Aatrox",
       "titre": "Épée des Darkin",
       "roles": [
         "fight"
@@ -42,7 +42,7 @@
     {
       "id": 103,
       "cle": "Ahri",
-      "nom": "Ahri",
+      "name": "Ahri",
       "titre": "Renarde à neuf queues",
       "roles": [
         "mage",
@@ -78,7 +78,7 @@
     {
       "id": 84,
       "cle": "Akali",
-      "nom": "Akali",
+      "name": "Akali",
       "titre": "Assassine rebelle",
       "roles": [
         "assassin"
@@ -113,7 +113,7 @@
     {
       "id": 166,
       "cle": "Akshan",
-      "nom": "Akshan",
+      "name": "Akshan",
       "titre": "Sentinelle rebelle",
       "roles": [
         "marksman",
@@ -149,7 +149,7 @@
     {
       "id": 12,
       "cle": "Alistar",
-      "nom": "Alistar",
+      "name": "Alistar",
       "titre": "Minotaure",
       "roles": [
         "tank",
@@ -185,7 +185,7 @@
     {
       "id": 799,
       "cle": "Ambessa",
-      "nom": "Ambessa",
+      "name": "Ambessa",
       "titre": "Matriarche de guerre",
       "roles": [
         "fight",
@@ -221,7 +221,7 @@
     {
       "id": 32,
       "cle": "Amumu",
-      "nom": "Amumu",
+      "name": "Amumu",
       "titre": "Momie mélancolique",
       "roles": [
         "tank",
@@ -257,7 +257,7 @@
     {
       "id": 34,
       "cle": "Anivia",
-      "nom": "Anivia",
+      "name": "Anivia",
       "titre": "Cryophénix",
       "roles": [
         "mage"
@@ -292,7 +292,7 @@
     {
       "id": 1,
       "cle": "Annie",
-      "nom": "Annie",
+      "name": "Annie",
       "titre": "Enfant des ténèbres",
       "roles": [
         "mage",
@@ -328,7 +328,7 @@
     {
       "id": 523,
       "cle": "Aphelios",
-      "nom": "Aphelios",
+      "name": "Aphelios",
       "titre": "Arme des Lunaris",
       "roles": [
         "marksman"
@@ -363,7 +363,7 @@
     {
       "id": 22,
       "cle": "Ashe",
-      "nom": "Ashe",
+      "name": "Ashe",
       "titre": "Archère de givre",
       "roles": [
         "marksman",
@@ -399,7 +399,7 @@
     {
       "id": 136,
       "cle": "AurelionSol",
-      "nom": "Aurelion Sol",
+      "name": "Aurelion Sol",
       "titre": "Forgeur d'étoiles",
       "roles": [
         "mage"
@@ -434,7 +434,7 @@
     {
       "id": 893,
       "cle": "Aurora",
-      "nom": "Aurora",
+      "name": "Aurora",
       "titre": "Sorcière d'entre les mondes",
       "roles": [
         "mage",
@@ -470,7 +470,7 @@
     {
       "id": 268,
       "cle": "Azir",
-      "nom": "Azir",
+      "name": "Azir",
       "titre": "Empereur des sables",
       "roles": [
         "mage",
@@ -506,7 +506,7 @@
     {
       "id": 432,
       "cle": "Bard",
-      "nom": "Bard",
+      "name": "Bard",
       "titre": "Gardien errant",
       "roles": [
         "support",
@@ -542,7 +542,7 @@
     {
       "id": 200,
       "cle": "Belveth",
-      "nom": "Bel'Veth",
+      "name": "Bel'Veth",
       "titre": "Impératrice du Néant",
       "roles": [
         "fight"
@@ -577,7 +577,7 @@
     {
       "id": 53,
       "cle": "Blitzcrank",
-      "nom": "Blitzcrank",
+      "name": "Blitzcrank",
       "titre": "Golem de vapeur",
       "roles": [
         "tank",
@@ -613,7 +613,7 @@
     {
       "id": 63,
       "cle": "Brand",
-      "nom": "Brand",
+      "name": "Brand",
       "titre": "Vengeur flamboyant",
       "roles": [
         "mage",
@@ -649,7 +649,7 @@
     {
       "id": 201,
       "cle": "Braum",
-      "nom": "Braum",
+      "name": "Braum",
       "titre": "Cœur de Freljord",
       "roles": [
         "tank",
@@ -685,7 +685,7 @@
     {
       "id": 233,
       "cle": "Briar",
-      "nom": "Briar",
+      "name": "Briar",
       "titre": "Faim insatiable",
       "roles": [
         "fight",
@@ -721,7 +721,7 @@
     {
       "id": 51,
       "cle": "Caitlyn",
-      "nom": "Caitlyn",
+      "name": "Caitlyn",
       "titre": "Shérif de Piltover",
       "roles": [
         "marksman"
@@ -756,7 +756,7 @@
     {
       "id": 164,
       "cle": "Camille",
-      "nom": "Camille",
+      "name": "Camille",
       "titre": "Ombre d'acier",
       "roles": [
         "fight",
@@ -792,7 +792,7 @@
     {
       "id": 69,
       "cle": "Cassiopeia",
-      "nom": "Cassiopeia",
+      "name": "Cassiopeia",
       "titre": "Étreinte du serpent",
       "roles": [
         "mage"
@@ -827,7 +827,7 @@
     {
       "id": 31,
       "cle": "Chogath",
-      "nom": "Cho'Gath",
+      "name": "Cho'Gath",
       "titre": "Terreur noire",
       "roles": [
         "tank",
@@ -863,7 +863,7 @@
     {
       "id": 42,
       "cle": "Corki",
-      "nom": "Corki",
+      "name": "Corki",
       "titre": "Artilleur téméraire",
       "roles": [
         "marksman",
@@ -899,7 +899,7 @@
     {
       "id": 122,
       "cle": "Darius",
-      "nom": "Darius",
+      "name": "Darius",
       "titre": "Main de Noxus",
       "roles": [
         "fight",
@@ -935,7 +935,7 @@
     {
       "id": 131,
       "cle": "Diana",
-      "nom": "Diana",
+      "name": "Diana",
       "titre": "Mépris de la lune",
       "roles": [
         "fight",
@@ -971,7 +971,7 @@
     {
       "id": 36,
       "cle": "DrMundo",
-      "nom": "Dr. Mundo",
+      "name": "Dr. Mundo",
       "titre": "Dément de Zaun",
       "roles": [
         "tank",
@@ -1007,7 +1007,7 @@
     {
       "id": 119,
       "cle": "Draven",
-      "nom": "Draven",
+      "name": "Draven",
       "titre": "Glorieux exécuteur",
       "roles": [
         "marksman"
@@ -1042,7 +1042,7 @@
     {
       "id": 245,
       "cle": "Ekko",
-      "nom": "Ekko",
+      "name": "Ekko",
       "titre": "Fractureur du temps",
       "roles": [
         "assassin",
@@ -1078,7 +1078,7 @@
     {
       "id": 60,
       "cle": "Elise",
-      "nom": "Elise",
+      "name": "Elise",
       "titre": "Reine araignée",
       "roles": [
         "assassin",
@@ -1114,7 +1114,7 @@
     {
       "id": 28,
       "cle": "Evelynn",
-      "nom": "Evelynn",
+      "name": "Evelynn",
       "titre": "Démon sadique",
       "roles": [
         "assassin",
@@ -1150,7 +1150,7 @@
     {
       "id": 81,
       "cle": "Ezreal",
-      "nom": "Ezreal",
+      "name": "Ezreal",
       "titre": "Explorateur prodigue",
       "roles": [
         "marksman",
@@ -1186,7 +1186,7 @@
     {
       "id": 9,
       "cle": "Fiddlesticks",
-      "nom": "Fiddlesticks",
+      "name": "Fiddlesticks",
       "titre": "Effroi nocturne",
       "roles": [
         "mage",
@@ -1222,7 +1222,7 @@
     {
       "id": 114,
       "cle": "Fiora",
-      "nom": "Fiora",
+      "name": "Fiora",
       "titre": "Sublime bretteuse",
       "roles": [
         "fight",
@@ -1258,7 +1258,7 @@
     {
       "id": 105,
       "cle": "Fizz",
-      "nom": "Fizz",
+      "name": "Fizz",
       "titre": "Filou des mers",
       "roles": [
         "assassin",
@@ -1294,7 +1294,7 @@
     {
       "id": 3,
       "cle": "Galio",
-      "nom": "Galio",
+      "name": "Galio",
       "titre": "Colosse",
       "roles": [
         "tank",
@@ -1330,7 +1330,7 @@
     {
       "id": 41,
       "cle": "Gangplank",
-      "nom": "Gangplank",
+      "name": "Gangplank",
       "titre": "Fléau des mers",
       "roles": [
         "fight"
@@ -1365,7 +1365,7 @@
     {
       "id": 86,
       "cle": "Garen",
-      "nom": "Garen",
+      "name": "Garen",
       "titre": "Force de Demacia",
       "roles": [
         "fight",
@@ -1401,7 +1401,7 @@
     {
       "id": 150,
       "cle": "Gnar",
-      "nom": "Gnar",
+      "name": "Gnar",
       "titre": "Chaînon manquant",
       "roles": [
         "fight",
@@ -1437,7 +1437,7 @@
     {
       "id": 79,
       "cle": "Gragas",
-      "nom": "Gragas",
+      "name": "Gragas",
       "titre": "Agitateur",
       "roles": [
         "fight",
@@ -1473,7 +1473,7 @@
     {
       "id": 104,
       "cle": "Graves",
-      "nom": "Graves",
+      "name": "Graves",
       "titre": "Hors-la-loi",
       "roles": [
         "marksman"
@@ -1508,7 +1508,7 @@
     {
       "id": 887,
       "cle": "Gwen",
-      "nom": "Gwen",
+      "name": "Gwen",
       "titre": "Couturière sacrée",
       "roles": [
         "fight"
@@ -1543,7 +1543,7 @@
     {
       "id": 120,
       "cle": "Hecarim",
-      "nom": "Hecarim",
+      "name": "Hecarim",
       "titre": "Ombre de la guerre",
       "roles": [
         "fight",
@@ -1579,7 +1579,7 @@
     {
       "id": 74,
       "cle": "Heimerdinger",
-      "nom": "Heimerdinger",
+      "name": "Heimerdinger",
       "titre": "Inventeur réputé",
       "roles": [
         "mage",
@@ -1615,7 +1615,7 @@
     {
       "id": 910,
       "cle": "Hwei",
-      "nom": "Hwei",
+      "name": "Hwei",
       "titre": "Visionnaire",
       "roles": [
         "mage",
@@ -1651,7 +1651,7 @@
     {
       "id": 420,
       "cle": "Illaoi",
-      "nom": "Illaoi",
+      "name": "Illaoi",
       "titre": "Prêtresse du kraken",
       "roles": [
         "fight",
@@ -1687,7 +1687,7 @@
     {
       "id": 39,
       "cle": "Irelia",
-      "nom": "Irelia",
+      "name": "Irelia",
       "titre": "Danseuse des lames",
       "roles": [
         "fight",
@@ -1723,7 +1723,7 @@
     {
       "id": 427,
       "cle": "Ivern",
-      "nom": "Ivern",
+      "name": "Ivern",
       "titre": "Aîné de la forêt",
       "roles": [
         "support",
@@ -1759,7 +1759,7 @@
     {
       "id": 40,
       "cle": "Janna",
-      "nom": "Janna",
+      "name": "Janna",
       "titre": "Avatar de l'air",
       "roles": [
         "support",
@@ -1795,7 +1795,7 @@
     {
       "id": 59,
       "cle": "JarvanIV",
-      "nom": "Jarvan IV",
+      "name": "Jarvan IV",
       "titre": "Exemple demacien",
       "roles": [
         "fight",
@@ -1831,7 +1831,7 @@
     {
       "id": 24,
       "cle": "Jax",
-      "nom": "Jax",
+      "name": "Jax",
       "titre": "Maître d'armes",
       "roles": [
         "fight"
@@ -1866,7 +1866,7 @@
     {
       "id": 126,
       "cle": "Jayce",
-      "nom": "Jayce",
+      "name": "Jayce",
       "titre": "Protecteur du futur",
       "roles": [
         "fight",
@@ -1902,7 +1902,7 @@
     {
       "id": 202,
       "cle": "Jhin",
-      "nom": "Jhin",
+      "name": "Jhin",
       "titre": "Virtuose",
       "roles": [
         "marksman",
@@ -1938,7 +1938,7 @@
     {
       "id": 222,
       "cle": "Jinx",
-      "nom": "Jinx",
+      "name": "Jinx",
       "titre": "Gâchette folle",
       "roles": [
         "marksman"
@@ -1973,7 +1973,7 @@
     {
       "id": 897,
       "cle": "KSante",
-      "nom": "K'Santé",
+      "name": "K'Santé",
       "titre": "Fierté de Nazumah",
       "roles": [
         "tank",
@@ -2009,7 +2009,7 @@
     {
       "id": 145,
       "cle": "Kaisa",
-      "nom": "Kai'Sa",
+      "name": "Kai'Sa",
       "titre": "Fille du Néant",
       "roles": [
         "marksman",
@@ -2045,7 +2045,7 @@
     {
       "id": 429,
       "cle": "Kalista",
-      "nom": "Kalista",
+      "name": "Kalista",
       "titre": "Lance de la vengeance",
       "roles": [
         "marksman"
@@ -2080,7 +2080,7 @@
     {
       "id": 43,
       "cle": "Karma",
-      "nom": "Karma",
+      "name": "Karma",
       "titre": "Sagesse incarnée",
       "roles": [
         "mage",
@@ -2116,7 +2116,7 @@
     {
       "id": 30,
       "cle": "Karthus",
-      "nom": "Karthus",
+      "name": "Karthus",
       "titre": "Liche",
       "roles": [
         "mage"
@@ -2151,7 +2151,7 @@
     {
       "id": 38,
       "cle": "Kassadin",
-      "nom": "Kassadin",
+      "name": "Kassadin",
       "titre": "Chasseur du Néant",
       "roles": [
         "assassin",
@@ -2187,7 +2187,7 @@
     {
       "id": 55,
       "cle": "Katarina",
-      "nom": "Katarina",
+      "name": "Katarina",
       "titre": "Lame sinistre",
       "roles": [
         "assassin",
@@ -2223,7 +2223,7 @@
     {
       "id": 10,
       "cle": "Kayle",
-      "nom": "Kayle",
+      "name": "Kayle",
       "titre": "Vertueuse",
       "roles": [
         "marksman",
@@ -2259,7 +2259,7 @@
     {
       "id": 141,
       "cle": "Kayn",
-      "nom": "Kayn",
+      "name": "Kayn",
       "titre": "Faucheur de l'ombre",
       "roles": [
         "fight",
@@ -2295,7 +2295,7 @@
     {
       "id": 85,
       "cle": "Kennen",
-      "nom": "Kennen",
+      "name": "Kennen",
       "titre": "Cœur de la tempête",
       "roles": [
         "mage"
@@ -2330,7 +2330,7 @@
     {
       "id": 121,
       "cle": "Khazix",
-      "nom": "Kha'Zix",
+      "name": "Kha'Zix",
       "titre": "Faucheur du Néant",
       "roles": [
         "assassin"
@@ -2365,7 +2365,7 @@
     {
       "id": 203,
       "cle": "Kindred",
-      "nom": "Kindred",
+      "name": "Kindred",
       "titre": "Chasseurs éternels",
       "roles": [
         "marksman"
@@ -2400,7 +2400,7 @@
     {
       "id": 240,
       "cle": "Kled",
-      "nom": "Kled",
+      "name": "Kled",
       "titre": "Cavalier colérique",
       "roles": [
         "fight"
@@ -2435,7 +2435,7 @@
     {
       "id": 96,
       "cle": "KogMaw",
-      "nom": "Kog'Maw",
+      "name": "Kog'Maw",
       "titre": "Gueule des abysses",
       "roles": [
         "marksman",
@@ -2471,7 +2471,7 @@
     {
       "id": 7,
       "cle": "Leblanc",
-      "nom": "LeBlanc",
+      "name": "LeBlanc",
       "titre": "Manipulatrice",
       "roles": [
         "assassin",
@@ -2507,7 +2507,7 @@
     {
       "id": 64,
       "cle": "LeeSin",
-      "nom": "Lee Sin",
+      "name": "Lee Sin",
       "titre": "Moine aveugle",
       "roles": [
         "fight",
@@ -2543,7 +2543,7 @@
     {
       "id": 89,
       "cle": "Leona",
-      "nom": "Leona",
+      "name": "Leona",
       "titre": "Aube radieuse",
       "roles": [
         "tank",
@@ -2579,7 +2579,7 @@
     {
       "id": 876,
       "cle": "Lillia",
-      "nom": "Lillia",
+      "name": "Lillia",
       "titre": "Fleur timide",
       "roles": [
         "fight",
@@ -2615,7 +2615,7 @@
     {
       "id": 127,
       "cle": "Lissandra",
-      "nom": "Lissandra",
+      "name": "Lissandra",
       "titre": "Sorcière de glace",
       "roles": [
         "mage"
@@ -2650,7 +2650,7 @@
     {
       "id": 805,
       "cle": "Locke",
-      "nom": "Locke",
+      "name": "Locke",
       "titre": "Exorciste cendré",
       "roles": [
         "assassin",
@@ -2686,7 +2686,7 @@
     {
       "id": 236,
       "cle": "Lucian",
-      "nom": "Lucian",
+      "name": "Lucian",
       "titre": "Purificateur",
       "roles": [
         "marksman",
@@ -2722,7 +2722,7 @@
     {
       "id": 117,
       "cle": "Lulu",
-      "nom": "Lulu",
+      "name": "Lulu",
       "titre": "Sorcière féérique",
       "roles": [
         "support",
@@ -2758,7 +2758,7 @@
     {
       "id": 99,
       "cle": "Lux",
-      "nom": "Lux",
+      "name": "Lux",
       "titre": "Dame de lumière",
       "roles": [
         "mage",
@@ -2794,7 +2794,7 @@
     {
       "id": 54,
       "cle": "Malphite",
-      "nom": "Malphite",
+      "name": "Malphite",
       "titre": "Éclat du monolithe",
       "roles": [
         "tank",
@@ -2830,7 +2830,7 @@
     {
       "id": 90,
       "cle": "Malzahar",
-      "nom": "Malzahar",
+      "name": "Malzahar",
       "titre": "Prophète du Néant",
       "roles": [
         "mage"
@@ -2865,7 +2865,7 @@
     {
       "id": 57,
       "cle": "Maokai",
-      "nom": "Maokai",
+      "name": "Maokai",
       "titre": "Tréant torturé",
       "roles": [
         "tank",
@@ -2901,7 +2901,7 @@
     {
       "id": 11,
       "cle": "MasterYi",
-      "nom": "Maître Yi",
+      "name": "Maître Yi",
       "titre": "Fine lame Wuju",
       "roles": [
         "fight",
@@ -2937,7 +2937,7 @@
     {
       "id": 800,
       "cle": "Mel",
-      "nom": "Mel",
+      "name": "Mel",
       "titre": "Reflet de l'âme",
       "roles": [
         "mage",
@@ -2973,7 +2973,7 @@
     {
       "id": 902,
       "cle": "Milio",
-      "nom": "Milio",
+      "name": "Milio",
       "titre": "Douce flamme",
       "roles": [
         "support",
@@ -3009,7 +3009,7 @@
     {
       "id": 21,
       "cle": "MissFortune",
-      "nom": "Miss Fortune",
+      "name": "Miss Fortune",
       "titre": "Chasseuse de primes",
       "roles": [
         "marksman",
@@ -3045,7 +3045,7 @@
     {
       "id": 82,
       "cle": "Mordekaiser",
-      "nom": "Mordekaiser",
+      "name": "Mordekaiser",
       "titre": "Revenant de fer",
       "roles": [
         "fight",
@@ -3081,7 +3081,7 @@
     {
       "id": 25,
       "cle": "Morgana",
-      "nom": "Morgana",
+      "name": "Morgana",
       "titre": "Déchue",
       "roles": [
         "support",
@@ -3117,7 +3117,7 @@
     {
       "id": 950,
       "cle": "Naafiri",
-      "nom": "Naafiri",
+      "name": "Naafiri",
       "titre": "la meute de fer",
       "roles": [
         "assassin",
@@ -3153,7 +3153,7 @@
     {
       "id": 267,
       "cle": "Nami",
-      "nom": "Nami",
+      "name": "Nami",
       "titre": "Aquamancienne",
       "roles": [
         "support",
@@ -3189,7 +3189,7 @@
     {
       "id": 75,
       "cle": "Nasus",
-      "nom": "Nasus",
+      "name": "Nasus",
       "titre": "Gardien des sables",
       "roles": [
         "fight",
@@ -3225,7 +3225,7 @@
     {
       "id": 111,
       "cle": "Nautilus",
-      "nom": "Nautilus",
+      "name": "Nautilus",
       "titre": "Titan des profondeurs",
       "roles": [
         "tank",
@@ -3261,7 +3261,7 @@
     {
       "id": 518,
       "cle": "Neeko",
-      "nom": "Neeko",
+      "name": "Neeko",
       "titre": "Caméléon curieux",
       "roles": [
         "mage",
@@ -3297,7 +3297,7 @@
     {
       "id": 76,
       "cle": "Nidalee",
-      "nom": "Nidalee",
+      "name": "Nidalee",
       "titre": "Chasseresse bestiale",
       "roles": [
         "assassin",
@@ -3333,7 +3333,7 @@
     {
       "id": 895,
       "cle": "Nilah",
-      "nom": "Nilah",
+      "name": "Nilah",
       "titre": "Joie incarnée",
       "roles": [
         "fight",
@@ -3369,7 +3369,7 @@
     {
       "id": 56,
       "cle": "Nocturne",
-      "nom": "Nocturne",
+      "name": "Nocturne",
       "titre": "Éternel cauchemar",
       "roles": [
         "fight",
@@ -3405,7 +3405,7 @@
     {
       "id": 20,
       "cle": "Nunu",
-      "nom": "Nunu et Willump",
+      "name": "Nunu et Willump",
       "titre": "Le Garçon et son yéti",
       "roles": [
         "tank",
@@ -3441,7 +3441,7 @@
     {
       "id": 2,
       "cle": "Olaf",
-      "nom": "Olaf",
+      "name": "Olaf",
       "titre": "Berzerker",
       "roles": [
         "fight",
@@ -3477,7 +3477,7 @@
     {
       "id": 61,
       "cle": "Orianna",
-      "nom": "Orianna",
+      "name": "Orianna",
       "titre": "Demoiselle mécanique",
       "roles": [
         "mage",
@@ -3513,7 +3513,7 @@
     {
       "id": 516,
       "cle": "Ornn",
-      "nom": "Ornn",
+      "name": "Ornn",
       "titre": "Dieu de la forge volcanique",
       "roles": [
         "tank"
@@ -3548,7 +3548,7 @@
     {
       "id": 80,
       "cle": "Pantheon",
-      "nom": "Pantheon",
+      "name": "Pantheon",
       "titre": "Lance éternelle",
       "roles": [
         "fight",
@@ -3584,7 +3584,7 @@
     {
       "id": 78,
       "cle": "Poppy",
-      "nom": "Poppy",
+      "name": "Poppy",
       "titre": "Gardienne du marteau",
       "roles": [
         "tank",
@@ -3620,7 +3620,7 @@
     {
       "id": 555,
       "cle": "Pyke",
-      "nom": "Pyke",
+      "name": "Pyke",
       "titre": "Éventreur des abysses",
       "roles": [
         "support",
@@ -3656,7 +3656,7 @@
     {
       "id": 246,
       "cle": "Qiyana",
-      "nom": "Qiyana",
+      "name": "Qiyana",
       "titre": "Impératrice des éléments",
       "roles": [
         "assassin"
@@ -3691,7 +3691,7 @@
     {
       "id": 133,
       "cle": "Quinn",
-      "nom": "Quinn",
+      "name": "Quinn",
       "titre": "Ailes de Demacia",
       "roles": [
         "marksman",
@@ -3727,7 +3727,7 @@
     {
       "id": 497,
       "cle": "Rakan",
-      "nom": "Rakan",
+      "name": "Rakan",
       "titre": "Charmeur",
       "roles": [
         "support"
@@ -3762,7 +3762,7 @@
     {
       "id": 33,
       "cle": "Rammus",
-      "nom": "Rammus",
+      "name": "Rammus",
       "titre": "Tatou blindé",
       "roles": [
         "tank"
@@ -3797,7 +3797,7 @@
     {
       "id": 421,
       "cle": "RekSai",
-      "nom": "Rek'Sai",
+      "name": "Rek'Sai",
       "titre": "Traqueuse du Néant",
       "roles": [
         "fight",
@@ -3833,7 +3833,7 @@
     {
       "id": 526,
       "cle": "Rell",
-      "nom": "Rell",
+      "name": "Rell",
       "titre": "Cavalière de fer",
       "roles": [
         "tank",
@@ -3869,7 +3869,7 @@
     {
       "id": 888,
       "cle": "Renata",
-      "nom": "Renata Glasc",
+      "name": "Renata Glasc",
       "titre": "Baronne de la chimie",
       "roles": [
         "support",
@@ -3905,7 +3905,7 @@
     {
       "id": 58,
       "cle": "Renekton",
-      "nom": "Renekton",
+      "name": "Renekton",
       "titre": "Dévoreur des sables",
       "roles": [
         "fight",
@@ -3941,7 +3941,7 @@
     {
       "id": 107,
       "cle": "Rengar",
-      "nom": "Rengar",
+      "name": "Rengar",
       "titre": "Fier traqueur",
       "roles": [
         "assassin",
@@ -3977,7 +3977,7 @@
     {
       "id": 92,
       "cle": "Riven",
-      "nom": "Riven",
+      "name": "Riven",
       "titre": "Exilée brisée",
       "roles": [
         "fight",
@@ -4013,7 +4013,7 @@
     {
       "id": 68,
       "cle": "Rumble",
-      "nom": "Rumble",
+      "name": "Rumble",
       "titre": "Menace mécanisée",
       "roles": [
         "fight",
@@ -4049,7 +4049,7 @@
     {
       "id": 13,
       "cle": "Ryze",
-      "nom": "Ryze",
+      "name": "Ryze",
       "titre": "Mage runique",
       "roles": [
         "mage"
@@ -4084,7 +4084,7 @@
     {
       "id": 360,
       "cle": "Samira",
-      "nom": "Samira",
+      "name": "Samira",
       "titre": "Rose du désert",
       "roles": [
         "marksman",
@@ -4120,7 +4120,7 @@
     {
       "id": 113,
       "cle": "Sejuani",
-      "nom": "Sejuani",
+      "name": "Sejuani",
       "titre": "Fureur du nord",
       "roles": [
         "tank"
@@ -4155,7 +4155,7 @@
     {
       "id": 235,
       "cle": "Senna",
-      "nom": "Senna",
+      "name": "Senna",
       "titre": "Rédemptrice",
       "roles": [
         "support",
@@ -4191,7 +4191,7 @@
     {
       "id": 875,
       "cle": "Sett",
-      "nom": "Sett",
+      "name": "Sett",
       "titre": "Patron",
       "roles": [
         "fight",
@@ -4227,7 +4227,7 @@
     {
       "id": 35,
       "cle": "Shaco",
-      "nom": "Shaco",
+      "name": "Shaco",
       "titre": "Bouffon des ténèbres",
       "roles": [
         "assassin"
@@ -4262,7 +4262,7 @@
     {
       "id": 98,
       "cle": "Shen",
-      "nom": "Shen",
+      "name": "Shen",
       "titre": "Œil du crépuscule",
       "roles": [
         "tank"
@@ -4297,7 +4297,7 @@
     {
       "id": 102,
       "cle": "Shyvana",
-      "nom": "Shyvana",
+      "name": "Shyvana",
       "titre": "Demi-dragon",
       "roles": [
         "fight",
@@ -4333,7 +4333,7 @@
     {
       "id": 27,
       "cle": "Singed",
-      "nom": "Singed",
+      "name": "Singed",
       "titre": "Chimiste fou",
       "roles": [
         "tank",
@@ -4369,7 +4369,7 @@
     {
       "id": 14,
       "cle": "Sion",
-      "nom": "Sion",
+      "name": "Sion",
       "titre": "Colosse mort-vivant",
       "roles": [
         "tank",
@@ -4405,7 +4405,7 @@
     {
       "id": 15,
       "cle": "Sivir",
-      "nom": "Sivir",
+      "name": "Sivir",
       "titre": "Mercenaire du désert",
       "roles": [
         "marksman"
@@ -4440,7 +4440,7 @@
     {
       "id": 72,
       "cle": "Skarner",
-      "nom": "Skarner",
+      "name": "Skarner",
       "titre": "Souverain originel",
       "roles": [
         "tank",
@@ -4476,7 +4476,7 @@
     {
       "id": 901,
       "cle": "Smolder",
-      "nom": "Smolder",
+      "name": "Smolder",
       "titre": "Dragonnet flamboyant",
       "roles": [
         "marksman",
@@ -4512,7 +4512,7 @@
     {
       "id": 37,
       "cle": "Sona",
-      "nom": "Sona",
+      "name": "Sona",
       "titre": "Virtuose de la harpe",
       "roles": [
         "support",
@@ -4548,7 +4548,7 @@
     {
       "id": 16,
       "cle": "Soraka",
-      "nom": "Soraka",
+      "name": "Soraka",
       "titre": "Enfant des étoiles",
       "roles": [
         "support",
@@ -4584,7 +4584,7 @@
     {
       "id": 50,
       "cle": "Swain",
-      "nom": "Swain",
+      "name": "Swain",
       "titre": "Grand général noxien",
       "roles": [
         "mage",
@@ -4620,7 +4620,7 @@
     {
       "id": 517,
       "cle": "Sylas",
-      "nom": "Sylas",
+      "name": "Sylas",
       "titre": "Révolutionnaire déchaîné",
       "roles": [
         "mage",
@@ -4656,7 +4656,7 @@
     {
       "id": 134,
       "cle": "Syndra",
-      "nom": "Syndra",
+      "name": "Syndra",
       "titre": "Souveraine obscure",
       "roles": [
         "mage"
@@ -4691,7 +4691,7 @@
     {
       "id": 147,
       "cle": "Seraphine",
-      "nom": "Séraphine",
+      "name": "Séraphine",
       "titre": "Chanteuse rêveuse",
       "roles": [
         "support",
@@ -4727,7 +4727,7 @@
     {
       "id": 223,
       "cle": "TahmKench",
-      "nom": "Tahm Kench",
+      "name": "Tahm Kench",
       "titre": "Roi des rivières",
       "roles": [
         "tank",
@@ -4763,7 +4763,7 @@
     {
       "id": 163,
       "cle": "Taliyah",
-      "nom": "Taliyah",
+      "name": "Taliyah",
       "titre": "Tisseuse de pierres",
       "roles": [
         "mage",
@@ -4799,7 +4799,7 @@
     {
       "id": 91,
       "cle": "Talon",
-      "nom": "Talon",
+      "name": "Talon",
       "titre": "Lame des ténèbres",
       "roles": [
         "assassin"
@@ -4834,7 +4834,7 @@
     {
       "id": 44,
       "cle": "Taric",
-      "nom": "Taric",
+      "name": "Taric",
       "titre": "Bouclier de Valoran",
       "roles": [
         "support",
@@ -4870,7 +4870,7 @@
     {
       "id": 17,
       "cle": "Teemo",
-      "nom": "Teemo",
+      "name": "Teemo",
       "titre": "Éclaireur de Bandle",
       "roles": [
         "marksman",
@@ -4906,7 +4906,7 @@
     {
       "id": 412,
       "cle": "Thresh",
-      "nom": "Thresh",
+      "name": "Thresh",
       "titre": "Garde aux chaînes",
       "roles": [
         "support",
@@ -4942,7 +4942,7 @@
     {
       "id": 18,
       "cle": "Tristana",
-      "nom": "Tristana",
+      "name": "Tristana",
       "titre": "Canonnière yordle",
       "roles": [
         "marksman",
@@ -4978,7 +4978,7 @@
     {
       "id": 48,
       "cle": "Trundle",
-      "nom": "Trundle",
+      "name": "Trundle",
       "titre": "Roi des trolls",
       "roles": [
         "fight",
@@ -5014,7 +5014,7 @@
     {
       "id": 23,
       "cle": "Tryndamere",
-      "nom": "Tryndamere",
+      "name": "Tryndamere",
       "titre": "Roi barbare",
       "roles": [
         "fight",
@@ -5050,7 +5050,7 @@
     {
       "id": 4,
       "cle": "TwistedFate",
-      "nom": "Twisted Fate",
+      "name": "Twisted Fate",
       "titre": "Maître des cartes",
       "roles": [
         "mage",
@@ -5086,7 +5086,7 @@
     {
       "id": 29,
       "cle": "Twitch",
-      "nom": "Twitch",
+      "name": "Twitch",
       "titre": "Semeur de peste",
       "roles": [
         "marksman",
@@ -5122,7 +5122,7 @@
     {
       "id": 77,
       "cle": "Udyr",
-      "nom": "Udyr",
+      "name": "Udyr",
       "titre": "Gardien des esprits",
       "roles": [
         "fight",
@@ -5158,7 +5158,7 @@
     {
       "id": 6,
       "cle": "Urgot",
-      "nom": "Urgot",
+      "name": "Urgot",
       "titre": "Broyeur",
       "roles": [
         "fight",
@@ -5194,7 +5194,7 @@
     {
       "id": 110,
       "cle": "Varus",
-      "nom": "Varus",
+      "name": "Varus",
       "titre": "Flèche de la vengeance",
       "roles": [
         "marksman",
@@ -5230,7 +5230,7 @@
     {
       "id": 67,
       "cle": "Vayne",
-      "nom": "Vayne",
+      "name": "Vayne",
       "titre": "Chasseresse nocturne",
       "roles": [
         "marksman",
@@ -5266,7 +5266,7 @@
     {
       "id": 45,
       "cle": "Veigar",
-      "nom": "Veigar",
+      "name": "Veigar",
       "titre": "Seigneur des maléfices",
       "roles": [
         "mage"
@@ -5301,7 +5301,7 @@
     {
       "id": 161,
       "cle": "Velkoz",
-      "nom": "Vel'Koz",
+      "name": "Vel'Koz",
       "titre": "Œil du Néant",
       "roles": [
         "mage",
@@ -5337,7 +5337,7 @@
     {
       "id": 711,
       "cle": "Vex",
-      "nom": "Vex",
+      "name": "Vex",
       "titre": "Ombre du désespoir",
       "roles": [
         "mage"
@@ -5372,7 +5372,7 @@
     {
       "id": 254,
       "cle": "Vi",
-      "nom": "Vi",
+      "name": "Vi",
       "titre": "Pacifieuse de Piltover",
       "roles": [
         "fight",
@@ -5408,7 +5408,7 @@
     {
       "id": 234,
       "cle": "Viego",
-      "nom": "Viego",
+      "name": "Viego",
       "titre": "Roi déchu",
       "roles": [
         "fight",
@@ -5444,7 +5444,7 @@
     {
       "id": 112,
       "cle": "Viktor",
-      "nom": "Viktor",
+      "name": "Viktor",
       "titre": "Héraut de l'arcane",
       "roles": [
         "mage"
@@ -5479,7 +5479,7 @@
     {
       "id": 8,
       "cle": "Vladimir",
-      "nom": "Vladimir",
+      "name": "Vladimir",
       "titre": "Saigneur pourpre",
       "roles": [
         "mage",
@@ -5515,7 +5515,7 @@
     {
       "id": 106,
       "cle": "Volibear",
-      "nom": "Volibear",
+      "name": "Volibear",
       "titre": "Tempête impitoyable",
       "roles": [
         "fight",
@@ -5551,7 +5551,7 @@
     {
       "id": 19,
       "cle": "Warwick",
-      "nom": "Warwick",
+      "name": "Warwick",
       "titre": "Fureur déchaînée de Zaun",
       "roles": [
         "fight",
@@ -5587,7 +5587,7 @@
     {
       "id": 62,
       "cle": "MonkeyKing",
-      "nom": "Wukong",
+      "name": "Wukong",
       "titre": "Roi des singes",
       "roles": [
         "fight",
@@ -5623,7 +5623,7 @@
     {
       "id": 498,
       "cle": "Xayah",
-      "nom": "Xayah",
+      "name": "Xayah",
       "titre": "Rebelle",
       "roles": [
         "marksman"
@@ -5658,7 +5658,7 @@
     {
       "id": 101,
       "cle": "Xerath",
-      "nom": "Xerath",
+      "name": "Xerath",
       "titre": "Mage suprême",
       "roles": [
         "mage",
@@ -5694,7 +5694,7 @@
     {
       "id": 5,
       "cle": "XinZhao",
-      "nom": "Xin Zhao",
+      "name": "Xin Zhao",
       "titre": "Sénéchal de Demacia",
       "roles": [
         "fight",
@@ -5730,7 +5730,7 @@
     {
       "id": 157,
       "cle": "Yasuo",
-      "nom": "Yasuo",
+      "name": "Yasuo",
       "titre": "Disgracié",
       "roles": [
         "fight",
@@ -5766,7 +5766,7 @@
     {
       "id": 777,
       "cle": "Yone",
-      "nom": "Yone",
+      "name": "Yone",
       "titre": "Inoublié",
       "roles": [
         "fight",
@@ -5802,7 +5802,7 @@
     {
       "id": 83,
       "cle": "Yorick",
-      "nom": "Yorick",
+      "name": "Yorick",
       "titre": "Berger des âmes",
       "roles": [
         "fight",
@@ -5838,7 +5838,7 @@
     {
       "id": 804,
       "cle": "Yunara",
-      "nom": "Yunara",
+      "name": "Yunara",
       "titre": "Foi inébranlable",
       "roles": [
         "marksman"
@@ -5873,7 +5873,7 @@
     {
       "id": 350,
       "cle": "Yuumi",
-      "nom": "Yuumi",
+      "name": "Yuumi",
       "titre": "Gardienne du Grimoire",
       "roles": [
         "support",
@@ -5909,7 +5909,7 @@
     {
       "id": 904,
       "cle": "Zaahen",
-      "nom": "Zaahen",
+      "name": "Zaahen",
       "titre": "Incorruptible",
       "roles": [
         "fight"
@@ -5944,7 +5944,7 @@
     {
       "id": 154,
       "cle": "Zac",
-      "nom": "Zac",
+      "name": "Zac",
       "titre": "Arme secrète",
       "roles": [
         "tank",
@@ -5980,7 +5980,7 @@
     {
       "id": 238,
       "cle": "Zed",
-      "nom": "Zed",
+      "name": "Zed",
       "titre": "Maître des ombres",
       "roles": [
         "assassin"
@@ -6015,7 +6015,7 @@
     {
       "id": 221,
       "cle": "Zeri",
-      "nom": "Zeri",
+      "name": "Zeri",
       "titre": "Étincelle de Zaun",
       "roles": [
         "marksman"
@@ -6050,7 +6050,7 @@
     {
       "id": 115,
       "cle": "Ziggs",
-      "nom": "Ziggs",
+      "name": "Ziggs",
       "titre": "Expert des Hexplosifs",
       "roles": [
         "mage"
@@ -6085,7 +6085,7 @@
     {
       "id": 26,
       "cle": "Zilean",
-      "nom": "Zilean",
+      "name": "Zilean",
       "titre": "Gardien du Temps",
       "roles": [
         "support",
@@ -6121,7 +6121,7 @@
     {
       "id": 142,
       "cle": "Zoe",
-      "nom": "Zoé",
+      "name": "Zoé",
       "titre": "Manifestation du Crépuscule",
       "roles": [
         "mage"
@@ -6156,7 +6156,7 @@
     {
       "id": 143,
       "cle": "Zyra",
-      "nom": "Zyra",
+      "name": "Zyra",
       "titre": "Dame aux ronces",
       "roles": [
         "mage",
