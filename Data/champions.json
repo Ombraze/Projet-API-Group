@@ -1,0 +1,1868 @@
+{
+  "patch": "16.18.1",
+  "source": "https://ddragon.leagueoflegends.com",
+  "carte": "Faille de l invocateur (ranked)",
+  "count": 173,
+  "champions": [
+    {
+      "id": 266,
+      "cle": "Aatrox",
+      "nom": "Aatrox",
+      "titre": "Épée des Darkin",
+      "roles": [
+        "Combattant"
+      ],
+      "ressource": "Puits de sang"
+    },
+    {
+      "id": 103,
+      "cle": "Ahri",
+      "nom": "Ahri",
+      "titre": "Renarde à neuf queues",
+      "roles": [
+        "Mage",
+        "Assassin"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 84,
+      "cle": "Akali",
+      "nom": "Akali",
+      "titre": "Assassine rebelle",
+      "roles": [
+        "Assassin"
+      ],
+      "ressource": "Énergie"
+    },
+    {
+      "id": 166,
+      "cle": "Akshan",
+      "nom": "Akshan",
+      "titre": "Sentinelle rebelle",
+      "roles": [
+        "Tireur",
+        "Assassin"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 12,
+      "cle": "Alistar",
+      "nom": "Alistar",
+      "titre": "Minotaure",
+      "roles": [
+        "Tank",
+        "Support"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 799,
+      "cle": "Ambessa",
+      "nom": "Ambessa",
+      "titre": "Matriarche de guerre",
+      "roles": [
+        "Combattant",
+        "Assassin"
+      ],
+      "ressource": "Énergie"
+    },
+    {
+      "id": 32,
+      "cle": "Amumu",
+      "nom": "Amumu",
+      "titre": "Momie mélancolique",
+      "roles": [
+        "Tank",
+        "Support"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 34,
+      "cle": "Anivia",
+      "nom": "Anivia",
+      "titre": "Cryophénix",
+      "roles": [
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 1,
+      "cle": "Annie",
+      "nom": "Annie",
+      "titre": "Enfant des ténèbres",
+      "roles": [
+        "Mage",
+        "Support"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 523,
+      "cle": "Aphelios",
+      "nom": "Aphelios",
+      "titre": "Arme des Lunaris",
+      "roles": [
+        "Tireur"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 22,
+      "cle": "Ashe",
+      "nom": "Ashe",
+      "titre": "Archère de givre",
+      "roles": [
+        "Tireur",
+        "Support"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 136,
+      "cle": "AurelionSol",
+      "nom": "Aurelion Sol",
+      "titre": "Forgeur d'étoiles",
+      "roles": [
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 893,
+      "cle": "Aurora",
+      "nom": "Aurora",
+      "titre": "Sorcière d'entre les mondes",
+      "roles": [
+        "Mage",
+        "Assassin"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 268,
+      "cle": "Azir",
+      "nom": "Azir",
+      "titre": "Empereur des sables",
+      "roles": [
+        "Mage",
+        "Tireur"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 432,
+      "cle": "Bard",
+      "nom": "Bard",
+      "titre": "Gardien errant",
+      "roles": [
+        "Support",
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 200,
+      "cle": "Belveth",
+      "nom": "Bel'Veth",
+      "titre": "Impératrice du Néant",
+      "roles": [
+        "Combattant"
+      ],
+      "ressource": ""
+    },
+    {
+      "id": 53,
+      "cle": "Blitzcrank",
+      "nom": "Blitzcrank",
+      "titre": "Golem de vapeur",
+      "roles": [
+        "Tank",
+        "Support"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 63,
+      "cle": "Brand",
+      "nom": "Brand",
+      "titre": "Vengeur flamboyant",
+      "roles": [
+        "Mage",
+        "Support"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 201,
+      "cle": "Braum",
+      "nom": "Braum",
+      "titre": "Cœur de Freljord",
+      "roles": [
+        "Tank",
+        "Support"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 233,
+      "cle": "Briar",
+      "nom": "Briar",
+      "titre": "Faim insatiable",
+      "roles": [
+        "Combattant",
+        "Assassin"
+      ],
+      "ressource": "Fureur"
+    },
+    {
+      "id": 51,
+      "cle": "Caitlyn",
+      "nom": "Caitlyn",
+      "titre": "Shérif de Piltover",
+      "roles": [
+        "Tireur"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 164,
+      "cle": "Camille",
+      "nom": "Camille",
+      "titre": "Ombre d'acier",
+      "roles": [
+        "Combattant",
+        "Assassin"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 69,
+      "cle": "Cassiopeia",
+      "nom": "Cassiopeia",
+      "titre": "Étreinte du serpent",
+      "roles": [
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 31,
+      "cle": "Chogath",
+      "nom": "Cho'Gath",
+      "titre": "Terreur noire",
+      "roles": [
+        "Tank",
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 42,
+      "cle": "Corki",
+      "nom": "Corki",
+      "titre": "Artilleur téméraire",
+      "roles": [
+        "Tireur",
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 122,
+      "cle": "Darius",
+      "nom": "Darius",
+      "titre": "Main de Noxus",
+      "roles": [
+        "Combattant",
+        "Tank"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 131,
+      "cle": "Diana",
+      "nom": "Diana",
+      "titre": "Mépris de la lune",
+      "roles": [
+        "Combattant",
+        "Assassin"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 36,
+      "cle": "DrMundo",
+      "nom": "Dr. Mundo",
+      "titre": "Dément de Zaun",
+      "roles": [
+        "Tank",
+        "Combattant"
+      ],
+      "ressource": "Aucune"
+    },
+    {
+      "id": 119,
+      "cle": "Draven",
+      "nom": "Draven",
+      "titre": "Glorieux exécuteur",
+      "roles": [
+        "Tireur"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 245,
+      "cle": "Ekko",
+      "nom": "Ekko",
+      "titre": "Fractureur du temps",
+      "roles": [
+        "Assassin",
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 60,
+      "cle": "Elise",
+      "nom": "Elise",
+      "titre": "Reine araignée",
+      "roles": [
+        "Assassin",
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 28,
+      "cle": "Evelynn",
+      "nom": "Evelynn",
+      "titre": "Démon sadique",
+      "roles": [
+        "Assassin",
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 81,
+      "cle": "Ezreal",
+      "nom": "Ezreal",
+      "titre": "Explorateur prodigue",
+      "roles": [
+        "Tireur",
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 9,
+      "cle": "Fiddlesticks",
+      "nom": "Fiddlesticks",
+      "titre": "Effroi nocturne",
+      "roles": [
+        "Mage",
+        "Support"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 114,
+      "cle": "Fiora",
+      "nom": "Fiora",
+      "titre": "Sublime bretteuse",
+      "roles": [
+        "Combattant",
+        "Assassin"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 105,
+      "cle": "Fizz",
+      "nom": "Fizz",
+      "titre": "Filou des mers",
+      "roles": [
+        "Assassin",
+        "Combattant"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 3,
+      "cle": "Galio",
+      "nom": "Galio",
+      "titre": "Colosse",
+      "roles": [
+        "Tank",
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 41,
+      "cle": "Gangplank",
+      "nom": "Gangplank",
+      "titre": "Fléau des mers",
+      "roles": [
+        "Combattant"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 86,
+      "cle": "Garen",
+      "nom": "Garen",
+      "titre": "Force de Demacia",
+      "roles": [
+        "Combattant",
+        "Tank"
+      ],
+      "ressource": "Aucune"
+    },
+    {
+      "id": 150,
+      "cle": "Gnar",
+      "nom": "Gnar",
+      "titre": "Chaînon manquant",
+      "roles": [
+        "Combattant",
+        "Tank"
+      ],
+      "ressource": "Rage"
+    },
+    {
+      "id": 79,
+      "cle": "Gragas",
+      "nom": "Gragas",
+      "titre": "Agitateur",
+      "roles": [
+        "Combattant",
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 104,
+      "cle": "Graves",
+      "nom": "Graves",
+      "titre": "Hors-la-loi",
+      "roles": [
+        "Tireur"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 887,
+      "cle": "Gwen",
+      "nom": "Gwen",
+      "titre": "Couturière sacrée",
+      "roles": [
+        "Combattant"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 120,
+      "cle": "Hecarim",
+      "nom": "Hecarim",
+      "titre": "Ombre de la guerre",
+      "roles": [
+        "Combattant",
+        "Tank"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 74,
+      "cle": "Heimerdinger",
+      "nom": "Heimerdinger",
+      "titre": "Inventeur réputé",
+      "roles": [
+        "Mage",
+        "Support"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 910,
+      "cle": "Hwei",
+      "nom": "Hwei",
+      "titre": "Visionnaire",
+      "roles": [
+        "Mage",
+        "Support"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 420,
+      "cle": "Illaoi",
+      "nom": "Illaoi",
+      "titre": "Prêtresse du kraken",
+      "roles": [
+        "Combattant",
+        "Tank"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 39,
+      "cle": "Irelia",
+      "nom": "Irelia",
+      "titre": "Danseuse des lames",
+      "roles": [
+        "Combattant",
+        "Assassin"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 427,
+      "cle": "Ivern",
+      "nom": "Ivern",
+      "titre": "Aîné de la forêt",
+      "roles": [
+        "Support",
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 40,
+      "cle": "Janna",
+      "nom": "Janna",
+      "titre": "Avatar de l'air",
+      "roles": [
+        "Support",
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 59,
+      "cle": "JarvanIV",
+      "nom": "Jarvan IV",
+      "titre": "Exemple demacien",
+      "roles": [
+        "Combattant",
+        "Tank"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 24,
+      "cle": "Jax",
+      "nom": "Jax",
+      "titre": "Maître d'armes",
+      "roles": [
+        "Combattant"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 126,
+      "cle": "Jayce",
+      "nom": "Jayce",
+      "titre": "Protecteur du futur",
+      "roles": [
+        "Combattant",
+        "Tireur"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 202,
+      "cle": "Jhin",
+      "nom": "Jhin",
+      "titre": "Virtuose",
+      "roles": [
+        "Tireur",
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 222,
+      "cle": "Jinx",
+      "nom": "Jinx",
+      "titre": "Gâchette folle",
+      "roles": [
+        "Tireur"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 897,
+      "cle": "KSante",
+      "nom": "K'Santé",
+      "titre": "Fierté de Nazumah",
+      "roles": [
+        "Tank",
+        "Combattant"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 145,
+      "cle": "Kaisa",
+      "nom": "Kai'Sa",
+      "titre": "Fille du Néant",
+      "roles": [
+        "Tireur",
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 429,
+      "cle": "Kalista",
+      "nom": "Kalista",
+      "titre": "Lance de la vengeance",
+      "roles": [
+        "Tireur"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 43,
+      "cle": "Karma",
+      "nom": "Karma",
+      "titre": "Sagesse incarnée",
+      "roles": [
+        "Mage",
+        "Support"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 30,
+      "cle": "Karthus",
+      "nom": "Karthus",
+      "titre": "Liche",
+      "roles": [
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 38,
+      "cle": "Kassadin",
+      "nom": "Kassadin",
+      "titre": "Chasseur du Néant",
+      "roles": [
+        "Assassin",
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 55,
+      "cle": "Katarina",
+      "nom": "Katarina",
+      "titre": "Lame sinistre",
+      "roles": [
+        "Assassin",
+        "Mage"
+      ],
+      "ressource": "Aucune"
+    },
+    {
+      "id": 10,
+      "cle": "Kayle",
+      "nom": "Kayle",
+      "titre": "Vertueuse",
+      "roles": [
+        "Tireur",
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 141,
+      "cle": "Kayn",
+      "nom": "Kayn",
+      "titre": "Faucheur de l'ombre",
+      "roles": [
+        "Combattant",
+        "Assassin"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 85,
+      "cle": "Kennen",
+      "nom": "Kennen",
+      "titre": "Cœur de la tempête",
+      "roles": [
+        "Mage"
+      ],
+      "ressource": "Énergie"
+    },
+    {
+      "id": 121,
+      "cle": "Khazix",
+      "nom": "Kha'Zix",
+      "titre": "Faucheur du Néant",
+      "roles": [
+        "Assassin"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 203,
+      "cle": "Kindred",
+      "nom": "Kindred",
+      "titre": "Chasseurs éternels",
+      "roles": [
+        "Tireur"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 240,
+      "cle": "Kled",
+      "nom": "Kled",
+      "titre": "Cavalier colérique",
+      "roles": [
+        "Combattant"
+      ],
+      "ressource": "Courage"
+    },
+    {
+      "id": 96,
+      "cle": "KogMaw",
+      "nom": "Kog'Maw",
+      "titre": "Gueule des abysses",
+      "roles": [
+        "Tireur",
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 7,
+      "cle": "Leblanc",
+      "nom": "LeBlanc",
+      "titre": "Manipulatrice",
+      "roles": [
+        "Assassin",
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 64,
+      "cle": "LeeSin",
+      "nom": "Lee Sin",
+      "titre": "Moine aveugle",
+      "roles": [
+        "Combattant",
+        "Assassin"
+      ],
+      "ressource": "Énergie"
+    },
+    {
+      "id": 89,
+      "cle": "Leona",
+      "nom": "Leona",
+      "titre": "Aube radieuse",
+      "roles": [
+        "Tank",
+        "Support"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 876,
+      "cle": "Lillia",
+      "nom": "Lillia",
+      "titre": "Fleur timide",
+      "roles": [
+        "Combattant",
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 127,
+      "cle": "Lissandra",
+      "nom": "Lissandra",
+      "titre": "Sorcière de glace",
+      "roles": [
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 805,
+      "cle": "Locke",
+      "nom": "Locke",
+      "titre": "Exorciste cendré",
+      "roles": [
+        "Assassin",
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 236,
+      "cle": "Lucian",
+      "nom": "Lucian",
+      "titre": "Purificateur",
+      "roles": [
+        "Tireur",
+        "Assassin"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 117,
+      "cle": "Lulu",
+      "nom": "Lulu",
+      "titre": "Sorcière féérique",
+      "roles": [
+        "Support",
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 99,
+      "cle": "Lux",
+      "nom": "Lux",
+      "titre": "Dame de lumière",
+      "roles": [
+        "Mage",
+        "Support"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 54,
+      "cle": "Malphite",
+      "nom": "Malphite",
+      "titre": "Éclat du monolithe",
+      "roles": [
+        "Tank",
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 90,
+      "cle": "Malzahar",
+      "nom": "Malzahar",
+      "titre": "Prophète du Néant",
+      "roles": [
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 57,
+      "cle": "Maokai",
+      "nom": "Maokai",
+      "titre": "Tréant torturé",
+      "roles": [
+        "Tank",
+        "Support"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 11,
+      "cle": "MasterYi",
+      "nom": "Maître Yi",
+      "titre": "Fine lame Wuju",
+      "roles": [
+        "Combattant",
+        "Assassin"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 800,
+      "cle": "Mel",
+      "nom": "Mel",
+      "titre": "Reflet de l'âme",
+      "roles": [
+        "Mage",
+        "Support"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 902,
+      "cle": "Milio",
+      "nom": "Milio",
+      "titre": "Douce flamme",
+      "roles": [
+        "Support",
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 21,
+      "cle": "MissFortune",
+      "nom": "Miss Fortune",
+      "titre": "Chasseuse de primes",
+      "roles": [
+        "Tireur",
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 82,
+      "cle": "Mordekaiser",
+      "nom": "Mordekaiser",
+      "titre": "Revenant de fer",
+      "roles": [
+        "Combattant",
+        "Mage"
+      ],
+      "ressource": "Bouclier"
+    },
+    {
+      "id": 25,
+      "cle": "Morgana",
+      "nom": "Morgana",
+      "titre": "Déchue",
+      "roles": [
+        "Support",
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 950,
+      "cle": "Naafiri",
+      "nom": "Naafiri",
+      "titre": "la meute de fer",
+      "roles": [
+        "Assassin",
+        "Combattant"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 267,
+      "cle": "Nami",
+      "nom": "Nami",
+      "titre": "Aquamancienne",
+      "roles": [
+        "Support",
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 75,
+      "cle": "Nasus",
+      "nom": "Nasus",
+      "titre": "Gardien des sables",
+      "roles": [
+        "Combattant",
+        "Tank"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 111,
+      "cle": "Nautilus",
+      "nom": "Nautilus",
+      "titre": "Titan des profondeurs",
+      "roles": [
+        "Tank",
+        "Support"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 518,
+      "cle": "Neeko",
+      "nom": "Neeko",
+      "titre": "Caméléon curieux",
+      "roles": [
+        "Mage",
+        "Support"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 76,
+      "cle": "Nidalee",
+      "nom": "Nidalee",
+      "titre": "Chasseresse bestiale",
+      "roles": [
+        "Assassin",
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 895,
+      "cle": "Nilah",
+      "nom": "Nilah",
+      "titre": "Joie incarnée",
+      "roles": [
+        "Combattant",
+        "Assassin"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 56,
+      "cle": "Nocturne",
+      "nom": "Nocturne",
+      "titre": "Éternel cauchemar",
+      "roles": [
+        "Combattant",
+        "Assassin"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 20,
+      "cle": "Nunu",
+      "nom": "Nunu et Willump",
+      "titre": "Le Garçon et son yéti",
+      "roles": [
+        "Tank",
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 2,
+      "cle": "Olaf",
+      "nom": "Olaf",
+      "titre": "Berzerker",
+      "roles": [
+        "Combattant",
+        "Tank"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 61,
+      "cle": "Orianna",
+      "nom": "Orianna",
+      "titre": "Demoiselle mécanique",
+      "roles": [
+        "Mage",
+        "Support"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 516,
+      "cle": "Ornn",
+      "nom": "Ornn",
+      "titre": "Dieu de la forge volcanique",
+      "roles": [
+        "Tank"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 80,
+      "cle": "Pantheon",
+      "nom": "Pantheon",
+      "titre": "Lance éternelle",
+      "roles": [
+        "Combattant",
+        "Assassin"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 78,
+      "cle": "Poppy",
+      "nom": "Poppy",
+      "titre": "Gardienne du marteau",
+      "roles": [
+        "Tank",
+        "Combattant"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 555,
+      "cle": "Pyke",
+      "nom": "Pyke",
+      "titre": "Éventreur des abysses",
+      "roles": [
+        "Support",
+        "Assassin"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 246,
+      "cle": "Qiyana",
+      "nom": "Qiyana",
+      "titre": "Impératrice des éléments",
+      "roles": [
+        "Assassin"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 133,
+      "cle": "Quinn",
+      "nom": "Quinn",
+      "titre": "Ailes de Demacia",
+      "roles": [
+        "Tireur",
+        "Assassin"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 497,
+      "cle": "Rakan",
+      "nom": "Rakan",
+      "titre": "Charmeur",
+      "roles": [
+        "Support"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 33,
+      "cle": "Rammus",
+      "nom": "Rammus",
+      "titre": "Tatou blindé",
+      "roles": [
+        "Tank"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 421,
+      "cle": "RekSai",
+      "nom": "Rek'Sai",
+      "titre": "Traqueuse du Néant",
+      "roles": [
+        "Combattant",
+        "Tank"
+      ],
+      "ressource": "Rage"
+    },
+    {
+      "id": 526,
+      "cle": "Rell",
+      "nom": "Rell",
+      "titre": "Cavalière de fer",
+      "roles": [
+        "Tank",
+        "Support"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 888,
+      "cle": "Renata",
+      "nom": "Renata Glasc",
+      "titre": "Baronne de la chimie",
+      "roles": [
+        "Support",
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 58,
+      "cle": "Renekton",
+      "nom": "Renekton",
+      "titre": "Dévoreur des sables",
+      "roles": [
+        "Combattant",
+        "Tank"
+      ],
+      "ressource": "Fureur"
+    },
+    {
+      "id": 107,
+      "cle": "Rengar",
+      "nom": "Rengar",
+      "titre": "Fier traqueur",
+      "roles": [
+        "Assassin",
+        "Combattant"
+      ],
+      "ressource": "Férocité"
+    },
+    {
+      "id": 92,
+      "cle": "Riven",
+      "nom": "Riven",
+      "titre": "Exilée brisée",
+      "roles": [
+        "Combattant",
+        "Assassin"
+      ],
+      "ressource": "Aucune"
+    },
+    {
+      "id": 68,
+      "cle": "Rumble",
+      "nom": "Rumble",
+      "titre": "Menace mécanisée",
+      "roles": [
+        "Combattant",
+        "Mage"
+      ],
+      "ressource": "Vapeur"
+    },
+    {
+      "id": 13,
+      "cle": "Ryze",
+      "nom": "Ryze",
+      "titre": "Mage runique",
+      "roles": [
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 360,
+      "cle": "Samira",
+      "nom": "Samira",
+      "titre": "Rose du désert",
+      "roles": [
+        "Tireur",
+        "Assassin"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 113,
+      "cle": "Sejuani",
+      "nom": "Sejuani",
+      "titre": "Fureur du nord",
+      "roles": [
+        "Tank"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 235,
+      "cle": "Senna",
+      "nom": "Senna",
+      "titre": "Rédemptrice",
+      "roles": [
+        "Support",
+        "Tireur"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 875,
+      "cle": "Sett",
+      "nom": "Sett",
+      "titre": "Patron",
+      "roles": [
+        "Combattant",
+        "Tank"
+      ],
+      "ressource": "Agressivité"
+    },
+    {
+      "id": 35,
+      "cle": "Shaco",
+      "nom": "Shaco",
+      "titre": "Bouffon des ténèbres",
+      "roles": [
+        "Assassin"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 98,
+      "cle": "Shen",
+      "nom": "Shen",
+      "titre": "Œil du crépuscule",
+      "roles": [
+        "Tank"
+      ],
+      "ressource": "Énergie"
+    },
+    {
+      "id": 102,
+      "cle": "Shyvana",
+      "nom": "Shyvana",
+      "titre": "Demi-dragon",
+      "roles": [
+        "Combattant",
+        "Tank"
+      ],
+      "ressource": "Fureur"
+    },
+    {
+      "id": 27,
+      "cle": "Singed",
+      "nom": "Singed",
+      "titre": "Chimiste fou",
+      "roles": [
+        "Tank",
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 14,
+      "cle": "Sion",
+      "nom": "Sion",
+      "titre": "Colosse mort-vivant",
+      "roles": [
+        "Tank",
+        "Combattant"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 15,
+      "cle": "Sivir",
+      "nom": "Sivir",
+      "titre": "Mercenaire du désert",
+      "roles": [
+        "Tireur"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 72,
+      "cle": "Skarner",
+      "nom": "Skarner",
+      "titre": "Souverain originel",
+      "roles": [
+        "Tank",
+        "Combattant"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 901,
+      "cle": "Smolder",
+      "nom": "Smolder",
+      "titre": "Dragonnet flamboyant",
+      "roles": [
+        "Tireur",
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 37,
+      "cle": "Sona",
+      "nom": "Sona",
+      "titre": "Virtuose de la harpe",
+      "roles": [
+        "Support",
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 16,
+      "cle": "Soraka",
+      "nom": "Soraka",
+      "titre": "Enfant des étoiles",
+      "roles": [
+        "Support",
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 50,
+      "cle": "Swain",
+      "nom": "Swain",
+      "titre": "Grand général noxien",
+      "roles": [
+        "Mage",
+        "Support"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 517,
+      "cle": "Sylas",
+      "nom": "Sylas",
+      "titre": "Révolutionnaire déchaîné",
+      "roles": [
+        "Mage",
+        "Assassin"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 134,
+      "cle": "Syndra",
+      "nom": "Syndra",
+      "titre": "Souveraine obscure",
+      "roles": [
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 147,
+      "cle": "Seraphine",
+      "nom": "Séraphine",
+      "titre": "Chanteuse rêveuse",
+      "roles": [
+        "Support",
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 223,
+      "cle": "TahmKench",
+      "nom": "Tahm Kench",
+      "titre": "Roi des rivières",
+      "roles": [
+        "Tank",
+        "Support"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 163,
+      "cle": "Taliyah",
+      "nom": "Taliyah",
+      "titre": "Tisseuse de pierres",
+      "roles": [
+        "Mage",
+        "Support"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 91,
+      "cle": "Talon",
+      "nom": "Talon",
+      "titre": "Lame des ténèbres",
+      "roles": [
+        "Assassin"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 44,
+      "cle": "Taric",
+      "nom": "Taric",
+      "titre": "Bouclier de Valoran",
+      "roles": [
+        "Support",
+        "Tank"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 17,
+      "cle": "Teemo",
+      "nom": "Teemo",
+      "titre": "Éclaireur de Bandle",
+      "roles": [
+        "Tireur",
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 412,
+      "cle": "Thresh",
+      "nom": "Thresh",
+      "titre": "Garde aux chaînes",
+      "roles": [
+        "Support",
+        "Tank"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 18,
+      "cle": "Tristana",
+      "nom": "Tristana",
+      "titre": "Canonnière yordle",
+      "roles": [
+        "Tireur",
+        "Assassin"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 48,
+      "cle": "Trundle",
+      "nom": "Trundle",
+      "titre": "Roi des trolls",
+      "roles": [
+        "Combattant",
+        "Tank"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 23,
+      "cle": "Tryndamere",
+      "nom": "Tryndamere",
+      "titre": "Roi barbare",
+      "roles": [
+        "Combattant",
+        "Assassin"
+      ],
+      "ressource": "Fureur"
+    },
+    {
+      "id": 4,
+      "cle": "TwistedFate",
+      "nom": "Twisted Fate",
+      "titre": "Maître des cartes",
+      "roles": [
+        "Mage",
+        "Tireur"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 29,
+      "cle": "Twitch",
+      "nom": "Twitch",
+      "titre": "Semeur de peste",
+      "roles": [
+        "Tireur",
+        "Assassin"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 77,
+      "cle": "Udyr",
+      "nom": "Udyr",
+      "titre": "Gardien des esprits",
+      "roles": [
+        "Combattant",
+        "Tank"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 6,
+      "cle": "Urgot",
+      "nom": "Urgot",
+      "titre": "Broyeur",
+      "roles": [
+        "Combattant",
+        "Tank"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 110,
+      "cle": "Varus",
+      "nom": "Varus",
+      "titre": "Flèche de la vengeance",
+      "roles": [
+        "Tireur",
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 67,
+      "cle": "Vayne",
+      "nom": "Vayne",
+      "titre": "Chasseresse nocturne",
+      "roles": [
+        "Tireur",
+        "Assassin"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 45,
+      "cle": "Veigar",
+      "nom": "Veigar",
+      "titre": "Seigneur des maléfices",
+      "roles": [
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 161,
+      "cle": "Velkoz",
+      "nom": "Vel'Koz",
+      "titre": "Œil du Néant",
+      "roles": [
+        "Mage",
+        "Support"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 711,
+      "cle": "Vex",
+      "nom": "Vex",
+      "titre": "Ombre du désespoir",
+      "roles": [
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 254,
+      "cle": "Vi",
+      "nom": "Vi",
+      "titre": "Pacifieuse de Piltover",
+      "roles": [
+        "Combattant",
+        "Assassin"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 234,
+      "cle": "Viego",
+      "nom": "Viego",
+      "titre": "Roi déchu",
+      "roles": [
+        "Combattant",
+        "Assassin"
+      ],
+      "ressource": "Aucune"
+    },
+    {
+      "id": 112,
+      "cle": "Viktor",
+      "nom": "Viktor",
+      "titre": "Héraut de l'arcane",
+      "roles": [
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 8,
+      "cle": "Vladimir",
+      "nom": "Vladimir",
+      "titre": "Saigneur pourpre",
+      "roles": [
+        "Mage",
+        "Combattant"
+      ],
+      "ressource": "Afflux sanguin"
+    },
+    {
+      "id": 106,
+      "cle": "Volibear",
+      "nom": "Volibear",
+      "titre": "Tempête impitoyable",
+      "roles": [
+        "Combattant",
+        "Tank"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 19,
+      "cle": "Warwick",
+      "nom": "Warwick",
+      "titre": "Fureur déchaînée de Zaun",
+      "roles": [
+        "Combattant",
+        "Tank"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 62,
+      "cle": "MonkeyKing",
+      "nom": "Wukong",
+      "titre": "Roi des singes",
+      "roles": [
+        "Combattant",
+        "Tank"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 498,
+      "cle": "Xayah",
+      "nom": "Xayah",
+      "titre": "Rebelle",
+      "roles": [
+        "Tireur"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 101,
+      "cle": "Xerath",
+      "nom": "Xerath",
+      "titre": "Mage suprême",
+      "roles": [
+        "Mage",
+        "Support"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 5,
+      "cle": "XinZhao",
+      "nom": "Xin Zhao",
+      "titre": "Sénéchal de Demacia",
+      "roles": [
+        "Combattant",
+        "Tank"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 157,
+      "cle": "Yasuo",
+      "nom": "Yasuo",
+      "titre": "Disgracié",
+      "roles": [
+        "Combattant",
+        "Assassin"
+      ],
+      "ressource": "Impulsion"
+    },
+    {
+      "id": 777,
+      "cle": "Yone",
+      "nom": "Yone",
+      "titre": "Inoublié",
+      "roles": [
+        "Combattant",
+        "Assassin"
+      ],
+      "ressource": "Impulsion"
+    },
+    {
+      "id": 83,
+      "cle": "Yorick",
+      "nom": "Yorick",
+      "titre": "Berger des âmes",
+      "roles": [
+        "Combattant",
+        "Tank"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 804,
+      "cle": "Yunara",
+      "nom": "Yunara",
+      "titre": "Foi inébranlable",
+      "roles": [
+        "Tireur"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 350,
+      "cle": "Yuumi",
+      "nom": "Yuumi",
+      "titre": "Gardienne du Grimoire",
+      "roles": [
+        "Support",
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 904,
+      "cle": "Zaahen",
+      "nom": "Zaahen",
+      "titre": "Incorruptible",
+      "roles": [
+        "Combattant"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 154,
+      "cle": "Zac",
+      "nom": "Zac",
+      "titre": "Arme secrète",
+      "roles": [
+        "Tank",
+        "Combattant"
+      ],
+      "ressource": "Aucune"
+    },
+    {
+      "id": 238,
+      "cle": "Zed",
+      "nom": "Zed",
+      "titre": "Maître des ombres",
+      "roles": [
+        "Assassin"
+      ],
+      "ressource": "Énergie"
+    },
+    {
+      "id": 221,
+      "cle": "Zeri",
+      "nom": "Zeri",
+      "titre": "Étincelle de Zaun",
+      "roles": [
+        "Tireur"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 115,
+      "cle": "Ziggs",
+      "nom": "Ziggs",
+      "titre": "Expert des Hexplosifs",
+      "roles": [
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 26,
+      "cle": "Zilean",
+      "nom": "Zilean",
+      "titre": "Gardien du Temps",
+      "roles": [
+        "Support",
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 142,
+      "cle": "Zoe",
+      "nom": "Zoé",
+      "titre": "Manifestation du Crépuscule",
+      "roles": [
+        "Mage"
+      ],
+      "ressource": "Mana"
+    },
+    {
+      "id": 143,
+      "cle": "Zyra",
+      "nom": "Zyra",
+      "titre": "Dame aux ronces",
+      "roles": [
+        "Mage",
+        "Support"
+      ],
+      "ressource": "Mana"
+    }
+  ]
+}
