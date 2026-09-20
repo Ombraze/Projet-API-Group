@@ -20,6 +20,7 @@ class ShowChampion(BaseModel):
     titre: str = Field(..., description="Le titre du champion")
     roles: list[str] = Field(..., description="Les roles du champion")
     ressource: str
+    Items: list[Item] = Field(default_factory=list, max_items=6, description="Les items du champion, maximum 6")
 
 #loader class
 class ChampionData(BaseModel):

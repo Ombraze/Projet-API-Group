@@ -85,12 +85,12 @@ def createTeam(team_request: TeamCreate):
     for champion_id in team_request.champion_ids:
         for champion in champConvert.champions:
             if champion.id == champion_id:
-                selected_champions.append(champion)
+                selected_champions.append(champion.model_copy(deep=True))
 
     for champion_name in team_request.champion_name:
         for champion in champConvert.champions:
             if champion.name == champion_name:
-                selected_champions.append(champion)
+                selected_champions.append(champion.model_copy(deep=True))
 
     if not selected_champions:
         raise HTTPException(status_code=422, detail="Please pick at least one champion")
@@ -129,3 +129,40 @@ def deleteTeam(id: int | None = None, name: str | None = None):
                 Teams.pop(index)
                 return {"message": "successfully removed the team"}
     return {"message": "could not perform this action"}
+
+#patch requests
+@app.patch("/add", response_model=ShowTeam)
+def addItem(team_name: str, champion_name: str, item_name: str):
+    for existing_team in Teams:
+        if existing_team.name == team_name:
+            selected_team = existing_team
+            break
+    else:
+        raise HTTPException(status_code=404, detail="team does not exist")
+
+    for existing_champion in selected_team.Champions:
+        if existing_champion.name == champion_name:
+            selected_champion = existing_champion
+            break
+    else:
+        raise HTTPException(status_code=404, detail="the champion does not exist in this team")
+
+    for existing_item in itemConvert.items:
+        if existing_item.name == item_name:
+            selected_item = existing_item
+            break
+    else:
+        raise HTTPException(status_code=404, detail="this item does not exist")
+
+    if len(selected_champion.Items) >= 6:
+        raise HTTPException(status_code=422, detail="this champion already has six items")
+
+    for held_item in selected_champion.Items:
+        if held_item.id == selected_item.id:
+            raise HTTPException(status_code=409, detail="item is already held")
+
+    selected_champion.Items.append(selected_item.model_copy(deep=True))
+    return selected_team
+
+
+    
