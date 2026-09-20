@@ -69,6 +69,38 @@ def filterItems(categorie: str | None = None, limit: int | None = None, offset: 
         return selected_items[offset:]
     return selected_items[offset:offset + limit]
 
+@app.get("/stats")
+def itemGlobalStats():
+    totalItems = len(itemConvert.items)
+
+    totalPrice = 0
+    for item in itemConvert.items:
+        totalPrice = totalPrice + item.prix
+    
+    if totalItems > 0:
+        averagePrice = totalPrice / totalItems
+    else:
+        averagePrice = 0
+
+    categoryCounts = {}
+    for item in itemConvert.items:
+        if item.categorie in categoryCounts:
+            categoryCounts[item.categorie] = categoryCounts[item.categorie] + 1
+        else:
+            categoryCounts[item.categorie] = 1
+
+    mostCommon = None
+    bestCount = 0
+    for categorie, count in categoryCounts.items():
+        if count > bestCount:
+            bestCount = count
+            mostCommon = categorie
+
+    return {
+        "total items": totalItems,
+        "average price": averagePrice,
+        "most common category": mostCommon,
+    }
 
 @app.get("/item")
 def getItem(id: int | None = None, name: str | None = None):
