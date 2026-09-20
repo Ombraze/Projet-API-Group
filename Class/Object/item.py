@@ -1,5 +1,6 @@
 import enum
 from pydantic import BaseModel, Field
+from Class.validators import itemComponentsValidator, nameValidator
 
 class Activable(enum.Enum):
     YES = "yes"
@@ -16,6 +17,9 @@ class Item(BaseModel):
     statistiques: dict[str, float] = Field(..., description="Les statistiques de l'item")
     tags: list[str] = Field(default_factory=list, description="Les tags de l'item")
     sub_item_ids: list[int] = Field(default_factory=list, description="Les ids des composants de l'item")
+
+    _validateName = nameValidator
+    _validateComponents = itemComponentsValidator
 
 #request model
 class Show_Item(BaseModel):
