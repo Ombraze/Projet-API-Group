@@ -29,7 +29,7 @@ def getChampion(id: int | None = None, name: str | None = None):
 
     for e in champConvert.champions:
         if id is None:
-            if e.name == name:
+            if e.name.lower() == name.lower():
                 return e
             
     for e in champConvert.champions:
@@ -41,6 +41,35 @@ def getChampion(id: int | None = None, name: str | None = None):
 def getAllItems():
     return itemConvert.items
 
+@app.get("/filterItems", response_model=list[Show_Item])
+def filterItems(categorie: str | None = None, limit: int | None = None, offset: int = 0, sort_by: str | None = None,):
+    if limit is not None and limit < 1:
+        raise HTTPException(status_code=422, detail="limit needs to be higher than zero")
+    if offset < 0:
+        raise HTTPException(status_code=422, detail="offset can't be negative")
+
+    selected_items = itemConvert.items
+
+    if categorie is not None:
+        selected_items = [
+            item for item in selected_items
+            if item.categorie.lower() == categorie.lower()
+        ]
+
+    if sort_by is not None:
+        sortalbe = {"name", "prix", "categorie", "role"}
+        if sort_by not in sortalbe:
+            raise HTTPException(status_code=422, detail="invalid sort field")
+        selected_items = sorted(
+            selected_items,
+            key=lambda item: getattr(item, sort_by),
+        )
+
+    if limit is None:
+        return selected_items[offset:]
+    return selected_items[offset:offset + limit]
+
+
 @app.get("/item")
 def getItem(id: int | None = None, name: str | None = None):
     if id is None and name is None:
@@ -51,7 +80,7 @@ def getItem(id: int | None = None, name: str | None = None):
 
     for e in itemConvert.items:
         if id is None:
-            if e.name == name:
+            if e.name.lower() == name.lower():
                 return e
             
     for e in itemConvert.items:
@@ -71,7 +100,7 @@ def getTeam(name: str):
         raise HTTPException(status_code=422, detail="Please input something")
 
     for existing_team in Teams:
-        if existing_team.name == name:
+        if existing_team.name.lower() == name.lower():
             return existing_team
     raise HTTPException(status_code=404, detail="No such team exists")
 
@@ -96,7 +125,7 @@ def createTeam(team_request: TeamCreate):
         raise HTTPException(status_code=422, detail="Please pick at least one champion")
 
     for existing_team in Teams:
-        if team_request.name == existing_team.name:
+        if team_request.name.lower() == existing_team.name.lower():
             raise HTTPException(status_code=409, detail="Team name already exists")
 
     next_id = len(Teams) + 1
@@ -125,7 +154,7 @@ def deleteTeam(id: int | None = None, name: str | None = None):
 
     for index, teams in enumerate(Teams):
         if id is None:
-            if teams.name == name:
+            if teams.name.lower() == name.lower():
                 Teams.pop(index)
                 return {"message": "successfully removed the team"}
     return {"message": "could not perform this action"}
@@ -134,21 +163,21 @@ def deleteTeam(id: int | None = None, name: str | None = None):
 @app.patch("/add", response_model=ShowTeam)
 def addItem(team_name: str, champion_name: str, item_name: str):
     for existing_team in Teams:
-        if existing_team.name == team_name:
+        if existing_team.name.lower() == team_name.lower():
             selected_team = existing_team
             break
     else:
         raise HTTPException(status_code=404, detail="team does not exist")
 
     for existing_champion in selected_team.Champions:
-        if existing_champion.name == champion_name:
+        if existing_champion.name.lower() == champion_name.lower():
             selected_champion = existing_champion
             break
     else:
         raise HTTPException(status_code=404, detail="the champion does not exist in this team")
 
     for existing_item in itemConvert.items:
-        if existing_item.name == item_name:
+        if existing_item.name.lower() == item_name.lower():
             selected_item = existing_item
             break
     else:
