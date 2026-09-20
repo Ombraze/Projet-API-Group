@@ -10,7 +10,7 @@
       "name": "Aatrox",
       "titre": "Épée des Darkin",
       "roles": [
-        "fight"
+        "fighter"
       ],
       "lanes": [
         "top"
@@ -188,7 +188,7 @@
       "name": "Ambessa",
       "titre": "Matriarche de guerre",
       "roles": [
-        "fight",
+        "fighter",
         "assassin"
       ],
       "lanes": [
@@ -545,7 +545,7 @@
       "name": "Bel'Veth",
       "titre": "Impératrice du Néant",
       "roles": [
-        "fight"
+        "fighter"
       ],
       "lanes": [
         "top"
@@ -688,7 +688,7 @@
       "name": "Briar",
       "titre": "Faim insatiable",
       "roles": [
-        "fight",
+        "fighter",
         "assassin"
       ],
       "lanes": [
@@ -759,7 +759,7 @@
       "name": "Camille",
       "titre": "Ombre d'acier",
       "roles": [
-        "fight",
+        "fighter",
         "assassin"
       ],
       "lanes": [
@@ -902,7 +902,7 @@
       "name": "Darius",
       "titre": "Main de Noxus",
       "roles": [
-        "fight",
+        "fighter",
         "tank"
       ],
       "lanes": [
@@ -938,7 +938,7 @@
       "name": "Diana",
       "titre": "Mépris de la lune",
       "roles": [
-        "fight",
+        "fighter",
         "assassin"
       ],
       "lanes": [
@@ -975,7 +975,7 @@
       "titre": "Dément de Zaun",
       "roles": [
         "tank",
-        "fight"
+        "fighter"
       ],
       "lanes": [
         "top"
@@ -1225,7 +1225,7 @@
       "name": "Fiora",
       "titre": "Sublime bretteuse",
       "roles": [
-        "fight",
+        "fighter",
         "assassin"
       ],
       "lanes": [
@@ -1262,7 +1262,7 @@
       "titre": "Filou des mers",
       "roles": [
         "assassin",
-        "fight"
+        "fighter"
       ],
       "lanes": [
         "top"
@@ -1333,7 +1333,7 @@
       "name": "Gangplank",
       "titre": "Fléau des mers",
       "roles": [
-        "fight"
+        "fighter"
       ],
       "lanes": [
         "top"
@@ -1368,7 +1368,7 @@
       "name": "Garen",
       "titre": "Force de Demacia",
       "roles": [
-        "fight",
+        "fighter",
         "tank"
       ],
       "lanes": [
@@ -1404,7 +1404,7 @@
       "name": "Gnar",
       "titre": "Chaînon manquant",
       "roles": [
-        "fight",
+        "fighter",
         "tank"
       ],
       "lanes": [
@@ -1440,7 +1440,7 @@
       "name": "Gragas",
       "titre": "Agitateur",
       "roles": [
-        "fight",
+        "fighter",
         "mage"
       ],
       "lanes": [
@@ -1511,7 +1511,7 @@
       "name": "Gwen",
       "titre": "Couturière sacrée",
       "roles": [
-        "fight"
+        "fighter"
       ],
       "lanes": [
         "top"
@@ -1546,7 +1546,7 @@
       "name": "Hecarim",
       "titre": "Ombre de la guerre",
       "roles": [
-        "fight",
+        "fighter",
         "tank"
       ],
       "lanes": [
@@ -1654,7 +1654,7 @@
       "name": "Illaoi",
       "titre": "Prêtresse du kraken",
       "roles": [
-        "fight",
+        "fighter",
         "tank"
       ],
       "lanes": [
@@ -1690,7 +1690,7 @@
       "name": "Irelia",
       "titre": "Danseuse des lames",
       "roles": [
-        "fight",
+        "fighter",
         "assassin"
       ],
       "lanes": [
@@ -1798,7 +1798,7 @@
       "name": "Jarvan IV",
       "titre": "Exemple demacien",
       "roles": [
-        "fight",
+        "fighter",
         "tank"
       ],
       "lanes": [
@@ -1834,7 +1834,7 @@
       "name": "Jax",
       "titre": "Maître d'armes",
       "roles": [
-        "fight"
+        "fighter"
       ],
       "lanes": [
         "top"
@@ -1869,7 +1869,7 @@
       "name": "Jayce",
       "titre": "Protecteur du futur",
       "roles": [
-        "fight",
+        "fighter",
         "marksman"
       ],
       "lanes": [
@@ -1977,7 +1977,7 @@
       "titre": "Fierté de Nazumah",
       "roles": [
         "tank",
-        "fight"
+        "fighter"
       ],
       "lanes": [
         "top"
@@ -2262,7 +2262,7 @@
       "name": "Kayn",
       "titre": "Faucheur de l'ombre",
       "roles": [
-        "fight",
+        "fighter",
         "assassin"
       ],
       "lanes": [
@@ -2403,7 +2403,7 @@
       "name": "Kled",
       "titre": "Cavalier colérique",
       "roles": [
-        "fight"
+        "fighter"
       ],
       "lanes": [
         "top"
@@ -2510,7 +2510,7 @@
       "name": "Lee Sin",
       "titre": "Moine aveugle",
       "roles": [
-        "fight",
+        "fighter",
         "assassin"
       ],
       "lanes": [
@@ -2582,7 +2582,7 @@
       "name": "Lillia",
       "titre": "Fleur timide",
       "roles": [
-        "fight",
+        "fighter",
         "mage"
       ],
       "lanes": [
@@ -2904,7 +2904,7 @@
       "name": "Maître Yi",
       "titre": "Fine lame Wuju",
       "roles": [
-        "fight",
+        "fighter",
         "assassin"
       ],
       "lanes": [
@@ -3048,7 +3048,7 @@
       "name": "Mordekaiser",
       "titre": "Revenant de fer",
       "roles": [
-        "fight",
+        "fighter",
         "mage"
       ],
       "lanes": [
@@ -3121,7 +3121,7 @@
       "titre": "la meute de fer",
       "roles": [
         "assassin",
-        "fight"
+        "fighter"
       ],
       "lanes": [
         "top"
@@ -3192,7 +3192,7 @@
       "name": "Nasus",
       "titre": "Gardien des sables",
       "roles": [
-        "fight",
+        "fighter",
         "tank"
       ],
       "lanes": [
@@ -3336,7 +3336,7 @@
       "name": "Nilah",
       "titre": "Joie incarnée",
       "roles": [
-        "fight",
+        "fighter",
         "assassin"
       ],
       "lanes": [
@@ -3372,7 +3372,7 @@
       "name": "Nocturne",
       "titre": "Éternel cauchemar",
       "roles": [
-        "fight",
+        "fighter",
         "assassin"
       ],
       "lanes": [
@@ -3444,7 +3444,7 @@
       "name": "Olaf",
       "titre": "Berzerker",
       "roles": [
-        "fight",
+        "fighter",
         "tank"
       ],
       "lanes": [
@@ -3551,7 +3551,7 @@
       "name": "Pantheon",
       "titre": "Lance éternelle",
       "roles": [
-        "fight",
+        "fighter",
         "assassin"
       ],
       "lanes": [
@@ -3588,7 +3588,7 @@
       "titre": "Gardienne du marteau",
       "roles": [
         "tank",
-        "fight"
+        "fighter"
       ],
       "lanes": [
         "top"
@@ -3800,7 +3800,7 @@
       "name": "Rek'Sai",
       "titre": "Traqueuse du Néant",
       "roles": [
-        "fight",
+        "fighter",
         "tank"
       ],
       "lanes": [
@@ -3908,7 +3908,7 @@
       "name": "Renekton",
       "titre": "Dévoreur des sables",
       "roles": [
-        "fight",
+        "fighter",
         "tank"
       ],
       "lanes": [
@@ -3945,7 +3945,7 @@
       "titre": "Fier traqueur",
       "roles": [
         "assassin",
-        "fight"
+        "fighter"
       ],
       "lanes": [
         "top"
@@ -3980,7 +3980,7 @@
       "name": "Riven",
       "titre": "Exilée brisée",
       "roles": [
-        "fight",
+        "fighter",
         "assassin"
       ],
       "lanes": [
@@ -4016,7 +4016,7 @@
       "name": "Rumble",
       "titre": "Menace mécanisée",
       "roles": [
-        "fight",
+        "fighter",
         "mage"
       ],
       "lanes": [
@@ -4194,7 +4194,7 @@
       "name": "Sett",
       "titre": "Patron",
       "roles": [
-        "fight",
+        "fighter",
         "tank"
       ],
       "lanes": [
@@ -4300,7 +4300,7 @@
       "name": "Shyvana",
       "titre": "Demi-dragon",
       "roles": [
-        "fight",
+        "fighter",
         "tank"
       ],
       "lanes": [
@@ -4373,7 +4373,7 @@
       "titre": "Colosse mort-vivant",
       "roles": [
         "tank",
-        "fight"
+        "fighter"
       ],
       "lanes": [
         "top"
@@ -4444,7 +4444,7 @@
       "titre": "Souverain originel",
       "roles": [
         "tank",
-        "fight"
+        "fighter"
       ],
       "lanes": [
         "top"
@@ -4981,7 +4981,7 @@
       "name": "Trundle",
       "titre": "Roi des trolls",
       "roles": [
-        "fight",
+        "fighter",
         "tank"
       ],
       "lanes": [
@@ -5017,7 +5017,7 @@
       "name": "Tryndamere",
       "titre": "Roi barbare",
       "roles": [
-        "fight",
+        "fighter",
         "assassin"
       ],
       "lanes": [
@@ -5125,7 +5125,7 @@
       "name": "Udyr",
       "titre": "Gardien des esprits",
       "roles": [
-        "fight",
+        "fighter",
         "tank"
       ],
       "lanes": [
@@ -5161,7 +5161,7 @@
       "name": "Urgot",
       "titre": "Broyeur",
       "roles": [
-        "fight",
+        "fighter",
         "tank"
       ],
       "lanes": [
@@ -5375,7 +5375,7 @@
       "name": "Vi",
       "titre": "Pacifieuse de Piltover",
       "roles": [
-        "fight",
+        "fighter",
         "assassin"
       ],
       "lanes": [
@@ -5411,7 +5411,7 @@
       "name": "Viego",
       "titre": "Roi déchu",
       "roles": [
-        "fight",
+        "fighter",
         "assassin"
       ],
       "lanes": [
@@ -5483,7 +5483,7 @@
       "titre": "Saigneur pourpre",
       "roles": [
         "mage",
-        "fight"
+        "fighter"
       ],
       "lanes": [
         "top"
@@ -5518,7 +5518,7 @@
       "name": "Volibear",
       "titre": "Tempête impitoyable",
       "roles": [
-        "fight",
+        "fighter",
         "tank"
       ],
       "lanes": [
@@ -5554,7 +5554,7 @@
       "name": "Warwick",
       "titre": "Fureur déchaînée de Zaun",
       "roles": [
-        "fight",
+        "fighter",
         "tank"
       ],
       "lanes": [
@@ -5590,7 +5590,7 @@
       "name": "Wukong",
       "titre": "Roi des singes",
       "roles": [
-        "fight",
+        "fighter",
         "tank"
       ],
       "lanes": [
@@ -5697,7 +5697,7 @@
       "name": "Xin Zhao",
       "titre": "Sénéchal de Demacia",
       "roles": [
-        "fight",
+        "fighter",
         "tank"
       ],
       "lanes": [
@@ -5733,7 +5733,7 @@
       "name": "Yasuo",
       "titre": "Disgracié",
       "roles": [
-        "fight",
+        "fighter",
         "assassin"
       ],
       "lanes": [
@@ -5769,7 +5769,7 @@
       "name": "Yone",
       "titre": "Inoublié",
       "roles": [
-        "fight",
+        "fighter",
         "assassin"
       ],
       "lanes": [
@@ -5805,7 +5805,7 @@
       "name": "Yorick",
       "titre": "Berger des âmes",
       "roles": [
-        "fight",
+        "fighter",
         "tank"
       ],
       "lanes": [
@@ -5912,7 +5912,7 @@
       "name": "Zaahen",
       "titre": "Incorruptible",
       "roles": [
-        "fight"
+        "fighter"
       ],
       "lanes": [
         "top"
@@ -5948,7 +5948,7 @@
       "titre": "Arme secrète",
       "roles": [
         "tank",
-        "fight"
+        "fighter"
       ],
       "lanes": [
         "top"

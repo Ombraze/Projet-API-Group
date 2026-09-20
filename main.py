@@ -37,7 +37,6 @@ def getChampion(id: int | None = None, name: str | None = None):
             if e.id == id:
                 return e
 
-
 @app.get("/items", response_model=list[Show_Item])
 def getAllItems():
     return itemConvert.items
@@ -65,6 +64,16 @@ def getAllTeams():
     if not Teams:
         raise HTTPException(status_code=404, detail="no teams exist")
     return Teams
+
+@app.get("/team", response_model=ShowTeam)
+def getTeam(name: str):
+    if name is None:
+        raise HTTPException(status_code=422, detail="Please input something")
+
+    for existing_team in Teams:
+        if existing_team.name == name:
+            return existing_team
+    raise HTTPException(status_code=404, detail="No such team exists")
 
 #post requests
 @app.post("/team", response_model=ShowTeam)
