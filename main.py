@@ -19,6 +19,20 @@ def homePage():
 def getAllChampions():
     return champConvert.champions
 
+@app.get("/champion")
+def getChampion(id: int | None = None, name: str | None = None):
+    if id is None and name is None:
+        return HTTPException(status_code=422, detail="Please input something")
+    for e in champConvert.champions:
+        if id is None:
+            if e.name == name:
+                return e
+            
+    for e in champConvert.champions:
+        if name is None:
+            if e.id == id:
+                return e
+
 @app.get("/items", response_model=list[Show_Item])
 def getAllItems():
     return itemConvert.items
