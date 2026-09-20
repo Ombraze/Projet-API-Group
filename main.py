@@ -23,6 +23,8 @@ def getAllChampions():
 def getChampion(id: int | None = None, name: str | None = None):
     if id is None and name is None:
         return HTTPException(status_code=422, detail="Please input something")
+    if id and name:
+        return HTTPException(status_code=422, detail="Please search by either the Id or the Name")
     for e in champConvert.champions:
         if id is None:
             if e.name == name:
@@ -36,6 +38,23 @@ def getChampion(id: int | None = None, name: str | None = None):
 @app.get("/items", response_model=list[Show_Item])
 def getAllItems():
     return itemConvert.items
+
+@app.get("/item")
+def getItem(id: int | None = None, name: str | None = None):
+    if id is None and name is None:
+        return HTTPException(status_code=422, detail="Please input something")
+    if id and name:
+        return HTTPException(status_code=422, detail="Please search by either the Id or the Name")
+    for e in itemConvert.items:
+        if id is None:
+            if e.name == name:
+                return e
+            
+    for e in itemConvert.items:
+        if name is None:
+            if e.id == id:
+                return e
+
 
 #post requests
 @app.post("/team", response_model=Team)
@@ -63,3 +82,22 @@ def createTeam(team_request: TeamCreate):
     )
     Teams.append(team)
     return team
+
+#delete requests
+@app.delete("/team")
+def deleteTeam(id: int | None = None, name: str | None = None):
+    if id is None and name is None:
+        return HTTPException(status_code=422, detail="Please input something")
+    if id and name:
+        return HTTPException(status_code=422, detail="Please search by either the Id or the Name")
+    for index, teams in enumerate(Teams):
+        if name is None:
+            if teams.id == id:
+                Teams.pop(index)
+                return {"message": "successfully removed the team"}
+    for index, teams in enumerate(Teams):
+        if id is None:
+            if teams.name == name:
+                Teams.pop(index)
+                return {"message": "successfully removed the team"}
+    return {"message": "could not perform this action"}

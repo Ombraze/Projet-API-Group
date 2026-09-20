@@ -5,7 +5,7 @@ class Consomable(Item):
     def __init__(
         self,
         id: int,
-        nom: str,
+        name: str,
         prix: int,
         description: str,
         statistiques: dict[str, float],
@@ -13,7 +13,7 @@ class Consomable(Item):
     ):
         super().__init__(
             id=id,
-            nom=nom,
+            name=name,
             prix=prix,
             description=description,
             statistiques=statistiques,

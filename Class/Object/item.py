@@ -7,7 +7,7 @@ class Activable(enum.Enum):
 
 class Item(BaseModel):
     id: int = Field(..., description="L'id de l'item")
-    nom: str = Field(..., description="Le nom de l'item")
+    name: str = Field(..., description="Le name de l'item")
     prix: int = Field(..., description="Le prix de l'item")
     description: str = Field(..., description="La description de l'item")
     categorie: str = Field(..., description="La categorie de l'item")
@@ -19,7 +19,7 @@ class Item(BaseModel):
 
 #request model
 class Show_Item(BaseModel):
-    nom: str = Field(..., description="Le nom de l'item")
+    name: str = Field(..., description="Le name de l'item")
     prix: int = Field(..., description="Le prix de l'item")
     description: str = Field(..., description="La description de l'item")
     categorie: str = Field(..., description="La categorie de l'item")
