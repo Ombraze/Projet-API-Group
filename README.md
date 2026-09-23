@@ -168,17 +168,21 @@ pip install -r requirements.txt
 
 ## 12. Lancer le projet
 
-Le plus simple est de lancer le script Windows :
+Le lancement recommandé est de passer par le script Windows suivant :
 
 ```bat
 start.bat
 ```
 
-Ou manuellement :
+Ce script crée l’environnement virtuel si nécessaire, installe les dépendances et démarre l’API automatiquement.
+
+Si vous voulez lancer manuellement, utilisez ensuite :
 
 ```bash
 uvicorn main:app --host 127.0.0.1 --port 8000 --reload
 ```
+
+Important : ne pas lancer `main.py` directement comme un script Python standard ; il faut démarrer l’application via `uvicorn` ou via `start.bat`.
 
 Puis ouvrez :
 

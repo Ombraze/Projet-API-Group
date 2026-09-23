@@ -1,5 +1,5 @@
 from pydantic import BaseModel, Field
-from Class.Champion import Champion
+from Class.champion import Champion
 from Class.validators import nameValidator, teamChampionSelectionValidator
 
 class Team(BaseModel):

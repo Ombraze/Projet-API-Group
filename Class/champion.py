@@ -2,7 +2,7 @@ from pydantic import BaseModel, Field
 
 from Class.Lane import Lane
 from Class.Role import Role
-from Class.Object.Item import Item
+from Class.Object.item import Item
 
 class Champion(BaseModel):
     id: int = Field(..., description="L'id du champion")

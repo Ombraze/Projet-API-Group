@@ -1,7 +1,7 @@
 from fastapi import HTTPException, FastAPI
 from data import champConvert, itemConvert
-from Class.Champion import ShowChampion
-from Class.Object.Item import Show_Item
+from Class.champion import ShowChampion
+from Class.Object.item import Show_Item
 from Class.Team import Team, TeamCreate, ShowTeam
 
 
