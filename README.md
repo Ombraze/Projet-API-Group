@@ -1,19 +1,12 @@
-# Projet API Group
+# LoLTeamBuilder
 
-Ce projet est un projet de groupe réalisé dans le cadre de la séance 4 du module Python API. \
-Il consiste à concevoir et développer une API REST originale en FastAPI, en s’appuyant sur les concepts vus précédemment : \
-modèles Pydantic, validation, CRUD, documentation automatique, gestion d’erreurs, filtres, pagination et tests manuels.
-
-> Ce README est un template de projet à compléter selon le thème choisi par votre groupe.
+Projet FastAPI de gestion d’une équipe de League of Legends, avec construction de composition, consultation de champions et d’objets, ainsi que validation et gestion d’erreurs.
 
 ## 1. Sujet du projet
 
-Nom du projet : [LoLTeamBuilder]
-
-Thème choisi : [League of Legend Team builder]
-
-Description :
-
+- Nom du projet : LoLTeamBuilder
+- Thème choisi : League of Legends Team Builder
+- Description : Cette API permet de consulter les champions et objets du jeu, de construire une équipe d’un maximum de 6 champions, d’ajouter des objets à ces champions, et de vérifier les contraintes métier de validation sur les équipes.
 
 ## 2. Membres du groupe
 
@@ -23,132 +16,141 @@ Description :
 
 ## 3. Objectif du projet
 
-L’objectif de ce projet est de créer une API REST complète et cohérente, avec plusieurs ressources liées entre elles, une validation solide, des routes avancées et une bonne organisation de travail en équipe avec GitHub.
+L’objectif du projet est de créer une API REST robuste en FastAPI qui couvre les paliers demandés :
 
-Le projet doit couvrir les différents paliers demandés :
-- Palier 1 : Fondations et CRUD
-- Palier 2 : Validation avancée
-- Palier 3 : Recherche, pagination, tri et statistiques
-- Palier 4 : Robustesse, gestion des erreurs et documentation de test
-- Palier 5 : Défi bonus (facultatif)
-- Palier x : Documentation fait durent tout le projet 
+- Palier 1 : fondations et CRUD
+- Palier 2 : validation avancée via Pydantic
+- Palier 3 : filtrage, tri, recherche et statistiques
+- Palier 4 : robustesse, gestion des erreurs et documentation de test
+- Palier 5 : défi bonus (facultatif)
 
 ## 4. Ressources de l’API
 
-L’API est composée de plusieurs ressources principales, par exemple :
+L’API expose 3 ressources principales :
 
-- [Resource 1] : [description]
-- [Resource 2] : [description]
-- [Resource 3] : [description]
-- [Resource 4] : [description]
-- [Resource 5] : [description]
+- Champions : personnages jouables avec leurs rôles, lanes, statistiques et objets équipés.
+- Items : objets du jeu classés par catégorie, prix, rôle et composants.
+- Teams : équipes de champions créées par l’utilisateur, avec un nom et une composition limitée à 6 champions.
 
-### Exemple de structure métier
+### Structure métier
 
-- Un [Resource A] appartient à un [Resource B]
-- Un [Resource C] est lié à plusieurs [Resource D]
-- Un [Resource E] contient une liste de sous-objets imbriqués
+- Un champion peut porter plusieurs items.
+- Un item peut contenir des composants imbriqués via `sub_item_ids`.
+- Une équipe contient plusieurs champions.
+- Un champion appartient à des lanes et des rôles.
 
 ## 5. Relations entre les ressources
 
-Le projet doit contenir au moins 2 relations logiques distinctes entre les ressources.
+Le projet contient plusieurs relations logiques :
 
-Exemples à compléter :
-- [Resource 1] -> [Resource 2] via [champ_id]
-- [Resource 3] -> [Resource 4] via [id_utilisateur]
-- [Resource 5] contient plusieurs [sous-objets] embarqués
+- Team -> Champion via `champion_ids` et `champion_name`
+- Champion -> Item via `Items`
+- Item -> Item via `sub_item_ids` (composants d’un objet)
+- Champion -> Role/Lane via les listes de rôles et de lanes
 
 ## 6. Modèles Pydantic
 
-Chaque ressource est représentée par un modèle Pydantic avec des champs validés.
+Le projet utilise plusieurs modèles validés :
 
-### Exemple de modèle
+- `Champion`
+- `Item`
+- `Team`
+- `TeamCreate`
+- `ShowChampion`
+- `Show_Item`
+- `ShowTeam`
 
-```python
-class ExampleModel(BaseModel):
-    id: int
-    name: str = Field(min_length=2, max_length=100)
-    status: StatusEnum
-```
+### Contraintes et validations principales
 
-### À compléter
+- `name` : non vide, trimé et vérifié par `field_validator`
+- `TeamCreate.name` : longueur min/max imposée
+- `TeamCreate.champion_ids` et `champion_name` : maximum 6 choix combinés
+- `Champion.Items` : maximum 6 objets par champion
+- `Item.sub_item_ids` : un item ne peut pas être un composant de lui-même
+- `role`, `lane` et `categorie` : valeurs contraintes par les enums et les données JSON du projet
 
-- Nombre de modèles utilisés : [X]
-- Champs avec contraintes : [décrire les contraintes principales]
-- Enum utilisés : [nommer les enums]
-- Validators personnalisés : [nombre et rôle]
-- Modèles avec sous-objets imbriqués : [oui/non]
-- Champs optionnels avec valeur par défaut : [liste]
+### Enum utilisés
+
+- `Role`
+- `Lane`
+- `Activable`
+
+### Validators personnalisés
+
+- `validateNonBlank` : empêche les chaînes vides ou composées uniquement d’espaces
+- `validateName` : nettoie le nom avant validation
+- `validateTeamChampionSelection` : vérifie qu’au moins un champion est sélectionné et que le total ne dépasse pas 6
+- `validateItemComponents` : interdit les composants récursifs invalides
 
 ## 7. API endpoints
 
-L’API propose un CRUD complet sur plusieurs ressources.
+### Ressources principales
 
-### Exemple de routes attendues
+- `GET /` : page d’accueil
+- `GET /champions` : liste tous les champions
+- `GET /champion?id=...` : recherche d’un champion par ID
+- `GET /champion?name=...` : recherche d’un champion par nom
+- `GET /items` : liste tous les objets
+- `GET /item?id=...` : recherche d’un item par ID
+- `GET /item?name=...` : recherche d’un item par nom
+- `GET /filterItems` : filtre, tri et pagination sur les items
+- `GET /stats` : statistiques globales sur les objets
+- `GET /teams` : liste toutes les équipes
+- `GET /team?name=...` : récupère une équipe précise par nom
+- `POST /team` : création d’une équipe
+- `DELETE /team` : suppression d’une équipe par ID ou nom
+- `PATCH /add?team_name=...&champion_name=...&item_name=...` : ajoute un objet à un champion de l’équipe
 
-- `POST /resource` : créer une ressource
-- `GET /resource` : lister les ressources
-- `GET /resource/{id}` : afficher une ressource
-- `PATCH /resource/{id}` : modifier une ressource
-- `DELETE /resource/{id}` : supprimer une ressource
+### Routes avancées
 
-### Routes avancées à ajouter
-
-- `GET /resource?filter=...` : recherche / filtrage
-- `GET /resource?limit=X&offset=Y` : pagination
-- `GET /resource?sort_by=...` : tri
-- `GET /stats` : statistiques agrégées
-
-### À compléter selon votre API
-
-- Nombre de ressources exposées : [X]
-- Routes disponibles : [liste complète]
-- Exemple de route : [URL + description]
+- `GET /filterItems?categorie=...` : filtrage par catégorie
+- `GET /filterItems?sort_by=...` : tri par `name`, `prix`, `categorie` ou `role`
+- `GET /filterItems?limit=X&offset=Y` : pagination
+- `GET /stats` : calcul de moyenne de prix et catégorie la plus fréquente
 
 ## 8. Validation avancée
 
-Le projet doit inclure une validation approfondie via Pydantic.
+Les validations sont centralisées dans `Class/validators.py` et s’appliquent sur les modèles Pydantic.
 
-### À compléter
+Exemples :
 
-- Contraintes `Field` utilisées : [exemples]
-- Enum distincts : [listes]
-- `field_validator` : [nombre et rôle]
-- `model_validator` : [nombre et rôle]
-- Contrôles métier implémentés : [exemples]
+- `min_length` et `max_length` sur les noms et équipes
+- `field_validator` pour assurer qu’un nom n’est pas vide
+- `model_validator` pour contrôler le nombre de champions et les composants d’item
+- `Field(max_items=6)` pour limiter le nombre d’objets par champion
 
 ## 9. Gestion des erreurs
 
-L’API doit renvoyer des `HTTPException` claires dans plusieurs cas.
+L’API renvoie des `HTTPException` explicites pour chaque cas critique :
 
-### Cas d’erreurs à gérer
+- `404` : ressource introuvable (`team`, `champion`, `item` absent)
+- `422` : paramètre manquant ou invalide
+- `409` : conflit métier (nom d’équipe déjà existant, item déjà dans l’inventaire)
+- `400` / `422` : données incohérentes ou invalides
 
-- `404` : ressource introuvable
-- `404` : identifiant lié introuvable
-- `400` : donnée incohérente
-- `403` ou `400` : action interdite
-- `422` : validation Pydantic
+Exemples concrets :
 
-### À compléter
-
-- Liste des erreurs spécifiques à votre API : [décrire les cas métiers]
+- recherche sans `id` ni `name` → `422`
+- équipe inexistante → `404`
+- équipe avec 0 champion → `422`
+- dédoublonnage d’un item déjà porté → `409`
 
 ## 10. Documentation automatique
 
-L’application utilise FastAPI et expose une documentation interactive Swagger et Redoc.
+L’application FastAPI expose automatiquement la documentation interactive :
 
-Accès local :
-- Swagger UI : `http://localhost:8000/docs`
-- Redoc : `http://localhost:8000/redoc`
+- Swagger UI : http://localhost:8000/docs
+- Redoc : http://localhost:8000/redoc
 
 ## 11. Installation
 
-Prérequis :
+### Prérequis
+
 - Python 3.11+
 - pip
-- virtualenv ou venv
+- Git
 
-### Commandes
+### Installation manuelle
 
 ```bash
 python -m venv venv
@@ -156,7 +158,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Pour Windows PowerShell :
+PowerShell :
 
 ```powershell
 python -m venv venv
@@ -166,90 +168,109 @@ pip install -r requirements.txt
 
 ## 12. Lancer le projet
 
-```bash
-uvicorn main:app --reload
+Le plus simple est de lancer le script Windows :
+
+```bat
+start.bat
 ```
 
-Puis ouvrir :
-- `http://localhost:8000/docs`
+Ou manuellement :
+
+```bash
+uvicorn main:app --host 127.0.0.1 --port 8000 --reload
+```
+
+Puis ouvrez :
+
+- http://localhost:8000/docs
 
 ## 13. Structure du dépôt
 
 ```text
-projet4-nomdugroupe/
+Projet-API-Group/
 ├── main.py
-├── requirements.txt
+├── data.py
 ├── README.md
-├── JOURNAL.md
-├── TESTS.md
-├── REVIEW.md
-└── Documentation/
+├── start.bat
+├── requirements.txt
+├── Class/
+│   ├── Champion.py
+│   ├── Lane.py
+│   ├── Role.py
+│   ├── Team.py
+│   ├── validators.py
+│   └── Object/
+│       ├── __init__.py
+│       ├── consumable.py
+│       └── item.py
+├── Data/
+│   ├── champions.json
+│   └── items.json
+├── Documentation/
+│   ├── Journal.md
+│   ├── requirements.txt
+│   ├── Review.md
+│   └── Test.md
+└── .git/
 ```
 
 ## 14. Journal de bord
 
-Le fichier `JOURNAL.md` doit expliquer :
-- les ressources choisies et leur logique,
-- les validations les plus intéressantes,
-- les difficultés rencontrées,
-- la solution mise en place.
+Le journal de bord est disponible dans [Documentation/Journal.md](Documentation/Journal.md). Il détaille :
+
+- choix des ressources métier,
+- validation Pydantic importante,
+- difficultés rencontrées,
+- solutions mises en place.
 
 ## 15. Tests manuels
 
-Le fichier `TESTS.md` contient les cas de test de chaque route.
+Les cas de test sont détaillés dans [Documentation/Test.md](Documentation/Test.md).
 
-### Modèle de test
+Les vérifications principales couvrent :
 
-- `POST /resource` avec donnée valide -> 200/201
-- `POST /resource` avec donnée invalide -> 422
-- `GET /resource/{id}` avec id absent -> 404
-- `PATCH /resource/{id}` avec valeur incohérente -> 400
+- lecture des champions / items
+- recherche par ID et par nom
+- filtrage et tri des objets
+- statistiques globales
+- création d’équipe valide
+- création d’équipe invalide
+- suppression d’équipe
+- ajout d’item sur un champion
 
-## 16. Review de code / revue croisée
+## 16. Review de code
 
-À la fin du projet, chaque groupe échange son dépôt et réalise une revue de l’API d’un autre groupe. Le fichier `REVIEW.md` contient :
-- 3 bugs ou comportements suspects détectés,
-- des observations sur la robustesse,
-- des suggestions d’amélioration.
+La revue croisée est documentée dans [Documentation/Review.md](Documentation/Review.md). Elle contient :
 
-## 17. Défi bonus (facultatif)
+- points de vigilance sur la robustesse,
+- bugs ou comportements suspects détectés,
+- suggestions d’amélioration.
 
-Parmi les options possibles :
-- duplication d’une ressource avec ses sous-objets,
-- validation croisée entre deux ressources,
-- export CSV,
-- recherche globale sur plusieurs ressources.
+## 17. Défi bonus
 
-## 18. Checklist de finalisation
+Le projet peut être étendu avec :
 
-- [ ] Nom du projet défini
-- [ ] 5 ressources distinctes créées
-- [ ] CRUD complet sur toutes les ressources
-- [ ] Validation Pydantic robuste
-- [ ] Enum et validators ajoutés
-- [ ] Routes avancées implémentées
-- [ ] Gestion des erreurs complète
-- [ ] Documentation Swagger fonctionnelle
-- [ ] Journal de bord écrit
-- [ ] Tests manuels listés
-- [ ] Review reçue intégrée
-- [ ] GitHub public et historique de commits propre
+- export CSV des équipes,
+- recherche globale multi-ressources,
+- duplication d’une équipe avec ses objets,
+- validation croisée entre champions et items.
+
+## 18. Checklist finale
+
+- [x] Nom du projet défini
+- [x] Ressources principales créées
+- [x] CRUD complet sur les équipes
+- [x] Validation Pydantic robuste
+- [x] Enum et validators ajoutés
+- [x] Filtres et statistiques implémentés
+- [x] Gestion des erreurs complétée
+- [x] Documentation Swagger fonctionnelle
+- [x] Journal de bord écrit
+- [x] Tests manuels listés
+- [x] Review intégrée
 
 ## 19. Résumé rapide
 
-Cette API a pour objectif de gérer [décrire votre domaine métier]. Elle met en œuvre une architecture simple, lisible et cohérente, inspirée des projets FastAPI déjà réalisés en cours, tout en ajoutant les éléments demandés pour atteindre les paliers du projet.
+Cette API permet de gérer une équipe de League of Legends en recoupant des données de champions, d’objets et d’équipes. Elle met en œuvre une architecture simple, des validations métier fortes et une documentation fonctionnelle adaptée au palier 4 du projet.
 
 ---
-
-<!-- ### À compléter avant soumission
-
-Remplacez les éléments entre crochets par les informations exactes de votre projet :
-- nom du thème,
-- ressources,
-- relations,
-- endpoints,
-- validations,
-- statistiques,
-- résultats des tests,
-- membres du groupe.
- -->
