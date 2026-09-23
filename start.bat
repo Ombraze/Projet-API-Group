@@ -17,16 +17,15 @@ if not exist venv (
 
 call venv\Scripts\activate.bat
 
-python -m pip install --upgrade pip
+python -m pip --version >nul 2>&1
+if errorlevel 1(
+    echo installing pip...
+    python -m ensurepip --upgrade
+)
 
 if exist requirements.txt (
     echo Installation des dependances du projet...
     pip install -r requirements.txt
-)
-
-if exist Documentation\requirements.txt (
-    echo Installation des dependances de documentation...
-    pip install -r Documentation\requirements.txt
 )
 
 echo.
