@@ -1,0 +1,4297 @@
+{
+  "patch": "16.18.1",
+  "source": "https://ddragon.leagueoflegends.com",
+  "carte": "Faille de l invocateur (ranked)",
+  "filtre": "Objets achetable en ranked SR, hors Arena/ARAM/objets caches et objets de champion",
+  "count": 211,
+  "items": [
+    {
+      "id": 1083,
+      "name": "Abatteur",
+      "prix": 450,
+      "description": "Octroie du Vol de vie à l'impact et augmente les dégâts. Tuer des sbires rapporte des PO supplémentaires.",
+      "categorie": "Depart",
+      "role": "Combattant",
+      "statistiques": {
+        "FlatPhysicalDamageMod": 7
+      },
+      "tags": [
+        "Damage",
+        "OnHit",
+        "Lane"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 2522,
+      "name": "Actualisateur",
+      "prix": 2800,
+      "description": "+90 puissance +300 mana +10 accélération de compétence Renforts de mana (0 sec) Pendant 8 sec, votre mana est renforcé. Pendant que votre mana est renforcé, vos compétences coûtent 100% de mana en plus, vos dégâts, vos boucliers, et vos soins sont augmentés de 0, et le délai de récupération de vos compétences de base est réduit de 30%.",
+      "categorie": "Legendaire",
+      "role": "Mage",
+      "statistiques": {
+        "FlatMPPoolMod": 300,
+        "FlatMagicDamageMod": 90
+      },
+      "tags": [
+        "SpellDamage",
+        "Mana",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3802,
+        1026
+      ]
+    },
+    {
+      "id": 3145,
+      "name": "Alternateur Hextech",
+      "prix": 1100,
+      "description": "Augmente la puissance. Inflige périodiquement des dégâts magiques supplémentaires quand vous attaquez.",
+      "categorie": "Composant",
+      "role": "Mage",
+      "statistiques": {
+        "FlatMagicDamageMod": 45
+      },
+      "tags": [
+        "SpellDamage"
+      ],
+      "sub_item_ids": [
+        1052,
+        1052
+      ]
+    },
+    {
+      "id": 3363,
+      "name": "Altération divinatoire",
+      "prix": 0,
+      "description": "Augmente la portée et révèle la zone ciblée.",
+      "categorie": "Balise",
+      "role": "Vision",
+      "statistiques": {},
+      "tags": [
+        "Active",
+        "Trinket",
+        "Vision"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 3026,
+      "name": "Ange gardien",
+      "prix": 3200,
+      "description": "Réanime périodiquement votre champion quand il meurt.",
+      "categorie": "Legendaire",
+      "role": "Tank",
+      "statistiques": {
+        "FlatArmorMod": 45,
+        "FlatPhysicalDamageMod": 55
+      },
+      "tags": [
+        "Armor",
+        "Damage"
+      ],
+      "sub_item_ids": [
+        2019,
+        1038
+      ]
+    },
+    {
+      "id": 1056,
+      "name": "Anneau de Doran",
+      "prix": 400,
+      "description": "Bon objet de départ pour les mages.",
+      "categorie": "Depart",
+      "role": "Support",
+      "statistiques": {
+        "FlatHPPoolMod": 90,
+        "FlatMagicDamageMod": 18
+      },
+      "tags": [
+        "Health",
+        "Lane",
+        "ManaRegen",
+        "SpellDamage"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 3119,
+      "name": "Approche de l'hiver",
+      "prix": 2400,
+      "description": "+550 PV +500 mana +15 accélération de compétence Effroi Vous gagnez 0 PV. Flux de mana (8 sec, max 4 charges) Quand vous touchez une cible avec une attaque ou une compétence, vous gagnez +3 mana max (doublé contre les champions). Cet objet se transforme en Fimbulvetr à +360 mana max.",
+      "categorie": "Legendaire",
+      "role": "Tank",
+      "statistiques": {
+        "FlatMPPoolMod": 500,
+        "FlatHPPoolMod": 550
+      },
+      "tags": [
+        "Health",
+        "Mana",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3070,
+        1011,
+        3067
+      ]
+    },
+    {
+      "id": 6696,
+      "name": "Arc axiomatique",
+      "prix": 2750,
+      "description": "+55 dégâts d'attaque 18 létalité +20 accélération de compétence Flux Quand un champion meurt dans les 3 sec après que vous l'avez blessé, le délai de récupération de votre compétence ultime est réduit d'un pourcentage de son total.",
+      "categorie": "Legendaire",
+      "role": "Assassin",
+      "statistiques": {
+        "FlatPhysicalDamageMod": 55
+      },
+      "tags": [
+        "Damage",
+        "ArmorPenetration",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        2020,
+        3133
+      ]
+    },
+    {
+      "id": 1043,
+      "name": "Arc courbe",
+      "prix": 700,
+      "description": "Augmente grandement la vitesse d'attaque.",
+      "categorie": "Composant",
+      "role": "Polyvalent",
+      "statistiques": {
+        "PercentAttackSpeedMod": 0.15
+      },
+      "tags": [
+        "AttackSpeed",
+        "OnHit"
+      ],
+      "sub_item_ids": [
+        1042
+      ]
+    },
+    {
+      "id": 1086,
+      "name": "Arc de Doran",
+      "prix": 400,
+      "description": "+8 dégâts d'attaque +15% de vitesse d'attaque +1.5% d'omnivampirisme",
+      "categorie": "Depart",
+      "role": "Combattant",
+      "statistiques": {
+        "FlatPhysicalDamageMod": 8,
+        "PercentAttackSpeedMod": 0.15
+      },
+      "tags": [
+        "Damage",
+        "AttackSpeed",
+        "SpellVamp",
+        "Lane"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 6673,
+      "name": "Arc-bouclier immortel",
+      "prix": 3000,
+      "description": "+55 dégâts d'attaque +25% de chances de coup critique Lien vital Si des dégâts sont censés vous laisser moins de 30% de vos PV, vous gagnez au préalable un bouclier pendant 3 sec.",
+      "categorie": "Legendaire",
+      "role": "Tireur",
+      "statistiques": {
+        "FlatCritChanceMod": 0.25,
+        "FlatPhysicalDamageMod": 55
+      },
+      "tags": [
+        "Damage",
+        "CriticalStrike"
+      ],
+      "sub_item_ids": [
+        1037,
+        6670
+      ]
+    },
+    {
+      "id": 1029,
+      "name": "Armure d'étoffe",
+      "prix": 300,
+      "description": "Augmente légèrement l'armure.",
+      "categorie": "Composant",
+      "role": "Tank",
+      "statistiques": {
+        "FlatArmorMod": 15
+      },
+      "tags": [
+        "Armor"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 3083,
+      "name": "Armure de Warmog",
+      "prix": 3100,
+      "description": "Augmente grandement les PV et la régénération des PV.",
+      "categorie": "Legendaire",
+      "role": "Tank",
+      "statistiques": {
+        "FlatHPPoolMod": 1000
+      },
+      "tags": [
+        "Health",
+        "HealthRegen"
+      ],
+      "sub_item_ids": [
+        1011,
+        1011,
+        3801
+      ]
+    },
+    {
+      "id": 3076,
+      "name": "Armure roncière",
+      "prix": 800,
+      "description": "+30 armure Épines Quand vous êtes touché par une attaque, vous infligez 0 pts de dégâts magiques à l'attaquant, ainsi que 40% d'Hémorragie pendant 3 sec si c'est un champion.",
+      "categorie": "Composant",
+      "role": "Tank",
+      "statistiques": {
+        "FlatArmorMod": 30
+      },
+      "tags": [
+        "Armor"
+      ],
+      "sub_item_ids": [
+        1029,
+        1029
+      ]
+    },
+    {
+      "id": 2501,
+      "name": "Armure sanguine",
+      "prix": 3300,
+      "description": "+30 dégâts d'attaque +550 PV Tyrannie Vous gagnez des dégâts d'attaque équivalents à 2.5% de vos PV bonus. Représailles Vous gagnez jusqu'à +12% de dégâts d'attaque selon un pourcentage de vos PV manquants.",
+      "categorie": "Legendaire",
+      "role": "Combattant",
+      "statistiques": {
+        "FlatHPPoolMod": 550,
+        "FlatPhysicalDamageMod": 30
+      },
+      "tags": [
+        "Health",
+        "Damage"
+      ],
+      "sub_item_ids": [
+        2021,
+        2021
+      ]
+    },
+    {
+      "id": 3865,
+      "name": "Atlas",
+      "prix": 400,
+      "description": "",
+      "categorie": "Depart",
+      "role": "Support",
+      "statistiques": {
+        "FlatHPPoolMod": 30
+      },
+      "tags": [
+        "Health",
+        "ManaRegen",
+        "Vision",
+        "GoldPer",
+        "Lane"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 3091,
+      "name": "Au bout du rouleau",
+      "prix": 2800,
+      "description": "Permet de résister aux dégâts magiques et de récupérer des PV.",
+      "categorie": "Legendaire",
+      "role": "Tank",
+      "statistiques": {
+        "FlatSpellBlockMod": 45,
+        "PercentAttackSpeedMod": 0.5
+      },
+      "tags": [
+        "SpellBlock",
+        "AttackSpeed",
+        "OnHit",
+        "Tenacity"
+      ],
+      "sub_item_ids": [
+        1043,
+        1057,
+        1043
+      ]
+    },
+    {
+      "id": 2510,
+      "name": "Aube et crépuscule",
+      "prix": 3100,
+      "description": "+300 PV +60 puissance +20 accélération de compétence +20% de vitesse d'attaque Lame enchantée (0 sec) Après l'utilisation d'une compétence, votre prochaine attaque inflige 0 pts de dégâts magiques bonus, vous soigne de 0 PV à l'impact et applique les effets à l'impact une fois de plus.",
+      "categorie": "Legendaire",
+      "role": "Mage",
+      "statistiques": {
+        "FlatHPPoolMod": 300,
+        "FlatMagicDamageMod": 60,
+        "PercentAttackSpeedMod": 0.2
+      },
+      "tags": [
+        "Health",
+        "AttackSpeed",
+        "SpellDamage",
+        "OnHit",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3057,
+        1026,
+        3067,
+        1042
+      ]
+    },
+    {
+      "id": 3174,
+      "name": "Avancée blindée",
+      "prix": 1200,
+      "description": "Infliger des dégâts renforce vos soins et boucliers.",
+      "categorie": "Bottes",
+      "role": "Bottes",
+      "statistiques": {
+        "FlatMovementSpeedMod": 45,
+        "FlatArmorMod": 35
+      },
+      "tags": [
+        "Armor",
+        "Boots"
+      ],
+      "sub_item_ids": [
+        3047
+      ]
+    },
+    {
+      "id": 1026,
+      "name": "Baguette explosive",
+      "prix": 850,
+      "description": "Augmente modérément la puissance.",
+      "categorie": "Composant",
+      "role": "Mage",
+      "statistiques": {
+        "FlatMagicDamageMod": 45
+      },
+      "tags": [
+        "SpellDamage"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 1058,
+      "name": "Baguette trop grosse",
+      "prix": 1200,
+      "description": "Augmente grandement la puissance.",
+      "categorie": "Composant",
+      "role": "Mage",
+      "statistiques": {
+        "FlatMagicDamageMod": 65
+      },
+      "tags": [
+        "SpellDamage"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 3340,
+      "name": "Balise camouflée",
+      "prix": 0,
+      "description": "Pose périodiquement une Balise camouflée.",
+      "categorie": "Balise",
+      "role": "Vision",
+      "statistiques": {},
+      "tags": [
+        "Active",
+        "Jungle",
+        "Lane",
+        "Trinket",
+        "Vision"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 2055,
+      "name": "Balise de contrôle",
+      "prix": 75,
+      "description": "Utilisée pour désactiver les balises et les pièges invisibles dans une zone.",
+      "categorie": "Consommable",
+      "role": "Consommable",
+      "statistiques": {},
+      "tags": [
+        "Consumable",
+        "Lane",
+        "Stealth",
+        "Vision"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 4632,
+      "name": "Barrière verdoyante",
+      "prix": 1600,
+      "description": "+40 puissance +25 résistance magique Invalidation Vous gagnez un bouclier antisorts qui bloque la prochaine compétence ennemie.",
+      "categorie": "Composant",
+      "role": "Mage",
+      "statistiques": {
+        "FlatSpellBlockMod": 25,
+        "FlatMagicDamageMod": 40
+      },
+      "tags": [
+        "SpellBlock",
+        "SpellDamage"
+      ],
+      "sub_item_ids": [
+        1052,
+        1033,
+        1052
+      ]
+    },
+    {
+      "id": 1038,
+      "name": "BF Glaive",
+      "prix": 1300,
+      "description": "Augmente grandement les dégâts d'attaque.",
+      "categorie": "Composant",
+      "role": "Combattant",
+      "statistiques": {
+        "FlatPhysicalDamageMod": 40
+      },
+      "tags": [
+        "Damage"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 1001,
+      "name": "Bottes",
+      "prix": 300,
+      "description": "Augmente légèrement la vitesse de déplacement.",
+      "categorie": "Bottes",
+      "role": "Bottes",
+      "statistiques": {
+        "FlatMovementSpeedMod": 25
+      },
+      "tags": [
+        "Boots"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 3009,
+      "name": "Bottes de célérité",
+      "prix": 1000,
+      "description": "Augmente la vitesse de déplacement et réduit les ralentissements.",
+      "categorie": "Bottes",
+      "role": "Bottes",
+      "statistiques": {
+        "FlatMovementSpeedMod": 55
+      },
+      "tags": [
+        "Boots"
+      ],
+      "sub_item_ids": [
+        1001
+      ]
+    },
+    {
+      "id": 3158,
+      "name": "Bottes de lucidité",
+      "prix": 900,
+      "description": "Augmente la vitesse de déplacement et la réduction des délais de récupération.",
+      "categorie": "Bottes",
+      "role": "Bottes",
+      "statistiques": {
+        "FlatMovementSpeedMod": 45
+      },
+      "tags": [
+        "Boots",
+        "CooldownReduction"
+      ],
+      "sub_item_ids": [
+        1001,
+        2022
+      ]
+    },
+    {
+      "id": 1054,
+      "name": "Bouclier de Doran",
+      "prix": 450,
+      "description": "Bon objet défensif de départ.",
+      "categorie": "Depart",
+      "role": "Tank",
+      "statistiques": {
+        "FlatHPPoolMod": 110,
+        "FlatHPRegenMod": 0.8
+      },
+      "tags": [
+        "Health",
+        "HealthRegen",
+        "Lane"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 3024,
+      "name": "Bouclier glacial",
+      "prix": 900,
+      "description": "Augmente l'armure et la réduction des délais de récupération.",
+      "categorie": "Composant",
+      "role": "Tank",
+      "statistiques": {
+        "FlatMPPoolMod": 300,
+        "FlatArmorMod": 25
+      },
+      "tags": [
+        "Armor",
+        "Mana",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        1029,
+        1027,
+        2022
+      ]
+    },
+    {
+      "id": 3801,
+      "name": "Bracelet cristallin",
+      "prix": 800,
+      "description": "Augmente les PV et la régénération des PV.",
+      "categorie": "Composant",
+      "role": "Tank",
+      "statistiques": {
+        "FlatHPPoolMod": 200
+      },
+      "tags": [
+        "Health",
+        "HealthRegen"
+      ],
+      "sub_item_ids": [
+        1028,
+        1006
+      ]
+    },
+    {
+      "id": 3057,
+      "name": "Brillance",
+      "prix": 900,
+      "description": "Octroie un bonus à votre prochaine attaque après l'utilisation d'une compétence.",
+      "categorie": "Composant",
+      "role": "Polyvalent",
+      "statistiques": {},
+      "tags": [
+        "OnHit",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        2022
+      ]
+    },
+    {
+      "id": 3181,
+      "name": "Brise-coques",
+      "prix": 3000,
+      "description": "+40 dégâts d'attaque +500 PV +4% de vitesse de déplacement Pilote Toutes les cinq attaques contre des champions ou des monstres épiques, vous infligez des dégâts physiques bonus. Ces dégâts sont augmentés contre les bâtiments. Section d'abordage Les super-sbires et sbires de siège alliés proches gagnent de l'armure et de la résistance magique.",
+      "categorie": "Legendaire",
+      "role": "Combattant",
+      "statistiques": {
+        "FlatHPPoolMod": 500,
+        "FlatPhysicalDamageMod": 40,
+        "PercentMovementSpeedMod": 0.04
+      },
+      "tags": [
+        "Health",
+        "Damage",
+        "NonbootsMovement"
+      ],
+      "sub_item_ids": [
+        2021,
+        3066,
+        1037
+      ]
+    },
+    {
+      "id": 2520,
+      "name": "Briseur de bastion",
+      "prix": 3000,
+      "description": "+55 dégâts d'attaque 22 létalité +15 accélération de compétence Double dégâts (0 sec) Infliger des dégâts de compétence à un champion ou un monstre épique vous permet d'infliger 0 pts de dégâts bruts bonus. Sabotage Participer à l'élimination d'un champion dans les 3 sec après lui avoir infligé des dégâts vous confère Sabotage pendant 90 sec. Lorsque vous disposez de Sabotage, votre prochaine attaque contre un monstre épique ou une tourelle inflige 0 pts de dégâts bruts bonus en 3 sec.",
+      "categorie": "Legendaire",
+      "role": "Assassin",
+      "statistiques": {
+        "FlatPhysicalDamageMod": 55
+      },
+      "tags": [
+        "Damage",
+        "ArmorPenetration",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        2020,
+        3134
+      ]
+    },
+    {
+      "id": 3364,
+      "name": "Brouilleur oraculaire",
+      "prix": 0,
+      "description": "Désactive temporairement les pièges et balises invisibles proches.",
+      "categorie": "Balise",
+      "role": "Vision",
+      "statistiques": {},
+      "tags": [
+        "Active",
+        "Trinket",
+        "Vision"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 3173,
+      "name": "Broyeuses à chaînes",
+      "prix": 1250,
+      "description": "Augmente la vitesse de déplacement et réduit les délais de récupération.",
+      "categorie": "Bottes",
+      "role": "Bottes",
+      "statistiques": {
+        "FlatSpellBlockMod": 25,
+        "FlatMovementSpeedMod": 45
+      },
+      "tags": [
+        "SpellBlock",
+        "Boots",
+        "Tenacity",
+        "MagicResist"
+      ],
+      "sub_item_ids": [
+        3111
+      ]
+    },
+    {
+      "id": 2020,
+      "name": "Brutaliseur",
+      "prix": 1337,
+      "description": "+25 dégâts d'attaque +10 accélération de compétence 5 létalité",
+      "categorie": "Composant",
+      "role": "Assassin",
+      "statistiques": {
+        "FlatPhysicalDamageMod": 25
+      },
+      "tags": [
+        "Damage",
+        "CooldownReduction",
+        "ArmorPenetration"
+      ],
+      "sub_item_ids": [
+        2022,
+        1037
+      ]
+    },
+    {
+      "id": 3003,
+      "name": "Bâton de l'archange",
+      "prix": 2900,
+      "description": "Augmente la puissance en fonction du mana max.",
+      "categorie": "Legendaire",
+      "role": "Mage",
+      "statistiques": {
+        "FlatMPPoolMod": 600,
+        "FlatMagicDamageMod": 70
+      },
+      "tags": [
+        "SpellDamage",
+        "Mana",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3070,
+        3802,
+        3108
+      ]
+    },
+    {
+      "id": 6616,
+      "name": "Bâton des flots",
+      "prix": 2250,
+      "description": "Vos soins et boucliers réduisent les effets de contrôle de foule et augmentent la vitesse de déplacement.",
+      "categorie": "Legendaire",
+      "role": "Support",
+      "statistiques": {
+        "FlatMagicDamageMod": 35
+      },
+      "tags": [
+        "SpellDamage",
+        "ManaRegen",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3108,
+        3114
+      ]
+    },
+    {
+      "id": 3135,
+      "name": "Bâton du vide",
+      "prix": 3000,
+      "description": "Augmente les dégâts magiques.",
+      "categorie": "Legendaire",
+      "role": "Mage",
+      "statistiques": {
+        "FlatMagicDamageMod": 95
+      },
+      "tags": [
+        "MagicPenetration",
+        "SpellDamage"
+      ],
+      "sub_item_ids": [
+        4630,
+        1026
+      ]
+    },
+    {
+      "id": 6657,
+      "name": "Bâton séculaire",
+      "prix": 2600,
+      "description": "+45 puissance +350 PV +500 mana Intemporel Cet objet gagne +10 PV, +30 pts de mana et +3 puissance toutes les 60 sec, jusqu'à 10 fois. Au maximum d'effets cumulés, vous gagnez un niveau. Éternité Subir des dégâts d'un champion vous rend du mana équivalent à 10% des dégâts subis. Lancer une compétence vous rend des PV équivalents à 25% du mana dépensé.",
+      "categorie": "Legendaire",
+      "role": "Support",
+      "statistiques": {
+        "FlatMPPoolMod": 500,
+        "FlatHPPoolMod": 350,
+        "FlatMagicDamageMod": 45
+      },
+      "tags": [
+        "Health",
+        "HealthRegen",
+        "SpellDamage",
+        "Mana",
+        "ManaRegen"
+      ],
+      "sub_item_ids": [
+        1026,
+        3803
+      ]
+    },
+    {
+      "id": 1101,
+      "name": "Bébé Chardent",
+      "prix": 450,
+      "description": "Compagnon de la jungle Vous invoquez un Chardent qui vous assistera contre les monstres. Votre compagnon grandit à mesure que vous chassez des monstres, ce qui renforce votre Châtiment. Quand votre compagnon a fini de grandir, il achève votre quête de jungle et renforce périodiquement votre prochaine attaque ou compétence pour qu'elle brûle les ennemis et les ralentisse. Tuer un grand monstre prépare immédiatement cet effet.",
+      "categorie": "Jungle",
+      "role": "Jungle",
+      "statistiques": {},
+      "tags": [
+        "Jungle"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 1103,
+      "name": "Bébé Ixamandre",
+      "prix": 450,
+      "description": "Compagnon de la jungle Vous invoquez un Ixamandre qui vous assistera contre les monstres. Votre compagnon grandit à mesure que vous chassez des monstres, ce qui renforce votre Châtiment. Quand votre compagnon a fini de grandir, il achève votre quête de jungle et vous gagnez un bouclier quand vous n'êtes pas en combat et quand vous tuez des grands monstres.",
+      "categorie": "Jungle",
+      "role": "Jungle",
+      "statistiques": {},
+      "tags": [
+        "Jungle"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 1102,
+      "name": "Bébé Saute-nuages",
+      "prix": 450,
+      "description": "Compagnon de la jungle Vous invoquez un Saute-nuages qui vous assistera contre les monstres. Votre compagnon grandit à mesure que vous chassez des monstres, ce qui renforce votre Châtiment. Quand votre compagnon a fini de grandir, il achève votre quête de jungle et vous gagnez de la vitesse de déplacement quand vous entrez dans des hautes herbes. Ce bonus augmente quand vous tuez des grands monstres.",
+      "categorie": "Jungle",
+      "role": "Jungle",
+      "statistiques": {},
+      "tags": [
+        "Jungle"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 3222,
+      "name": "Bénédiction de Mikael",
+      "prix": 2300,
+      "description": "Activer pour dissiper les effets entravants qui affectent un champion allié.",
+      "categorie": "Legendaire",
+      "role": "Tank",
+      "statistiques": {
+        "FlatHPPoolMod": 250
+      },
+      "tags": [
+        "Health",
+        "ManaRegen",
+        "Active",
+        "CooldownReduction",
+        "Tenacity",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3067,
+        3114
+      ]
+    },
+    {
+      "id": 3094,
+      "name": "Canon ultrarapide",
+      "prix": 2650,
+      "description": "Les déplacements génèrent des charges qui améliorent votre force de frappe lors des sièges.",
+      "categorie": "Legendaire",
+      "role": "Tireur",
+      "statistiques": {
+        "FlatCritChanceMod": 0.25,
+        "PercentAttackSpeedMod": 0.35,
+        "PercentMovementSpeedMod": 0.04
+      },
+      "tags": [
+        "CriticalStrike",
+        "AttackSpeed",
+        "NonbootsMovement"
+      ],
+      "sub_item_ids": [
+        3086,
+        3144
+      ]
+    },
+    {
+      "id": 1018,
+      "name": "Cape d'agilité",
+      "prix": 600,
+      "description": "Augmente les chances de coup critique.",
+      "categorie": "Composant",
+      "role": "Tireur",
+      "statistiques": {
+        "FlatCritChanceMod": 0.15
+      },
+      "tags": [
+        "CriticalStrike"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 1033,
+      "name": "Cape de néant",
+      "prix": 400,
+      "description": "Augmente légèrement la résistance magique.",
+      "categorie": "Composant",
+      "role": "Tank",
+      "statistiques": {
+        "FlatSpellBlockMod": 20
+      },
+      "tags": [
+        "SpellBlock"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 6670,
+      "name": "Carquois zénithien",
+      "prix": 1300,
+      "description": "+15 dégâts d'attaque +20% de chances de coup critique",
+      "categorie": "Composant",
+      "role": "Tireur",
+      "statistiques": {
+        "FlatCritChanceMod": 0.2,
+        "FlatPhysicalDamageMod": 15
+      },
+      "tags": [
+        "Damage",
+        "CriticalStrike"
+      ],
+      "sub_item_ids": [
+        1036,
+        1018
+      ]
+    },
+    {
+      "id": 1120,
+      "name": "Casque de Doran",
+      "prix": 450,
+      "description": "+150 PV +8 armure +8 résistance magique Coup de main Vos attaques infligent 5 pts de dégâts physiques bonus aux sbires.",
+      "categorie": "Depart",
+      "role": "Tank",
+      "statistiques": {
+        "FlatSpellBlockMod": 8,
+        "FlatHPPoolMod": 150,
+        "FlatArmorMod": 8
+      },
+      "tags": [
+        "Health",
+        "SpellBlock",
+        "Armor",
+        "Lane"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 3803,
+      "name": "Catalyseur de l'éternité",
+      "prix": 1300,
+      "description": "+300 PV +375 mana Éternité Vous récupérez du mana équivalent à 10% des dégâts que vous infligent les champions. Lancer une compétence vous rend des PV équivalents à 25% du mana dépensé.",
+      "categorie": "Composant",
+      "role": "Tank",
+      "statistiques": {
+        "FlatMPPoolMod": 375,
+        "FlatHPPoolMod": 300
+      },
+      "tags": [
+        "Health",
+        "HealthRegen",
+        "Mana",
+        "ManaRegen"
+      ],
+      "sub_item_ids": [
+        1028,
+        1028,
+        1027
+      ]
+    },
+    {
+      "id": 3140,
+      "name": "Ceinture de mercure",
+      "prix": 1300,
+      "description": "Activer pour dissiper tous les contrôles de foule.",
+      "categorie": "Composant",
+      "role": "Tank",
+      "statistiques": {
+        "FlatSpellBlockMod": 30
+      },
+      "tags": [
+        "Active",
+        "SpellBlock"
+      ],
+      "sub_item_ids": [
+        1033
+      ]
+    },
+    {
+      "id": 1011,
+      "name": "Ceinture du géant",
+      "prix": 900,
+      "description": "Augmente grandement les PV.",
+      "categorie": "Composant",
+      "role": "Tank",
+      "statistiques": {
+        "FlatHPPoolMod": 350
+      },
+      "tags": [
+        "Health"
+      ],
+      "sub_item_ids": [
+        1028
+      ]
+    },
+    {
+      "id": 3152,
+      "name": "Ceinture-roquette Hextech",
+      "prix": 2650,
+      "description": "Activer pour foncer vers l'avant et provoquer une terrible explosion.",
+      "categorie": "Legendaire",
+      "role": "Mage",
+      "statistiques": {
+        "FlatHPPoolMod": 350,
+        "FlatMagicDamageMod": 60
+      },
+      "tags": [
+        "Health",
+        "SpellDamage",
+        "Active",
+        "CooldownReduction",
+        "NonbootsMovement",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3145,
+        3067,
+        1028
+      ]
+    },
+    {
+      "id": 6660,
+      "name": "Cendres de Bami",
+      "prix": 900,
+      "description": "+150 PV +5 accélération de compétence Immolation Subir ou infliger des dégâts vous permet d'infliger des dégâts magiques aux ennemis proches pendant 3 sec.",
+      "categorie": "Composant",
+      "role": "Tank",
+      "statistiques": {
+        "FlatHPPoolMod": 150
+      },
+      "tags": [
+        "Health",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        1028,
+        2022
+      ]
+    },
+    {
+      "id": 2508,
+      "name": "Cendres fatidiques",
+      "prix": 900,
+      "description": "+30 puissance Ignition Les compétences blessantes infligent 15 pts de dégâts magiques bonus en 3 sec. Inflige 45 pts de dégâts magiques bonus aux monstres.",
+      "categorie": "Composant",
+      "role": "Mage",
+      "statistiques": {
+        "FlatMagicDamageMod": 30
+      },
+      "tags": [
+        "SpellDamage"
+      ],
+      "sub_item_ids": [
+        1052
+      ]
+    },
+    {
+      "id": 2065,
+      "name": "Chant de guerre de Shurelya",
+      "prix": 2200,
+      "description": "Activer pour accélérer les alliés proches.",
+      "categorie": "Legendaire",
+      "role": "Support",
+      "statistiques": {
+        "FlatMagicDamageMod": 50,
+        "PercentMovementSpeedMod": 0.04
+      },
+      "tags": [
+        "SpellDamage",
+        "ManaRegen",
+        "Active",
+        "CooldownReduction",
+        "NonbootsMovement",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3113,
+        4642
+      ]
+    },
+    {
+      "id": 3802,
+      "name": "Chapitre perdu",
+      "prix": 1200,
+      "description": "Rend du mana quand vous gagnez un niveau.",
+      "categorie": "Composant",
+      "role": "Support",
+      "statistiques": {
+        "FlatMPPoolMod": 300,
+        "FlatMagicDamageMod": 40
+      },
+      "tags": [
+        "SpellDamage",
+        "Mana",
+        "ManaRegen",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        1052,
+        1027,
+        2022
+      ]
+    },
+    {
+      "id": 1004,
+      "name": "Charme féérique",
+      "prix": 200,
+      "description": "Augmente légèrement la régénération du mana.",
+      "categorie": "Composant",
+      "role": "Polyvalent",
+      "statistiques": {},
+      "tags": [
+        "ManaRegen"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 2512,
+      "name": "Chasseur de monstres",
+      "prix": 2650,
+      "description": "+45% de vitesse d'attaque +25% de chances de coup critique +4% de vitesse de déplacement Veille de nuit Vous gagnez 30 d'accélération d'ultime. Barrage d'ouverture Après avoir lancé votre ultime, vos prochaines 3 attaques de base gagnent 50% de vitesse d'attaque et infligent un coup critique de qui inflige 80% de vos dégâts de coups critiques normaux pendant 8 sec. Si une attaque devait déjà infliger un coup critique, elle inflige 15% de dégâts bruts bonus.",
+      "categorie": "Legendaire",
+      "role": "Tireur",
+      "statistiques": {
+        "FlatCritChanceMod": 0.25,
+        "PercentAttackSpeedMod": 0.45,
+        "PercentMovementSpeedMod": 0.04
+      },
+      "tags": [
+        "CriticalStrike",
+        "AttackSpeed",
+        "NonbootsMovement",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3086,
+        3144
+      ]
+    },
+    {
+      "id": 3175,
+      "name": "Chaussures de lanceur de sorts",
+      "prix": 1100,
+      "description": "+20 pénétration magique +8% de pénétration magique +45 vitesse de déplacement",
+      "categorie": "Bottes",
+      "role": "Bottes",
+      "statistiques": {
+        "FlatMovementSpeedMod": 45
+      },
+      "tags": [
+        "Boots",
+        "MagicPenetration"
+      ],
+      "sub_item_ids": [
+        3020
+      ]
+    },
+    {
+      "id": 3020,
+      "name": "Chaussures de sorcier",
+      "prix": 1100,
+      "description": "Augmente la vitesse de déplacement et les dégâts magiques.",
+      "categorie": "Bottes",
+      "role": "Bottes",
+      "statistiques": {
+        "FlatMovementSpeedMod": 45
+      },
+      "tags": [
+        "Boots",
+        "MagicPenetration"
+      ],
+      "sub_item_ids": [
+        1001
+      ]
+    },
+    {
+      "id": 6610,
+      "name": "Ciel éventré",
+      "prix": 3100,
+      "description": "+40 dégâts d'attaque +400 PV +10 accélération de compétence Frappe des Lightshield Votre première attaque contre un champion lui porte un coup critique et vous rend des PV.",
+      "categorie": "Legendaire",
+      "role": "Combattant",
+      "statistiques": {
+        "FlatHPPoolMod": 400,
+        "FlatPhysicalDamageMod": 40
+      },
+      "tags": [
+        "Health",
+        "Damage",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        2021,
+        3133
+      ]
+    },
+    {
+      "id": 3139,
+      "name": "Cimeterre mercuriel",
+      "prix": 3200,
+      "description": "Activer pour dissiper tous les contrôles de foule et augmenter considérablement la vitesse de déplacement.",
+      "categorie": "Legendaire",
+      "role": "Assassin",
+      "statistiques": {
+        "FlatSpellBlockMod": 35,
+        "FlatPhysicalDamageMod": 50,
+        "PercentLifeStealMod": 0.1
+      },
+      "tags": [
+        "SpellBlock",
+        "Damage",
+        "LifeSteal",
+        "Active",
+        "NonbootsMovement",
+        "Tenacity"
+      ],
+      "sub_item_ids": [
+        3140,
+        1037,
+        1053
+      ]
+    },
+    {
+      "id": 3108,
+      "name": "Codex méphitique",
+      "prix": 850,
+      "description": "Augmente la puissance et la réduction des délais de récupération.",
+      "categorie": "Composant",
+      "role": "Mage",
+      "statistiques": {
+        "FlatMagicDamageMod": 25
+      },
+      "tags": [
+        "SpellDamage",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        1052,
+        2022
+      ]
+    },
+    {
+      "id": 3089,
+      "name": "Coiffe de Rabadon",
+      "prix": 3500,
+      "description": "Augmente considérablement la puissance.",
+      "categorie": "Legendaire",
+      "role": "Mage",
+      "statistiques": {
+        "FlatMagicDamageMod": 130
+      },
+      "tags": [
+        "SpellDamage"
+      ],
+      "sub_item_ids": [
+        1058,
+        1058
+      ]
+    },
+    {
+      "id": 1006,
+      "name": "Collier rafraîchissant",
+      "prix": 300,
+      "description": "Augmente légèrement la régénération des PV.",
+      "categorie": "Composant",
+      "role": "Polyvalent",
+      "statistiques": {},
+      "tags": [
+        "HealthRegen"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 4628,
+      "name": "Concentration lointaine",
+      "prix": 2700,
+      "description": "Immobiliser un champion lui lance des éclairs.",
+      "categorie": "Legendaire",
+      "role": "Mage",
+      "statistiques": {
+        "FlatMagicDamageMod": 75
+      },
+      "tags": [
+        "SpellDamage",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3108,
+        3108,
+        1052
+      ]
+    },
+    {
+      "id": 3050,
+      "name": "Convergence de Zeke",
+      "prix": 2200,
+      "description": "Vous confère des bonus ainsi qu'à votre allié quand vous utilisez votre ultime.",
+      "categorie": "Legendaire",
+      "role": "Tank",
+      "statistiques": {
+        "FlatSpellBlockMod": 25,
+        "FlatHPPoolMod": 300,
+        "FlatArmorMod": 25
+      },
+      "tags": [
+        "Health",
+        "SpellBlock",
+        "Armor",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3067,
+        1029,
+        1033
+      ]
+    },
+    {
+      "id": 3047,
+      "name": "Coques en acier",
+      "prix": 1200,
+      "description": "Augmente la vitesse de déplacement et réduit les dégâts que vous infligent les attaques de base.",
+      "categorie": "Bottes",
+      "role": "Bottes",
+      "statistiques": {
+        "FlatMovementSpeedMod": 45,
+        "FlatArmorMod": 25
+      },
+      "tags": [
+        "Armor",
+        "Boots"
+      ],
+      "sub_item_ids": [
+        1001,
+        1029
+      ]
+    },
+    {
+      "id": 2051,
+      "name": "Corne du gardien",
+      "prix": 950,
+      "description": "Bon objet de départ pour les tanks.",
+      "categorie": "Depart",
+      "role": "Tank",
+      "statistiques": {
+        "FlatHPPoolMod": 150,
+        "FlatHPRegenMod": 4
+      },
+      "tags": [
+        "Health",
+        "HealthRegen",
+        "Lane"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 1031,
+      "name": "Cotte de mailles",
+      "prix": 800,
+      "description": "Augmente grandement l'armure.",
+      "categorie": "Composant",
+      "role": "Tank",
+      "statistiques": {
+        "FlatArmorMod": 40
+      },
+      "tags": [
+        "Armor"
+      ],
+      "sub_item_ids": [
+        1029
+      ]
+    },
+    {
+      "id": 3075,
+      "name": "Cotte épineuse",
+      "prix": 2450,
+      "description": "+150 PV +75 armure Épines Quand vous êtes touché par une attaque, vous infligez des dégâts magiques à l'attaquant, ainsi que 40% d'Hémorragie pendant 3 sec si c'est un champion.",
+      "categorie": "Legendaire",
+      "role": "Tank",
+      "statistiques": {
+        "FlatHPPoolMod": 150,
+        "FlatArmorMod": 75
+      },
+      "tags": [
+        "Health",
+        "Armor"
+      ],
+      "sub_item_ids": [
+        3076,
+        1031,
+        1028
+      ]
+    },
+    {
+      "id": 3071,
+      "name": "Couperet noir",
+      "prix": 3000,
+      "description": "Infliger des dégâts physiques aux champions ennemis réduit leur armure.",
+      "categorie": "Legendaire",
+      "role": "Assassin",
+      "statistiques": {
+        "FlatHPPoolMod": 400,
+        "FlatPhysicalDamageMod": 45
+      },
+      "tags": [
+        "Health",
+        "Damage",
+        "CooldownReduction",
+        "OnHit",
+        "NonbootsMovement",
+        "ArmorPenetration",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3044,
+        3067,
+        1037
+      ]
+    },
+    {
+      "id": 1028,
+      "name": "Cristal de rubis",
+      "prix": 400,
+      "description": "Augmente les PV.",
+      "categorie": "Composant",
+      "role": "Tank",
+      "statistiques": {
+        "FlatHPPoolMod": 150
+      },
+      "tags": [
+        "Health"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 1027,
+      "name": "Cristal de saphir",
+      "prix": 300,
+      "description": "Augmente le mana.",
+      "categorie": "Composant",
+      "role": "Polyvalent",
+      "statistiques": {
+        "FlatMPPoolMod": 300
+      },
+      "tags": [
+        "Mana"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 6695,
+      "name": "Crochet de serpent",
+      "prix": 2500,
+      "description": "+55 dégâts d'attaque 15 létalité Briseur de boucliers Infliger des dégâts à un champion ennemi réduit les boucliers qu'il reçoit de 0% pendant 3 sec. Si l'ennemi n'était pas déjà affecté par Briseur de boucliers, vous réduisez ses boucliers actuels de 0%.",
+      "categorie": "Legendaire",
+      "role": "Assassin",
+      "statistiques": {
+        "FlatPhysicalDamageMod": 55
+      },
+      "tags": [
+        "Damage",
+        "ArmorPenetration"
+      ],
+      "sub_item_ids": [
+        3134,
+        1037
+      ]
+    },
+    {
+      "id": 4633,
+      "name": "Créateur de failles",
+      "prix": 3100,
+      "description": "+70 puissance +350 PV +15 accélération de compétence Corruption du Néant Pour chaque seconde passée en combat avec des champions ennemis, vous infligez 2% de dégâts bonus (jusqu'à 8%). Une fois le pourcentage max atteint, vous gagnez de l'omnivampirisme. Infusion du Néant Vous gagnez de la puissance équivalente à 2% de vos PV bonus.",
+      "categorie": "Legendaire",
+      "role": "Mage",
+      "statistiques": {
+        "FlatHPPoolMod": 350,
+        "FlatMagicDamageMod": 70
+      },
+      "tags": [
+        "Health",
+        "SpellDamage",
+        "CooldownReduction",
+        "SpellVamp"
+      ],
+      "sub_item_ids": [
+        3147,
+        3108
+      ]
+    },
+    {
+      "id": 6699,
+      "name": "Cyclosabre voltaïque",
+      "prix": 3000,
+      "description": "+55 dégâts d'attaque 10 létalité +10 accélération de compétence Galvanisation Infliger des dégâts à un champion ennemi avec une compétence déclenche Énergisé si l'effet est prêt. Firmament Votre attaque énergisée inflige des dégâts physiques bonus équivalents à un % des PV actuels de la cible et vous confère de la létalité bonus pendant 4 sec.",
+      "categorie": "Legendaire",
+      "role": "Assassin",
+      "statistiques": {
+        "FlatPhysicalDamageMod": 55
+      },
+      "tags": [
+        "Damage",
+        "Active",
+        "CooldownReduction",
+        "ArmorPenetration",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        2020,
+        1036,
+        1036
+      ]
+    },
+    {
+      "id": 3170,
+      "name": "Célérité martiale",
+      "prix": 1000,
+      "description": "Améliore la défense et réduit la durée des effets entravants.",
+      "categorie": "Bottes",
+      "role": "Bottes",
+      "statistiques": {
+        "FlatMovementSpeedMod": 65
+      },
+      "tags": [
+        "Boots"
+      ],
+      "sub_item_ids": [
+        3009
+      ]
+    },
+    {
+      "id": 6621,
+      "name": "Cœur de l'aube",
+      "prix": 2500,
+      "description": "+45 puissance +16% d'efficacité des soins et boucliers +100% de régénération de base du mana Première lumière Vous gagnez +2% d'efficacité des soins et boucliers et +10 puissance tous les 100% de régénération de base du mana.",
+      "categorie": "Legendaire",
+      "role": "Support",
+      "statistiques": {
+        "FlatMagicDamageMod": 45
+      },
+      "tags": [
+        "SpellDamage",
+        "ManaRegen"
+      ],
+      "sub_item_ids": [
+        1026,
+        3114,
+        3114
+      ]
+    },
+    {
+      "id": 3110,
+      "name": "Cœur gelé",
+      "prix": 2500,
+      "description": "Augmente considérablement l'armure et ralentit les attaques de base ennemies.",
+      "categorie": "Legendaire",
+      "role": "Tank",
+      "statistiques": {
+        "FlatMPPoolMod": 400,
+        "FlatArmorMod": 75
+      },
+      "tags": [
+        "Armor",
+        "Mana",
+        "Aura",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3082,
+        3024
+      ]
+    },
+    {
+      "id": 3084,
+      "name": "Cœuracier",
+      "prix": 3000,
+      "description": "Rend des PV à chaque champion tué ou assistance.",
+      "categorie": "Legendaire",
+      "role": "Tank",
+      "statistiques": {
+        "FlatHPPoolMod": 900
+      },
+      "tags": [
+        "Health",
+        "HealthRegen"
+      ],
+      "sub_item_ids": [
+        1011,
+        3801,
+        1011
+      ]
+    },
+    {
+      "id": 1042,
+      "name": "Dague",
+      "prix": 250,
+      "description": "Augmente légèrement la vitesse d'attaque.",
+      "categorie": "Composant",
+      "role": "Polyvalent",
+      "statistiques": {
+        "PercentAttackSpeedMod": 0.1
+      },
+      "tags": [
+        "AttackSpeed"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 3134,
+      "name": "Dague dentelée",
+      "prix": 1000,
+      "description": "Augmente les dégâts d'attaque et la létalité.",
+      "categorie": "Composant",
+      "role": "Assassin",
+      "statistiques": {
+        "FlatPhysicalDamageMod": 20
+      },
+      "tags": [
+        "Damage",
+        "ArmorPenetration"
+      ],
+      "sub_item_ids": [
+        1036,
+        1036
+      ]
+    },
+    {
+      "id": 6333,
+      "name": "Danse de la mort",
+      "prix": 3300,
+      "description": "+60 dégâts d'attaque +50 armure +15 accélération de compétence Insensible à la douleur Un pourcentage des dégâts subis vous sont infligés en différé en 3 sec. Massacre Quand un champion meurt dans les 3 sec après que vous l'avez blessé, vous purgez les dégâts restants d'Insensible à la douleur et vous récupérez des PV en 2 sec.",
+      "categorie": "Legendaire",
+      "role": "Tank",
+      "statistiques": {
+        "FlatArmorMod": 50,
+        "FlatPhysicalDamageMod": 60
+      },
+      "tags": [
+        "Armor",
+        "Damage",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        2019,
+        1037,
+        3133
+      ]
+    },
+    {
+      "id": 3046,
+      "name": "Danseur fantôme",
+      "prix": 2650,
+      "description": "Vous vous déplacez plus vite en attaquant des ennemis et vous obtenez un bouclier quand vos PV sont bas.",
+      "categorie": "Legendaire",
+      "role": "Tireur",
+      "statistiques": {
+        "FlatCritChanceMod": 0.25,
+        "PercentAttackSpeedMod": 0.65,
+        "PercentMovementSpeedMod": 0.1
+      },
+      "tags": [
+        "CriticalStrike",
+        "AttackSpeed",
+        "NonbootsMovement"
+      ],
+      "sub_item_ids": [
+        1042,
+        3086,
+        1042
+      ]
+    },
+    {
+      "id": 3115,
+      "name": "Dent de Nashor",
+      "prix": 2900,
+      "description": "Augmente la vitesse d'attaque, la puissance et les délais de récupération.",
+      "categorie": "Legendaire",
+      "role": "Mage",
+      "statistiques": {
+        "FlatMagicDamageMod": 80,
+        "PercentAttackSpeedMod": 0.5
+      },
+      "tags": [
+        "AttackSpeed",
+        "SpellDamage",
+        "OnHit",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        1043,
+        1026,
+        3108
+      ]
+    },
+    {
+      "id": 3035,
+      "name": "Dernier souffle",
+      "prix": 1450,
+      "description": "Contre les ennemis ayant beaucoup d'armure.",
+      "categorie": "Composant",
+      "role": "Assassin",
+      "statistiques": {
+        "FlatPhysicalDamageMod": 20
+      },
+      "tags": [
+        "ArmorPenetration",
+        "Damage"
+      ],
+      "sub_item_ids": [
+        1036,
+        1036
+      ]
+    },
+    {
+      "id": 2526,
+      "name": "Diadème des murmures",
+      "prix": 2250,
+      "description": "+200 PV +8% d'efficacité des soins et boucliers +75% de régénération de base du mana +300 mana Harmonie Vous gagnez 0% d'efficacité des soins et boucliers. Flux de mana (8 sec, max. 5 charges) Quand vous touchez une cible avec une compétence, vous gagnez 4 pts de mana max (doublé contre les champions). Cet objet se transforme en Diadème musical à 360 pts de mana max.",
+      "categorie": "Composant",
+      "role": "Tank",
+      "statistiques": {
+        "FlatMPPoolMod": 300,
+        "FlatHPPoolMod": 200
+      },
+      "tags": [
+        "Health",
+        "Mana",
+        "ManaRegen"
+      ],
+      "sub_item_ids": [
+        3114,
+        1028,
+        3070
+      ]
+    },
+    {
+      "id": 3147,
+      "name": "Déguisement hanté",
+      "prix": 1300,
+      "description": "Inflige des dégâts physiques supplémentaires quand vous tendez une embuscade.",
+      "categorie": "Composant",
+      "role": "Mage",
+      "statistiques": {
+        "FlatHPPoolMod": 200,
+        "FlatMagicDamageMod": 30
+      },
+      "tags": [
+        "Health",
+        "SpellDamage"
+      ],
+      "sub_item_ids": [
+        1052,
+        1028
+      ]
+    },
+    {
+      "id": 2502,
+      "name": "Désespoir infini",
+      "prix": 2800,
+      "description": "+400 PV +50 armure +15 accélération de compétence Affliction Toutes les 4 sec de combat contre un champion, vous infligez des dégâts magiques aux champions ennemis proches et vous récupérez des PV équivalents à 250% des dégâts infligés.",
+      "categorie": "Legendaire",
+      "role": "Tank",
+      "statistiques": {
+        "FlatHPPoolMod": 400,
+        "FlatArmorMod": 50
+      },
+      "tags": [
+        "Health",
+        "Armor",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        1031,
+        3067,
+        1028
+      ]
+    },
+    {
+      "id": 3504,
+      "name": "Encensoir ardent",
+      "prix": 2200,
+      "description": "Les soins et boucliers que vous lancez sur d'autres unités augmentent leur vitesse d'attaque et la vôtre et permettent à leurs attaques d'infliger des dégâts magiques supplémentaires à l'impact.",
+      "categorie": "Legendaire",
+      "role": "Support",
+      "statistiques": {
+        "FlatMagicDamageMod": 45,
+        "PercentMovementSpeedMod": 0.04
+      },
+      "tags": [
+        "AttackSpeed",
+        "SpellDamage",
+        "ManaRegen",
+        "NonbootsMovement"
+      ],
+      "sub_item_ids": [
+        3113,
+        3114
+      ]
+    },
+    {
+      "id": 6631,
+      "name": "Estropieur",
+      "prix": 3300,
+      "description": "+40 dégâts d'attaque +25% de vitesse d'attaque +450 PV Fendoir Vos attaques infligent des dégâts physiques aux ennemis proches. Onde de choc entravante Vous infligez des dégâts physiques aux ennemis proches et les ralentissez de 35%. Vous gagnez +35% de vitesse de déplacement par champion touché, et ce bonus diminue en 3 sec.",
+      "categorie": "Legendaire",
+      "role": "Combattant",
+      "statistiques": {
+        "FlatHPPoolMod": 450,
+        "FlatPhysicalDamageMod": 40,
+        "PercentAttackSpeedMod": 0.25
+      },
+      "tags": [
+        "Health",
+        "Damage",
+        "AttackSpeed",
+        "Slow"
+      ],
+      "sub_item_ids": [
+        3077,
+        3044,
+        1042
+      ]
+    },
+    {
+      "id": 2517,
+      "name": "Faim insatiable",
+      "prix": 3100,
+      "description": "+65 dégâts d'attaque +5% d'omnivampirisme +20% de ténacité Famine Vous gagnez de l'accélération de compétence selon vos dégâts d'attaque bonus. Festin Quand un champion auquel vous avez infligé des dégâts récemment meurt, vous gagnez de l'omnivampirisme pendant quelques secondes.",
+      "categorie": "Legendaire",
+      "role": "Combattant",
+      "statistiques": {
+        "FlatPhysicalDamageMod": 65
+      },
+      "tags": [
+        "Damage",
+        "LifeSteal",
+        "SpellVamp",
+        "Tenacity",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3133,
+        1037,
+        1036
+      ]
+    },
+    {
+      "id": 3508,
+      "name": "Faux spectrale",
+      "prix": 3050,
+      "description": "+50 dégâts d'attaque +20 accélération de compétence +25% de chances de coup critique Lame enchantée Après avoir utilisé une compétence, votre prochaine attaque inflige pts de dégâts physiques bonus, et vous octroie du mana à l'impact.",
+      "categorie": "Legendaire",
+      "role": "Tireur",
+      "statistiques": {
+        "FlatCritChanceMod": 0.25,
+        "FlatPhysicalDamageMod": 50
+      },
+      "tags": [
+        "Damage",
+        "CriticalStrike",
+        "ManaRegen",
+        "CooldownReduction",
+        "OnHit",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3057,
+        3133,
+        1018
+      ]
+    },
+    {
+      "id": 3113,
+      "name": "Feu follet éthéré",
+      "prix": 900,
+      "description": "Augmente la puissance et la vitesse de déplacement.",
+      "categorie": "Composant",
+      "role": "Mage",
+      "statistiques": {
+        "FlatMagicDamageMod": 30,
+        "PercentMovementSpeedMod": 0.04
+      },
+      "tags": [
+        "NonbootsMovement",
+        "SpellDamage"
+      ],
+      "sub_item_ids": [
+        1052
+      ]
+    },
+    {
+      "id": 4645,
+      "name": "Flamme-ombre",
+      "prix": 3200,
+      "description": "+110 puissance +15 pénétration magique Floraicendre Vos dégâts magiques et vos dégâts bruts infligent des coups critiques aux ennemis qui ont moins de 40% de leurs PV, leur infligeant 20% de dégâts bonus.",
+      "categorie": "Legendaire",
+      "role": "Mage",
+      "statistiques": {
+        "FlatMagicDamageMod": 110
+      },
+      "tags": [
+        "SpellDamage",
+        "MagicPenetration"
+      ],
+      "sub_item_ids": [
+        3145,
+        1058
+      ]
+    },
+    {
+      "id": 3137,
+      "name": "Fleur de crypte",
+      "prix": 3000,
+      "description": "Activer pour dissiper tous les sortilèges et augmenter considérablement la vitesse de déplacement.",
+      "categorie": "Legendaire",
+      "role": "Mage",
+      "statistiques": {
+        "FlatMagicDamageMod": 75
+      },
+      "tags": [
+        "SpellDamage",
+        "MagicPenetration",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        4630,
+        3108,
+        3108
+      ]
+    },
+    {
+      "id": 3032,
+      "name": "Flèches des Yun Tal",
+      "prix": 3000,
+      "description": "+50 dégâts d'attaque +45% de vitesse d'attaque +0% de chances de coup critique Entraînement létal À l'attaque, vous gagnez définitivement des chances de coup critique (max +25%). Déluge En attaquant un champion ennemi, vous gagnez +30% de vitesse d'attaque pendant 6 sec (30 sec de récupération). Vos attaques réduisent ce délai de récupération de 1 sec. Vos coups critiques réduisent ce délai de récupération de 2 sec à la place.",
+      "categorie": "Legendaire",
+      "role": "Tireur",
+      "statistiques": {
+        "FlatPhysicalDamageMod": 50,
+        "PercentAttackSpeedMod": 0.45
+      },
+      "tags": [
+        "Damage",
+        "CriticalStrike",
+        "AttackSpeed"
+      ],
+      "sub_item_ids": [
+        1038,
+        3144,
+        1036
+      ]
+    },
+    {
+      "id": 3100,
+      "name": "Fléau de liche",
+      "prix": 2900,
+      "description": "Octroie un bonus à votre prochaine attaque après l'utilisation d'une compétence.",
+      "categorie": "Legendaire",
+      "role": "Mage",
+      "statistiques": {
+        "FlatMagicDamageMod": 100,
+        "PercentMovementSpeedMod": 0.06
+      },
+      "tags": [
+        "SpellDamage",
+        "OnHit",
+        "NonbootsMovement",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3057,
+        3113,
+        1026
+      ]
+    },
+    {
+      "id": 2524,
+      "name": "Flûtes de Bandle",
+      "prix": 2300,
+      "description": "+200 PV +15 accélération de compétence +20 armure +20 résistance magique Fanfare Ralentir ou immobiliser un champion ennemi vous octroie Fanfare pendant 0 sec. Fanfare vous octroie 20 de vitesse de déplacement. Lorsque vous avez Fanfare, les alliés à proximité, et vous-même, gagnez 0 de vitesse d'attaque.",
+      "categorie": "Legendaire",
+      "role": "Tank",
+      "statistiques": {
+        "FlatSpellBlockMod": 20,
+        "FlatHPPoolMod": 200,
+        "FlatArmorMod": 20
+      },
+      "tags": [
+        "Health",
+        "SpellBlock",
+        "Armor",
+        "AttackSpeed",
+        "NonbootsMovement",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3067,
+        1029,
+        1033
+      ]
+    },
+    {
+      "id": 4401,
+      "name": "Force de la nature",
+      "prix": 2800,
+      "description": "Vitesse de déplacement, résistance magique et régénération des PV.",
+      "categorie": "Legendaire",
+      "role": "Tank",
+      "statistiques": {
+        "FlatSpellBlockMod": 55,
+        "FlatHPPoolMod": 400,
+        "PercentMovementSpeedMod": 0.04
+      },
+      "tags": [
+        "Health",
+        "SpellBlock",
+        "NonbootsMovement"
+      ],
+      "sub_item_ids": [
+        1057,
+        1028,
+        3066
+      ]
+    },
+    {
+      "id": 3078,
+      "name": "Force de la trinité",
+      "prix": 3333,
+      "description": "Des tonnes de dégâts.",
+      "categorie": "Legendaire",
+      "role": "Combattant",
+      "statistiques": {
+        "FlatHPPoolMod": 333,
+        "FlatPhysicalDamageMod": 36,
+        "PercentAttackSpeedMod": 0.3
+      },
+      "tags": [
+        "Health",
+        "Damage",
+        "AttackSpeed",
+        "CooldownReduction",
+        "OnHit",
+        "NonbootsMovement",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3057,
+        3044,
+        3051
+      ]
+    },
+    {
+      "id": 2021,
+      "name": "Foreuse",
+      "prix": 1150,
+      "description": "+15 dégâts d'attaque +250 PV",
+      "categorie": "Composant",
+      "role": "Combattant",
+      "statistiques": {
+        "FlatHPPoolMod": 250,
+        "FlatPhysicalDamageMod": 15
+      },
+      "tags": [
+        "Health",
+        "Damage"
+      ],
+      "sub_item_ids": [
+        1036,
+        1028
+      ]
+    },
+    {
+      "id": 3144,
+      "name": "Fronde de l'éclaireur",
+      "prix": 600,
+      "description": "Activer pour infliger des dégâts magiques et ralentir le champion ciblé.",
+      "categorie": "Composant",
+      "role": "Polyvalent",
+      "statistiques": {
+        "PercentAttackSpeedMod": 0.2
+      },
+      "tags": [
+        "AttackSpeed"
+      ],
+      "sub_item_ids": [
+        1042,
+        1042
+      ]
+    },
+    {
+      "id": 3053,
+      "name": "Gage de Sterak",
+      "prix": 3200,
+      "description": "Protège contre les gros bursts de dégâts.",
+      "categorie": "Legendaire",
+      "role": "Combattant",
+      "statistiques": {
+        "FlatHPPoolMod": 400
+      },
+      "tags": [
+        "Health",
+        "Damage",
+        "Tenacity"
+      ],
+      "sub_item_ids": [
+        1037,
+        2021,
+        1028
+      ]
+    },
+    {
+      "id": 6662,
+      "name": "Gantelet givrant",
+      "prix": 2900,
+      "description": "Résistance magique élevée. Ralentit passivement les ennemis proches. Quand des compétences sont lancées près de vous, vous libérez une vague d'énergie qui blesse et ralentit les ennemis.",
+      "categorie": "Legendaire",
+      "role": "Tank",
+      "statistiques": {
+        "FlatHPPoolMod": 300,
+        "FlatArmorMod": 50
+      },
+      "tags": [
+        "Health",
+        "Armor",
+        "CooldownReduction",
+        "Slow",
+        "OnHit",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3057,
+        1028,
+        1031
+      ]
+    },
+    {
+      "id": 3067,
+      "name": "Gemme exaltante",
+      "prix": 800,
+      "description": "Augmente les PV et la réduction des délais de récupération.",
+      "categorie": "Composant",
+      "role": "Tank",
+      "statistiques": {
+        "FlatHPPoolMod": 200
+      },
+      "tags": [
+        "Health",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        1028,
+        2022
+      ]
+    },
+    {
+      "id": 3179,
+      "name": "Glaive d'ombre",
+      "prix": 2800,
+      "description": "Permet périodiquement de détecter les pièges et les balises.",
+      "categorie": "Legendaire",
+      "role": "Assassin",
+      "statistiques": {
+        "FlatPhysicalDamageMod": 60
+      },
+      "tags": [
+        "Damage",
+        "Vision",
+        "CooldownReduction",
+        "ArmorPenetration",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3134,
+        3133
+      ]
+    },
+    {
+      "id": 3156,
+      "name": "Gueule de Malmortius",
+      "prix": 3100,
+      "description": "Augmente les dégâts d'attaque quand les PV sont faibles.",
+      "categorie": "Legendaire",
+      "role": "Tank",
+      "statistiques": {
+        "FlatSpellBlockMod": 40,
+        "FlatPhysicalDamageMod": 60
+      },
+      "tags": [
+        "SpellBlock",
+        "Damage",
+        "LifeSteal",
+        "SpellVamp",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3155,
+        3133
+      ]
+    },
+    {
+      "id": 3051,
+      "name": "Hache d'Âtrinsèque",
+      "prix": 1200,
+      "description": "+20 dégâts d'attaque +20% de vitesse d'attaque",
+      "categorie": "Composant",
+      "role": "Combattant",
+      "statistiques": {
+        "FlatPhysicalDamageMod": 20,
+        "PercentAttackSpeedMod": 0.2
+      },
+      "tags": [
+        "Damage",
+        "AttackSpeed"
+      ],
+      "sub_item_ids": [
+        1036,
+        1042,
+        1036
+      ]
+    },
+    {
+      "id": 2525,
+      "name": "Harnais protoplasmique",
+      "prix": 2600,
+      "description": "+600 PV +20 accélération de compétence Lien vital (0 sec) Si des dégâts sont censés vous laisser moins de 30% de vos PV, vous gagnez 0 PV max pendant 5 sec, puis vous récupérez 0 PV sur la durée. Lorsque vous récupérez des PV, vous grandissez de 15%, vous gagnez 10% de vitesse de déplacement et 25% de ténacité.",
+      "categorie": "Legendaire",
+      "role": "Tank",
+      "statistiques": {
+        "FlatHPPoolMod": 600
+      },
+      "tags": [
+        "Health",
+        "NonbootsMovement",
+        "Tenacity",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3067,
+        1011
+      ]
+    },
+    {
+      "id": 3073,
+      "name": "Hexplaque expérimentale",
+      "prix": 3000,
+      "description": "Augmente votre mana max quand vous dépensez du mana.",
+      "categorie": "Legendaire",
+      "role": "Combattant",
+      "statistiques": {
+        "FlatHPPoolMod": 450,
+        "FlatPhysicalDamageMod": 40,
+        "PercentAttackSpeedMod": 0.2
+      },
+      "tags": [
+        "Health",
+        "Damage",
+        "AttackSpeed",
+        "CooldownReduction",
+        "NonbootsMovement",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        2021,
+        1042,
+        3044
+      ]
+    },
+    {
+      "id": 3155,
+      "name": "Hexterminateur",
+      "prix": 1300,
+      "description": "Augmente les dégâts d'attaque et la résistance magique.",
+      "categorie": "Composant",
+      "role": "Tank",
+      "statistiques": {
+        "FlatSpellBlockMod": 25,
+        "FlatPhysicalDamageMod": 25
+      },
+      "tags": [
+        "Damage",
+        "SpellBlock"
+      ],
+      "sub_item_ids": [
+        1036,
+        1033,
+        1036
+      ]
+    },
+    {
+      "id": 6698,
+      "name": "Hydre profane",
+      "prix": 2850,
+      "description": "+55 dégâts d'attaque 18 létalité +10 accélération de compétence Fendoir Vos attaques infligent des dégâts physiques aux ennemis proches. Balayage hérétique Vous infligez des dégâts physiques autour de vous.",
+      "categorie": "Legendaire",
+      "role": "Assassin",
+      "statistiques": {
+        "FlatPhysicalDamageMod": 55
+      },
+      "tags": [
+        "Damage",
+        "Active",
+        "CooldownReduction",
+        "ArmorPenetration",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3077,
+        2020
+      ]
+    },
+    {
+      "id": 3748,
+      "name": "Hydre titanesque",
+      "prix": 3300,
+      "description": "Inflige des dégâts de zone en fonction des PV du propriétaire.",
+      "categorie": "Legendaire",
+      "role": "Combattant",
+      "statistiques": {
+        "FlatHPPoolMod": 600,
+        "FlatPhysicalDamageMod": 40
+      },
+      "tags": [
+        "Health",
+        "HealthRegen",
+        "Damage",
+        "OnHit"
+      ],
+      "sub_item_ids": [
+        3077,
+        2021,
+        1011
+      ]
+    },
+    {
+      "id": 3074,
+      "name": "Hydre vorace",
+      "prix": 3300,
+      "description": "Les attaques de mêlée ont un effet de zone, infligeant des dégâts et rendant des PV.",
+      "categorie": "Legendaire",
+      "role": "Combattant",
+      "statistiques": {
+        "FlatPhysicalDamageMod": 65,
+        "PercentLifeStealMod": 0.12
+      },
+      "tags": [
+        "Damage",
+        "LifeSteal",
+        "CooldownReduction",
+        "OnHit",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3077,
+        1053,
+        3133
+      ]
+    },
+    {
+      "id": 3114,
+      "name": "Idole interdite",
+      "prix": 600,
+      "description": "Augmente l'efficacité des soins et boucliers, la régénération du mana et la réduction des délais de récupération.",
+      "categorie": "Composant",
+      "role": "Polyvalent",
+      "statistiques": {},
+      "tags": [
+        "ManaRegen"
+      ],
+      "sub_item_ids": [
+        1004
+      ]
+    },
+    {
+      "id": 6665,
+      "name": "Jak'Sho, le Protéiforme",
+      "prix": 3200,
+      "description": "+350 PV +45 armure +45 résistance magique Vigueur de Néantin Après 5 sec de combat contre des champions, vous augmentez votre armure et votre résistance magique bonus de 30% jusqu'à la fin du combat.",
+      "categorie": "Legendaire",
+      "role": "Tank",
+      "statistiques": {
+        "FlatSpellBlockMod": 45,
+        "FlatHPPoolMod": 350,
+        "FlatArmorMod": 45
+      },
+      "tags": [
+        "Health",
+        "SpellBlock",
+        "Armor",
+        "MagicResist"
+      ],
+      "sub_item_ids": [
+        1011,
+        1031,
+        1057
+      ]
+    },
+    {
+      "id": 3172,
+      "name": "Jambières de métal",
+      "prix": 1100,
+      "description": "Mobilité et Ténacité.",
+      "categorie": "Legendaire",
+      "role": "Polyvalent",
+      "statistiques": {
+        "FlatMovementSpeedMod": 45,
+        "PercentAttackSpeedMod": 0.45,
+        "PercentLifeStealMod": 0.05
+      },
+      "tags": [
+        "AttackSpeed",
+        "LifeSteal",
+        "NonbootsMovement"
+      ],
+      "sub_item_ids": [
+        3006
+      ]
+    },
+    {
+      "id": 3006,
+      "name": "Jambières du berzerker",
+      "prix": 1100,
+      "description": "Augmente les vitesses de déplacement et d'attaque.",
+      "categorie": "Bottes",
+      "role": "Bottes",
+      "statistiques": {
+        "FlatMovementSpeedMod": 45,
+        "PercentAttackSpeedMod": 0.3
+      },
+      "tags": [
+        "AttackSpeed",
+        "Boots"
+      ],
+      "sub_item_ids": [
+        1001,
+        1042,
+        1042
+      ]
+    },
+    {
+      "id": 3008,
+      "name": "Jambières gloutonnes",
+      "prix": 1000,
+      "description": "Augmente les dégâts d'attaque en fonction du mana max.",
+      "categorie": "Bottes",
+      "role": "Bottes",
+      "statistiques": {
+        "FlatMovementSpeedMod": 45
+      },
+      "tags": [
+        "LifeSteal",
+        "SpellVamp",
+        "Boots"
+      ],
+      "sub_item_ids": [
+        1001
+      ]
+    },
+    {
+      "id": 4630,
+      "name": "Joyau putréfiant",
+      "prix": 1100,
+      "description": "+25 puissance +13% de pénétration magique",
+      "categorie": "Composant",
+      "role": "Mage",
+      "statistiques": {
+        "FlatMagicDamageMod": 25
+      },
+      "tags": [
+        "MagicPenetration",
+        "SpellDamage"
+      ],
+      "sub_item_ids": [
+        1052
+      ]
+    },
+    {
+      "id": 2141,
+      "name": "Jus chapi-chapo",
+      "prix": 300,
+      "description": "Il est toujours important de se protéger de la chaleur.Propriété active - Consommation : ce jus n'a aucun effet.",
+      "categorie": "Consommable",
+      "role": "Consommable",
+      "statistiques": {},
+      "tags": [
+        "Damage",
+        "Consumable"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 3031,
+      "name": "Lame d'infini",
+      "prix": 3500,
+      "description": "Améliore considérablement les coups critiques.",
+      "categorie": "Legendaire",
+      "role": "Tireur",
+      "statistiques": {
+        "FlatCritChanceMod": 0.25,
+        "FlatPhysicalDamageMod": 75
+      },
+      "tags": [
+        "CriticalStrike",
+        "Damage"
+      ],
+      "sub_item_ids": [
+        1038,
+        1037,
+        1018
+      ]
+    },
+    {
+      "id": 1055,
+      "name": "Lame de Doran",
+      "prix": 450,
+      "description": "Bon objet de départ pour les attaquants.",
+      "categorie": "Depart",
+      "role": "Combattant",
+      "statistiques": {
+        "FlatHPPoolMod": 80,
+        "FlatPhysicalDamageMod": 10
+      },
+      "tags": [
+        "Health",
+        "Damage",
+        "LifeSteal",
+        "SpellVamp",
+        "Lane"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 3177,
+      "name": "Lame du gardien",
+      "prix": 950,
+      "description": "Bon objet de départ pour les attaquants.",
+      "categorie": "Depart",
+      "role": "Combattant",
+      "statistiques": {
+        "FlatHPPoolMod": 150,
+        "FlatPhysicalDamageMod": 30
+      },
+      "tags": [
+        "Health",
+        "Damage",
+        "Lane",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 3153,
+      "name": "Lame du roi déchu",
+      "prix": 3200,
+      "description": "Inflige des dégâts en fonction des PV de l'ennemi et peut voler sa vitesse de déplacement.",
+      "categorie": "Legendaire",
+      "role": "Combattant",
+      "statistiques": {
+        "FlatPhysicalDamageMod": 40,
+        "PercentAttackSpeedMod": 0.25,
+        "PercentLifeStealMod": 0.1
+      },
+      "tags": [
+        "Damage",
+        "AttackSpeed",
+        "LifeSteal",
+        "Slow",
+        "OnHit"
+      ],
+      "sub_item_ids": [
+        1053,
+        1043,
+        1037
+      ]
+    },
+    {
+      "id": 3124,
+      "name": "Lame enragée de Guinsoo",
+      "prix": 3000,
+      "description": "+30 dégâts d'attaque +30 puissance +25% de vitesse d'attaque Courroux Vos attaques infligent 30 pts de dégâts magiques bonus à l'impact. Frappe furieuse Vos attaques vous octroient +8% de vitesse d'attaque pendant 4 sec (effet cumulable 4 fois). Une fois au max d'effets cumulés, toutes les trois attaques, vous appliquez deux fois vos effets à l'impact.",
+      "categorie": "Legendaire",
+      "role": "Mage",
+      "statistiques": {
+        "FlatMagicDamageMod": 30,
+        "FlatPhysicalDamageMod": 30,
+        "PercentAttackSpeedMod": 0.25
+      },
+      "tags": [
+        "Damage",
+        "AttackSpeed",
+        "SpellDamage",
+        "OnHit"
+      ],
+      "sub_item_ids": [
+        1052,
+        1043,
+        1037
+      ]
+    },
+    {
+      "id": 3142,
+      "name": "Lame spectre de Youmuu",
+      "prix": 2800,
+      "description": "Activer pour augmenter grandement la vitesse de déplacement.",
+      "categorie": "Legendaire",
+      "role": "Assassin",
+      "statistiques": {
+        "FlatPhysicalDamageMod": 55,
+        "PercentMovementSpeedMod": 0.04
+      },
+      "tags": [
+        "Damage",
+        "Active",
+        "NonbootsMovement",
+        "ArmorPenetration"
+      ],
+      "sub_item_ids": [
+        3134,
+        6690,
+        1036
+      ]
+    },
+    {
+      "id": 3095,
+      "name": "Lame tempête",
+      "prix": 3200,
+      "description": "Renforce grandement les autres effets énergisés.",
+      "categorie": "Legendaire",
+      "role": "Tireur",
+      "statistiques": {
+        "FlatCritChanceMod": 0.25,
+        "FlatPhysicalDamageMod": 50,
+        "PercentAttackSpeedMod": 0.25
+      },
+      "tags": [
+        "Damage",
+        "CriticalStrike",
+        "AttackSpeed",
+        "NonbootsMovement"
+      ],
+      "sub_item_ids": [
+        1038,
+        1018,
+        3144
+      ]
+    },
+    {
+      "id": 3161,
+      "name": "Lance de Shojin",
+      "prix": 3100,
+      "description": "Réduit d'un montant fixe les dégâts que vous infligent les champions ennemis. Attaquez près de plusieurs champions ennemis pour augmenter brièvement ce montant.",
+      "categorie": "Legendaire",
+      "role": "Combattant",
+      "statistiques": {
+        "FlatHPPoolMod": 450,
+        "FlatPhysicalDamageMod": 45
+      },
+      "tags": [
+        "Health",
+        "Damage",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        1037,
+        2021,
+        1028
+      ]
+    },
+    {
+      "id": 3070,
+      "name": "Larme de la déesse",
+      "prix": 400,
+      "description": "Augmente votre mana max quand vous dépensez du mana.",
+      "categorie": "Composant",
+      "role": "Polyvalent",
+      "statistiques": {
+        "FlatMPPoolMod": 240
+      },
+      "tags": [
+        "Mana",
+        "ManaRegen"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 3171,
+      "name": "Lucidité pourpre",
+      "prix": 900,
+      "description": "+20 accélération de compétence +45 vitesse de déplacement Savoir ionien Vous gagnez +20 accélération de sort d'invocateur. Hâte noxienne Renforcer ou protéger vos alliés avec des compétences, infliger des dégâts aux champions ennemis avec des compétences ou lancer un sort d'invocateur vous octroie +0 vitesse de déplacement pendant 4 sec. Hâte noxienne ne peut se déclencher qu'une fois par compétence lancée.",
+      "categorie": "Bottes",
+      "role": "Bottes",
+      "statistiques": {
+        "FlatMovementSpeedMod": 45
+      },
+      "tags": [
+        "CooldownReduction",
+        "Boots"
+      ],
+      "sub_item_ids": [
+        3158
+      ]
+    },
+    {
+      "id": 2523,
+      "name": "Lunettes Hextech C44",
+      "prix": 2800,
+      "description": "+55 dégâts d'attaque +25% de chances de coup critique Grossissement Vous infligez jusqu'à 10% de dégâts bonus avec vos attaques, en fonction de la distance entre vous et l'ennemi (vous infligez le maximum de dégâts lorsque vous êtes à une portée de 500 unités). Visée arcanique Quand un champion auquel vous avez infligé des dégâts meurt dans les 3 sec, vous gagnez 100 de portée d'attaque bonus pendant 8 sec.",
+      "categorie": "Legendaire",
+      "role": "Tireur",
+      "statistiques": {
+        "FlatCritChanceMod": 0.25,
+        "FlatPhysicalDamageMod": 55
+      },
+      "tags": [
+        "Damage",
+        "CriticalStrike"
+      ],
+      "sub_item_ids": [
+        1037,
+        6670,
+        1036
+      ]
+    },
+    {
+      "id": 3082,
+      "name": "Mailles du gardien",
+      "prix": 1000,
+      "description": "+40 armure Dur comme fer Les dégâts que vous infligent les attaques sont réduits.",
+      "categorie": "Composant",
+      "role": "Tank",
+      "statistiques": {
+        "FlatArmorMod": 40
+      },
+      "tags": [
+        "Armor"
+      ],
+      "sub_item_ids": [
+        1029,
+        1029
+      ]
+    },
+    {
+      "id": 3118,
+      "name": "Malfaisance",
+      "prix": 2700,
+      "description": "Désignez un partenaire et protégez-vous l'un l'autre.",
+      "categorie": "Legendaire",
+      "role": "Mage",
+      "statistiques": {
+        "FlatMPPoolMod": 600,
+        "FlatMagicDamageMod": 90
+      },
+      "tags": [
+        "SpellDamage",
+        "Mana",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3802,
+        1026
+      ]
+    },
+    {
+      "id": 8010,
+      "name": "Malédiction du sanguinaire",
+      "prix": 2900,
+      "description": "+65 puissance +400 PV +15 accélération de compétence Vile décomposition Infliger des dégâts magiques avec des compétences ou des compétences passives à des champions réduit leur résistance magique de 7.5% pendant 6 sec. (Cumulable 4 fois).",
+      "categorie": "Legendaire",
+      "role": "Mage",
+      "statistiques": {
+        "FlatHPPoolMod": 400,
+        "FlatMagicDamageMod": 65
+      },
+      "tags": [
+        "Health",
+        "SpellDamage",
+        "CooldownReduction",
+        "MagicPenetration"
+      ],
+      "sub_item_ids": [
+        3147,
+        3108
+      ]
+    },
+    {
+      "id": 3004,
+      "name": "Manamune",
+      "prix": 2900,
+      "description": "Augmente les dégâts d'attaque en fonction du mana max.",
+      "categorie": "Legendaire",
+      "role": "Combattant",
+      "statistiques": {
+        "FlatMPPoolMod": 500,
+        "FlatPhysicalDamageMod": 35
+      },
+      "tags": [
+        "Damage",
+        "Mana",
+        "CooldownReduction",
+        "OnHit",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3070,
+        3133,
+        1036
+      ]
+    },
+    {
+      "id": 4005,
+      "name": "Mandat impérial",
+      "prix": 2400,
+      "description": "Diffère les dégâts.",
+      "categorie": "Legendaire",
+      "role": "Support",
+      "statistiques": {
+        "FlatMagicDamageMod": 60
+      },
+      "tags": [
+        "SpellDamage",
+        "ManaRegen",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        1052,
+        4642,
+        1052
+      ]
+    },
+    {
+      "id": 3814,
+      "name": "Manteau de la nuit",
+      "prix": 3000,
+      "description": "Vous protège périodiquement contre les compétences ennemies.",
+      "categorie": "Legendaire",
+      "role": "Assassin",
+      "statistiques": {
+        "FlatHPPoolMod": 250,
+        "FlatPhysicalDamageMod": 50
+      },
+      "tags": [
+        "Health",
+        "Damage",
+        "ArmorPenetration"
+      ],
+      "sub_item_ids": [
+        3134,
+        2021
+      ]
+    },
+    {
+      "id": 1057,
+      "name": "Manteau de Négatron",
+      "prix": 850,
+      "description": "Augmente modérément la résistance magique.",
+      "categorie": "Composant",
+      "role": "Tank",
+      "statistiques": {
+        "FlatSpellBlockMod": 45
+      },
+      "tags": [
+        "SpellBlock"
+      ],
+      "sub_item_ids": [
+        1033
+      ]
+    },
+    {
+      "id": 3211,
+      "name": "Manteau de spectre",
+      "prix": 1250,
+      "description": "Améliore la défense et offre une régénération en cas de dégâts subis.",
+      "categorie": "Composant",
+      "role": "Tank",
+      "statistiques": {
+        "FlatSpellBlockMod": 35,
+        "FlatHPPoolMod": 200
+      },
+      "tags": [
+        "Health",
+        "HealthRegen",
+        "SpellBlock"
+      ],
+      "sub_item_ids": [
+        1028,
+        1033,
+        1006
+      ]
+    },
+    {
+      "id": 3123,
+      "name": "Marque du bourreau",
+      "prix": 800,
+      "description": "Contre les ennemis récupérant beaucoup de PV.",
+      "categorie": "Composant",
+      "role": "Combattant",
+      "statistiques": {
+        "FlatPhysicalDamageMod": 15
+      },
+      "tags": [
+        "Damage"
+      ],
+      "sub_item_ids": [
+        1036
+      ]
+    },
+    {
+      "id": 3133,
+      "name": "Marteau de Caulfield",
+      "prix": 1050,
+      "description": "Augmente les dégâts d'attaque et la réduction des délais de récupération.",
+      "categorie": "Composant",
+      "role": "Combattant",
+      "statistiques": {
+        "FlatPhysicalDamageMod": 20
+      },
+      "tags": [
+        "Damage",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        1036,
+        2022,
+        1036
+      ]
+    },
+    {
+      "id": 3184,
+      "name": "Marteau du gardien",
+      "prix": 950,
+      "description": "Bon objet de départ pour les attaquants.",
+      "categorie": "Depart",
+      "role": "Combattant",
+      "statistiques": {
+        "FlatHPPoolMod": 150,
+        "FlatPhysicalDamageMod": 25,
+        "PercentLifeStealMod": 0.05
+      },
+      "tags": [
+        "Health",
+        "Damage",
+        "LifeSteal",
+        "Lane"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 8020,
+      "name": "Masque abyssal",
+      "prix": 2650,
+      "description": "+350 PV +45 résistance magique +15 accélération de compétence Anéantissement Les champions ennemis proches subissent 12% de dégâts magiques bonus.",
+      "categorie": "Legendaire",
+      "role": "Tank",
+      "statistiques": {
+        "FlatSpellBlockMod": 45,
+        "FlatHPPoolMod": 350
+      },
+      "tags": [
+        "Health",
+        "SpellBlock",
+        "CooldownReduction",
+        "MagicResist",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3067,
+        1057
+      ]
+    },
+    {
+      "id": 4642,
+      "name": "Miroir en verre de Bandle",
+      "prix": 900,
+      "description": "+20 puissance +100% de régénération de base du mana +10 accélération de compétence",
+      "categorie": "Composant",
+      "role": "Support",
+      "statistiques": {
+        "FlatMagicDamageMod": 20
+      },
+      "tags": [
+        "SpellDamage",
+        "ManaRegen",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        1004,
+        1052,
+        2022
+      ]
+    },
+    {
+      "id": 3165,
+      "name": "Morellonameicon",
+      "prix": 2850,
+      "description": "Augmente les dégâts magiques.",
+      "categorie": "Legendaire",
+      "role": "Mage",
+      "statistiques": {
+        "FlatHPPoolMod": 350,
+        "FlatMagicDamageMod": 75
+      },
+      "tags": [
+        "Health",
+        "SpellDamage",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3916,
+        1026,
+        3067
+      ]
+    },
+    {
+      "id": 3190,
+      "name": "Médaillon de l'Iron Solari",
+      "prix": 2200,
+      "description": "Activer pour protéger vos alliés proches contre les dégâts.",
+      "categorie": "Legendaire",
+      "role": "Tank",
+      "statistiques": {
+        "FlatSpellBlockMod": 30,
+        "FlatHPPoolMod": 200,
+        "FlatArmorMod": 30
+      },
+      "tags": [
+        "Health",
+        "SpellBlock",
+        "Armor",
+        "Aura",
+        "Active",
+        "MagicResist",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3067,
+        1029,
+        1033
+      ]
+    },
+    {
+      "id": 3877,
+      "name": "Mélodie du sang",
+      "prix": 400,
+      "description": "+200 PV +75% de régénération de base des PV +75% de régénération de base du mana +9 PO toutes les 10 sec Lame enchantée Après avoir utilisé une de vos compétences, votre prochaine attaque inflige des dégâts physiques bonus à l'impact. Si la cible est un champion, il subit des dégâts bonus pendant 4 sec. Propriété active (4 charges) Pose une Balise camouflée invisible qui octroie de la vision.",
+      "categorie": "Support",
+      "role": "Support",
+      "statistiques": {
+        "FlatHPPoolMod": 200
+      },
+      "tags": [
+        "Health",
+        "HealthRegen",
+        "ManaRegen",
+        "Vision",
+        "GoldPer",
+        "Lane"
+      ],
+      "sub_item_ids": [
+        3867
+      ]
+    },
+    {
+      "id": 4646,
+      "name": "Onde orageuse",
+      "prix": 2800,
+      "description": "+90 puissance +15 pénétration magique +6% de vitesse de déplacement Dresseur d'orage Infliger des dégâts équivalents à 25% des PV max du champion ciblé en moins de 2.5 sec applique Rafale sur lui. Rafale Après 2 sec, vous infligez des dégâts magiques. Si la cible meurt avant que Rafale ne se déclenche, ses dégâts sont infligés aux ennemis proches.",
+      "categorie": "Support",
+      "role": "Support",
+      "statistiques": {
+        "FlatMagicDamageMod": 90,
+        "PercentMovementSpeedMod": 0.06
+      },
+      "tags": [
+        "SpellDamage",
+        "GoldPer",
+        "NonbootsMovement",
+        "MagicPenetration"
+      ],
+      "sub_item_ids": [
+        3145,
+        3113
+      ]
+    },
+    {
+      "id": 3869,
+      "name": "Opposition céleste",
+      "prix": 400,
+      "description": "+200 PV +75% de régénération de base des PV +75% de régénération de base du mana +9 PO toutes les 10 sec Bénédiction de la montagne Réduit les dégâts que vous infligent les champions pendant 2 sec après avoir subi des dégâts d'un champion. Quand l'effet prend fin, vous ralentissez les ennemis proches de 50% pendant 1.5 sec. Propriété active (4 charges) Pose une Balise camouflée invisible qui octroie de la vision.",
+      "categorie": "Support",
+      "role": "Support",
+      "statistiques": {
+        "FlatHPPoolMod": 200
+      },
+      "tags": [
+        "Health",
+        "HealthRegen",
+        "ManaRegen",
+        "Vision",
+        "GoldPer",
+        "Lane"
+      ],
+      "sub_item_ids": [
+        3867
+      ]
+    },
+    {
+      "id": 3916,
+      "name": "Orbe de l'oubli",
+      "prix": 800,
+      "description": "Augmente les dégâts magiques.",
+      "categorie": "Composant",
+      "role": "Mage",
+      "statistiques": {
+        "FlatMagicDamageMod": 25
+      },
+      "tags": [
+        "SpellDamage"
+      ],
+      "sub_item_ids": [
+        1052
+      ]
+    },
+    {
+      "id": 3112,
+      "name": "Orbe du gardien",
+      "prix": 950,
+      "description": "Bon objet de départ pour les mages.",
+      "categorie": "Depart",
+      "role": "Support",
+      "statistiques": {
+        "FlatHPPoolMod": 150,
+        "FlatMagicDamageMod": 50
+      },
+      "tags": [
+        "Health",
+        "SpellDamage",
+        "ManaRegen",
+        "Lane"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 6697,
+      "name": "Orgueil",
+      "prix": 2800,
+      "description": "+55 dégâts d'attaque 18 létalité +10 accélération de compétence Éminence Quand un champion meurt dans les 3 sec après que vous l'avez blessé, vous gagnez +12 dégâts d'attaque (+3 par champion tué) pendant 90 sec.",
+      "categorie": "Legendaire",
+      "role": "Assassin",
+      "statistiques": {
+        "FlatPhysicalDamageMod": 55
+      },
+      "tags": [
+        "Damage",
+        "Active",
+        "CooldownReduction",
+        "ArmorPenetration",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3134,
+        3133
+      ]
+    },
+    {
+      "id": 3085,
+      "name": "Ouragan de Runaan",
+      "prix": 2650,
+      "description": "Les attaques à distance tirent deux projectiles sur les ennemis proches.",
+      "categorie": "Legendaire",
+      "role": "Tireur",
+      "statistiques": {
+        "FlatCritChanceMod": 0.25,
+        "PercentAttackSpeedMod": 0.4,
+        "PercentMovementSpeedMod": 0.05
+      },
+      "tags": [
+        "CriticalStrike",
+        "AttackSpeed",
+        "OnHit",
+        "NonbootsMovement"
+      ],
+      "sub_item_ids": [
+        3086,
+        3144
+      ]
+    },
+    {
+      "id": 6676,
+      "name": "Percepteur",
+      "prix": 3000,
+      "description": "+50 dégâts d'attaque 10 létalité +25% de chances de coup critique La vie Vos dégâts exécutent les champions qui ont moins de 5% de leurs PV. La bourse Éliminer un champion vous octroie 25 PO bonus.",
+      "categorie": "Legendaire",
+      "role": "Tireur",
+      "statistiques": {
+        "FlatCritChanceMod": 0.25,
+        "FlatPhysicalDamageMod": 50
+      },
+      "tags": [
+        "Damage",
+        "CriticalStrike",
+        "ArmorPenetration"
+      ],
+      "sub_item_ids": [
+        1037,
+        3134,
+        1018
+      ]
+    },
+    {
+      "id": 3044,
+      "name": "Phage",
+      "prix": 1100,
+      "description": "Les attaques et les champions tués donnent un petit bonus de vitesse.",
+      "categorie": "Composant",
+      "role": "Combattant",
+      "statistiques": {
+        "FlatHPPoolMod": 200,
+        "FlatPhysicalDamageMod": 15
+      },
+      "tags": [
+        "Health",
+        "Damage",
+        "NonbootsMovement"
+      ],
+      "sub_item_ids": [
+        1028,
+        1036
+      ]
+    },
+    {
+      "id": 1037,
+      "name": "Pioche",
+      "prix": 875,
+      "description": "Augmente modérément les dégâts d'attaque.",
+      "categorie": "Composant",
+      "role": "Combattant",
+      "statistiques": {
+        "FlatPhysicalDamageMod": 25
+      },
+      "tags": [
+        "Damage"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 3871,
+      "name": "Pique dimensionnelle de Zaz'Zak",
+      "prix": 400,
+      "description": "+200 PV +75% de régénération de base des PV +75% de régénération de base du mana +9 PO toutes les 10 sec Explosion du Néant Infliger des dégâts de compétence à un champion provoque une explosion qui inflige des dégâts magiques. Propriété active (4 charges) Pose une Balise camouflée invisible qui octroie de la vision.",
+      "categorie": "Support",
+      "role": "Support",
+      "statistiques": {
+        "FlatHPPoolMod": 200
+      },
+      "tags": [
+        "Health",
+        "HealthRegen",
+        "ManaRegen",
+        "Vision",
+        "GoldPer",
+        "Lane"
+      ],
+      "sub_item_ids": [
+        3867
+      ]
+    },
+    {
+      "id": 3146,
+      "name": "Pistolame Hextech",
+      "prix": 3000,
+      "description": "Augmente les dégâts d'attaque et la puissance, activer pour ralentir une cible.",
+      "categorie": "Legendaire",
+      "role": "Mage",
+      "statistiques": {
+        "FlatMagicDamageMod": 80,
+        "FlatPhysicalDamageMod": 40
+      },
+      "tags": [
+        "Damage",
+        "LifeSteal",
+        "SpellDamage",
+        "Active",
+        "SpellVamp"
+      ],
+      "sub_item_ids": [
+        1053,
+        3145,
+        1052
+      ]
+    },
+    {
+      "id": 3066,
+      "name": "Plaque de lune ailée",
+      "prix": 800,
+      "description": "+200 PV +4% de vitesse de déplacement",
+      "categorie": "Composant",
+      "role": "Tank",
+      "statistiques": {
+        "FlatHPPoolMod": 200,
+        "PercentMovementSpeedMod": 0.04
+      },
+      "tags": [
+        "Health",
+        "NonbootsMovement"
+      ],
+      "sub_item_ids": [
+        1028
+      ]
+    },
+    {
+      "id": 3742,
+      "name": "Plaque du mort",
+      "prix": 2900,
+      "description": "Vous générez de l'élan en vous déplaçant pour percuter les ennemis.",
+      "categorie": "Legendaire",
+      "role": "Tank",
+      "statistiques": {
+        "FlatHPPoolMod": 350,
+        "FlatArmorMod": 55,
+        "PercentMovementSpeedMod": 0.04
+      },
+      "tags": [
+        "Health",
+        "Armor",
+        "Slow",
+        "NonbootsMovement"
+      ],
+      "sub_item_ids": [
+        3066,
+        1028,
+        1031
+      ]
+    },
+    {
+      "id": 3087,
+      "name": "Poignard de Statikk",
+      "prix": 3000,
+      "description": "Les déplacements génèrent des charges libérant des éclairs lors des attaques de base.",
+      "categorie": "Legendaire",
+      "role": "Mage",
+      "statistiques": {
+        "FlatMagicDamageMod": 45,
+        "FlatPhysicalDamageMod": 45,
+        "PercentAttackSpeedMod": 0.3,
+        "PercentMovementSpeedMod": 0.04
+      },
+      "tags": [
+        "Damage",
+        "AttackSpeed",
+        "SpellDamage",
+        "OnHit",
+        "NonbootsMovement"
+      ],
+      "sub_item_ids": [
+        3144,
+        3113,
+        1037
+      ]
+    },
+    {
+      "id": 2003,
+      "name": "Potion de soin",
+      "prix": 50,
+      "description": "Consommer pour récupérer des PV sur la durée.",
+      "categorie": "Consommable",
+      "role": "Consommable",
+      "statistiques": {},
+      "tags": [
+        "HealthRegen",
+        "Consumable",
+        "Lane",
+        "Jungle"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 2031,
+      "name": "Potion rechargeable",
+      "prix": 150,
+      "description": "Rend des PV sur la durée. Se recharge à la boutique.",
+      "categorie": "Consommable",
+      "role": "Consommable",
+      "statistiques": {},
+      "tags": [
+        "HealthRegen",
+        "Consumable",
+        "Active",
+        "Lane",
+        "Jungle"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 2022,
+      "name": "Poussière luisante",
+      "prix": 250,
+      "description": "+5 accélération de compétence",
+      "categorie": "Composant",
+      "role": "Polyvalent",
+      "statistiques": {},
+      "tags": [
+        "CooldownReduction"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 2420,
+      "name": "Protège-bras du savant",
+      "prix": 1600,
+      "description": "Activer pour devenir invincible mais incapable d'agir.",
+      "categorie": "Composant",
+      "role": "Mage",
+      "statistiques": {
+        "FlatMagicDamageMod": 40,
+        "FlatArmorMod": 25
+      },
+      "tags": [
+        "Armor",
+        "SpellDamage",
+        "Active"
+      ],
+      "sub_item_ids": [
+        1052,
+        1029,
+        1052
+      ]
+    },
+    {
+      "id": 3143,
+      "name": "Présage de Randuin",
+      "prix": 2700,
+      "description": "Augmente grandement les défenses, activer pour ralentir les ennemis proches.",
+      "categorie": "Legendaire",
+      "role": "Tank",
+      "statistiques": {
+        "FlatHPPoolMod": 350,
+        "FlatArmorMod": 75
+      },
+      "tags": [
+        "Health",
+        "Armor",
+        "Active",
+        "Slow"
+      ],
+      "sub_item_ids": [
+        3082,
+        1011
+      ]
+    },
+    {
+      "id": 6694,
+      "name": "Rancune de Serylda",
+      "prix": 3000,
+      "description": "+45 dégâts d'attaque +35% de pénétration d'armure +15 accélération de compétence Froid mordant Vos compétences blessantes ralentissent de 30% pendant 1 sec les ennemis qui ont moins de 50% de leurs PV.",
+      "categorie": "Legendaire",
+      "role": "Assassin",
+      "statistiques": {
+        "FlatPhysicalDamageMod": 45
+      },
+      "tags": [
+        "Damage",
+        "CooldownReduction",
+        "ArmorPenetration",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3133,
+        3035
+      ]
+    },
+    {
+      "id": 3033,
+      "name": "Rappel mortel",
+      "prix": 3000,
+      "description": "Contre les ennemis récupérant beaucoup de PV et ayant beaucoup d'armure.",
+      "categorie": "Legendaire",
+      "role": "Tireur",
+      "statistiques": {
+        "FlatCritChanceMod": 0.25,
+        "FlatPhysicalDamageMod": 35
+      },
+      "tags": [
+        "Damage",
+        "CriticalStrike",
+        "ArmorPenetration"
+      ],
+      "sub_item_ids": [
+        3123,
+        3035,
+        1018
+      ]
+    },
+    {
+      "id": 6664,
+      "name": "Rayonnement du vide",
+      "prix": 2800,
+      "description": "Immobilisez des ennemis pour gagner un bouclier. Activez pour courir plus vite vers les ennemis.",
+      "categorie": "Legendaire",
+      "role": "Tank",
+      "statistiques": {
+        "FlatSpellBlockMod": 40,
+        "FlatHPPoolMod": 400
+      },
+      "tags": [
+        "Health",
+        "SpellBlock",
+        "HealthRegen",
+        "Aura",
+        "MagicResist",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        6660,
+        3211
+      ]
+    },
+    {
+      "id": 6690,
+      "name": "Rectrix",
+      "prix": 775,
+      "description": "+15 dégâts d'attaque +4% de vitesse de déplacement",
+      "categorie": "Composant",
+      "role": "Combattant",
+      "statistiques": {
+        "FlatPhysicalDamageMod": 15,
+        "PercentMovementSpeedMod": 0.04
+      },
+      "tags": [
+        "Damage",
+        "NonbootsMovement"
+      ],
+      "sub_item_ids": [
+        1036
+      ]
+    },
+    {
+      "id": 2504,
+      "name": "Rookern kaénique",
+      "prix": 2900,
+      "description": "+400 PV +80 résistance magique +100% de régénération de base des PV Fléau des mages Après n'avoir subi aucun dégât magique pendant 15 sec, vous gagnez un bouclier anti-dégâts magiques.",
+      "categorie": "Legendaire",
+      "role": "Tank",
+      "statistiques": {
+        "FlatSpellBlockMod": 80,
+        "FlatHPPoolMod": 400
+      },
+      "tags": [
+        "Health",
+        "SpellBlock",
+        "HealthRegen"
+      ],
+      "sub_item_ids": [
+        3211,
+        1057
+      ]
+    },
+    {
+      "id": 3107,
+      "name": "Rédemption",
+      "prix": 2300,
+      "description": "Activer pour soigner des alliés et blesser des ennemis dans une zone.",
+      "categorie": "Legendaire",
+      "role": "Support",
+      "statistiques": {
+        "FlatMagicDamageMod": 30
+      },
+      "tags": [
+        "SpellDamage",
+        "ManaRegen",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3108,
+        3114
+      ]
+    },
+    {
+      "id": 6617,
+      "name": "Régénérateur de pierre de lune",
+      "prix": 2200,
+      "description": "Vos soins et boucliers ont des délais de récupération plus courts et sont plus efficaces sur les alliés gravement blessés.",
+      "categorie": "Legendaire",
+      "role": "Support",
+      "statistiques": {
+        "FlatHPPoolMod": 200,
+        "FlatMagicDamageMod": 25
+      },
+      "tags": [
+        "Health",
+        "SpellDamage",
+        "ManaRegen",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3067,
+        4642
+      ]
+    },
+    {
+      "id": 3870,
+      "name": "Rêve éveillé",
+      "prix": 400,
+      "description": "+200 PV +75% de régénération de base des PV +75% de régénération de base du mana +9 PO toutes les 10 sec Rêve éveillé Soigner un allié ou lui octroyer un bouclier lui envoie les bulles pendant 3 sec. Sa prochaine attaque inflige des dégâts magiques bonus à l'impact, et les prochains dégâts qu'il subit sont réduits. Propriété active (4 charges) Pose une Balise camouflée invisible qui octroie de la vision.",
+      "categorie": "Support",
+      "role": "Support",
+      "statistiques": {
+        "FlatHPPoolMod": 200
+      },
+      "tags": [
+        "Health",
+        "HealthRegen",
+        "ManaRegen",
+        "Vision",
+        "GoldPer",
+        "Lane"
+      ],
+      "sub_item_ids": [
+        3867
+      ]
+    },
+    {
+      "id": 3157,
+      "name": "Sablier de Zhonya",
+      "prix": 3250,
+      "description": "Activer pour devenir invincible mais incapable d'agir.",
+      "categorie": "Legendaire",
+      "role": "Mage",
+      "statistiques": {
+        "FlatMagicDamageMod": 105,
+        "FlatArmorMod": 50
+      },
+      "tags": [
+        "Armor",
+        "SpellDamage",
+        "Active"
+      ],
+      "sub_item_ids": [
+        1058,
+        2420
+      ]
+    },
+    {
+      "id": 3036,
+      "name": "Salutations de Dominik",
+      "prix": 3300,
+      "description": "Contre les ennemis ayant beaucoup de PV et beaucoup d'armure.",
+      "categorie": "Legendaire",
+      "role": "Tireur",
+      "statistiques": {
+        "FlatCritChanceMod": 0.25,
+        "FlatPhysicalDamageMod": 35
+      },
+      "tags": [
+        "Damage",
+        "CriticalStrike",
+        "ArmorPenetration"
+      ],
+      "sub_item_ids": [
+        3035,
+        6670
+      ]
+    },
+    {
+      "id": 3111,
+      "name": "Sandales de Mercure",
+      "prix": 1250,
+      "description": "Augmente la vitesse de déplacement et réduit la durée des effets entravants.",
+      "categorie": "Bottes",
+      "role": "Bottes",
+      "statistiques": {
+        "FlatSpellBlockMod": 20,
+        "FlatMovementSpeedMod": 45
+      },
+      "tags": [
+        "Boots",
+        "SpellBlock",
+        "Tenacity"
+      ],
+      "sub_item_ids": [
+        1001,
+        1033
+      ]
+    },
+    {
+      "id": 2019,
+      "name": "Sceau d'acier",
+      "prix": 1100,
+      "description": "+15 dégâts d'attaque +30 armure",
+      "categorie": "Composant",
+      "role": "Tank",
+      "statistiques": {
+        "FlatArmorMod": 30,
+        "FlatPhysicalDamageMod": 15
+      },
+      "tags": [
+        "Armor",
+        "Damage"
+      ],
+      "sub_item_ids": [
+        1029,
+        1036,
+        1029
+      ]
+    },
+    {
+      "id": 1082,
+      "name": "Sceau noir",
+      "prix": 350,
+      "description": "Octroie de la puissance et du mana. Sa puissance augmente quand vous tuez des ennemis.",
+      "categorie": "Composant",
+      "role": "Mage",
+      "statistiques": {
+        "FlatHPPoolMod": 50,
+        "FlatMagicDamageMod": 15
+      },
+      "tags": [
+        "Health",
+        "SpellDamage",
+        "Lane"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 3116,
+      "name": "Sceptre de Rylai",
+      "prix": 2600,
+      "description": "Les compétences ralentissent les ennemis.",
+      "categorie": "Legendaire",
+      "role": "Mage",
+      "statistiques": {
+        "FlatHPPoolMod": 400,
+        "FlatMagicDamageMod": 65
+      },
+      "tags": [
+        "Health",
+        "SpellDamage",
+        "Slow"
+      ],
+      "sub_item_ids": [
+        1026,
+        1011,
+        1052
+      ]
+    },
+    {
+      "id": 1053,
+      "name": "Sceptre vampirique",
+      "prix": 900,
+      "description": "Les attaques de base rendent des PV.",
+      "categorie": "Composant",
+      "role": "Combattant",
+      "statistiques": {
+        "FlatPhysicalDamageMod": 15,
+        "PercentLifeStealMod": 0.07
+      },
+      "tags": [
+        "Damage",
+        "LifeSteal"
+      ],
+      "sub_item_ids": [
+        1036
+      ]
+    },
+    {
+      "id": 3072,
+      "name": "Soif-de-sang",
+      "prix": 3400,
+      "description": "Augmente les dégâts d'attaque et le Vol de vie, et le Vol de vie peut vous surcharger en PV.",
+      "categorie": "Legendaire",
+      "role": "Combattant",
+      "statistiques": {
+        "FlatPhysicalDamageMod": 80,
+        "PercentLifeStealMod": 0.15
+      },
+      "tags": [
+        "Damage",
+        "LifeSteal"
+      ],
+      "sub_item_ids": [
+        1038,
+        1037,
+        1053
+      ]
+    },
+    {
+      "id": 3302,
+      "name": "Terminus",
+      "prix": 3000,
+      "description": "Tue périodiquement des sbires pour soigner un allié proche et lui conférer des PO.",
+      "categorie": "Legendaire",
+      "role": "Assassin",
+      "statistiques": {
+        "FlatPhysicalDamageMod": 30,
+        "PercentAttackSpeedMod": 0.35
+      },
+      "tags": [
+        "Damage",
+        "AttackSpeed",
+        "OnHit",
+        "MagicPenetration",
+        "ArmorPenetration"
+      ],
+      "sub_item_ids": [
+        3051,
+        1043
+      ]
+    },
+    {
+      "id": 3077,
+      "name": "Tiamat",
+      "prix": 1200,
+      "description": "Les attaques en mêlée infligent des dégâts de zone.",
+      "categorie": "Composant",
+      "role": "Combattant",
+      "statistiques": {
+        "FlatPhysicalDamageMod": 25
+      },
+      "tags": [
+        "Damage",
+        "OnHit"
+      ],
+      "sub_item_ids": [
+        1036,
+        1036
+      ]
+    },
+    {
+      "id": 1052,
+      "name": "Tome d'amplification",
+      "prix": 400,
+      "description": "Augmente légèrement la puissance.",
+      "categorie": "Composant",
+      "role": "Mage",
+      "statistiques": {
+        "FlatMagicDamageMod": 20
+      },
+      "tags": [
+        "SpellDamage"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 2503,
+      "name": "Torche noire",
+      "prix": 2800,
+      "description": "+80 puissance +600 mana +20 accélération de compétence Flamme funèbre Les compétences blessantes infligent des dégâts magiques bonus pendant 3 sec. Feu noir Vous gagnez +4% de puissance par champion ennemi, monstre épique ou grand monstre affecté par votre Flamme funèbre.",
+      "categorie": "Legendaire",
+      "role": "Mage",
+      "statistiques": {
+        "FlatMPPoolMod": 600,
+        "FlatMagicDamageMod": 80
+      },
+      "tags": [
+        "SpellDamage",
+        "Mana",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3802,
+        2508
+      ]
+    },
+    {
+      "id": 6653,
+      "name": "Tourment de Liandry",
+      "prix": 3000,
+      "description": "Se charge en combat pour infliger d'importants dégâts sur la durée, surtout contre les ennemis résistants.",
+      "categorie": "Legendaire",
+      "role": "Mage",
+      "statistiques": {
+        "FlatHPPoolMod": 300,
+        "FlatMagicDamageMod": 60
+      },
+      "tags": [
+        "Health",
+        "SpellDamage"
+      ],
+      "sub_item_ids": [
+        3147,
+        2508
+      ]
+    },
+    {
+      "id": 3876,
+      "name": "Traîneau du solstice",
+      "prix": 400,
+      "description": "+200 PV +75% de régénération de base des PV +75% de régénération de base du mana +9 PO toutes les 10 sec Virée en traîneau Ralentir ou immobiliser un champion ennemi près d'alliés vous octroie, ainsi qu'à un allié proche, des PV et +20% de vitesse de déplacement (ce bonus diminue sur la durée) pendant 2.5 sec. Propriété active (4 charges) Pose une Balise camouflée invisible qui octroie de la vision.",
+      "categorie": "Support",
+      "role": "Support",
+      "statistiques": {
+        "FlatHPPoolMod": 200
+      },
+      "tags": [
+        "Health",
+        "HealthRegen",
+        "ManaRegen",
+        "Vision",
+        "GoldPer",
+        "Lane"
+      ],
+      "sub_item_ids": [
+        3867
+      ]
+    },
+    {
+      "id": 6675,
+      "name": "Tremblelame navori",
+      "prix": 2650,
+      "description": "+40% de vitesse d'attaque +25% de chances de coup critique +4% de vitesse de déplacement Transcendance Vos attaques réduisent le délai de récupération de vos compétences de base de 15% de leur délai de récupération restant.",
+      "categorie": "Legendaire",
+      "role": "Tireur",
+      "statistiques": {
+        "FlatCritChanceMod": 0.25,
+        "PercentAttackSpeedMod": 0.4,
+        "PercentMovementSpeedMod": 0.04
+      },
+      "tags": [
+        "CriticalStrike",
+        "AttackSpeed",
+        "NonbootsMovement"
+      ],
+      "sub_item_ids": [
+        1042,
+        3086,
+        1042
+      ]
+    },
+    {
+      "id": 6672,
+      "name": "Tueur de krakens",
+      "prix": 3000,
+      "description": "+45 dégâts d'attaque +40% de vitesse d'attaque +4% de vitesse de déplacement Trempe Toutes les trois attaques, vous infligez des dégâts physiques bonus à l'impact (ces dégâts sont augmentés en fonction des PV manquants de la cible).",
+      "categorie": "Legendaire",
+      "role": "Combattant",
+      "statistiques": {
+        "FlatPhysicalDamageMod": 45,
+        "PercentAttackSpeedMod": 0.4,
+        "PercentMovementSpeedMod": 0.04
+      },
+      "tags": [
+        "Damage",
+        "AttackSpeed",
+        "OnHit",
+        "NonbootsMovement"
+      ],
+      "sub_item_ids": [
+        6690,
+        3051,
+        1043
+      ]
+    },
+    {
+      "id": 3065,
+      "name": "Visage spirituel",
+      "prix": 2700,
+      "description": "Augmente les PV et renforce les effets des soins.",
+      "categorie": "Legendaire",
+      "role": "Tank",
+      "statistiques": {
+        "FlatSpellBlockMod": 50,
+        "FlatHPPoolMod": 400
+      },
+      "tags": [
+        "Health",
+        "SpellBlock",
+        "HealthRegen",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3211,
+        3067
+      ]
+    },
+    {
+      "id": 3168,
+      "name": "Voie immortelle",
+      "prix": 1000,
+      "description": "+45 vitesse de déplacement +4% d'omnivampirisme Carnage Vous gagnez 0.6% d'omnivampirisme à chaque élimination de champion, cumulable jusqu'à 10 fois. Maintenant et à jamais Lorsque vous avez plus de la moitié de vos PV, vous infligez 4% de dégâts bonus. Lorsque vous avez moins de la moitié de vos PV, vous bénéficiez de 12% de soins, de boucliers et de régénération bonus.",
+      "categorie": "Bottes",
+      "role": "Bottes",
+      "statistiques": {
+        "FlatMovementSpeedMod": 45
+      },
+      "tags": [
+        "LifeSteal",
+        "SpellVamp",
+        "Boots"
+      ],
+      "sub_item_ids": [
+        3008
+      ]
+    },
+    {
+      "id": 3102,
+      "name": "Voile de la banshee",
+      "prix": 3000,
+      "description": "Bloque périodiquement les compétences ennemies.",
+      "categorie": "Legendaire",
+      "role": "Mage",
+      "statistiques": {
+        "FlatSpellBlockMod": 40,
+        "FlatMagicDamageMod": 105
+      },
+      "tags": [
+        "SpellBlock",
+        "SpellDamage"
+      ],
+      "sub_item_ids": [
+        1058,
+        4632
+      ]
+    },
+    {
+      "id": 3041,
+      "name": "Voleur d'âmes de Mejai",
+      "prix": 1500,
+      "description": "Augmente la puissance à chaque champion tué et assistance.",
+      "categorie": "Legendaire",
+      "role": "Mage",
+      "statistiques": {
+        "FlatHPPoolMod": 100,
+        "FlatMagicDamageMod": 20
+      },
+      "tags": [
+        "Health",
+        "SpellDamage",
+        "NonbootsMovement"
+      ],
+      "sub_item_ids": [
+        1082
+      ]
+    },
+    {
+      "id": 4629,
+      "name": "Volonté cosmique",
+      "prix": 3000,
+      "description": "Énorme réduction des délais de récupération.",
+      "categorie": "Legendaire",
+      "role": "Mage",
+      "statistiques": {
+        "FlatHPPoolMod": 350,
+        "FlatMagicDamageMod": 70,
+        "PercentMovementSpeedMod": 0.04
+      },
+      "tags": [
+        "Health",
+        "SpellDamage",
+        "NonbootsMovement",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3067,
+        3113,
+        3108
+      ]
+    },
+    {
+      "id": 3109,
+      "name": "Vœu du chevalier",
+      "prix": 2300,
+      "description": "Désignez un partenaire et protégez-vous l'un l'autre.",
+      "categorie": "Legendaire",
+      "role": "Tank",
+      "statistiques": {
+        "FlatHPPoolMod": 200,
+        "FlatArmorMod": 40
+      },
+      "tags": [
+        "Health",
+        "HealthRegen",
+        "Armor",
+        "Aura",
+        "Active",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3067,
+        1031,
+        1006
+      ]
+    },
+    {
+      "id": 3086,
+      "name": "Zèle",
+      "prix": 1200,
+      "description": "Augmente légèrement les chances de coup critique et les vitesses de déplacement et d'attaque.",
+      "categorie": "Composant",
+      "role": "Tireur",
+      "statistiques": {
+        "FlatCritChanceMod": 0.15,
+        "PercentAttackSpeedMod": 0.15,
+        "PercentMovementSpeedMod": 0.04
+      },
+      "tags": [
+        "CriticalStrike",
+        "AttackSpeed",
+        "NonbootsMovement"
+      ],
+      "sub_item_ids": [
+        1018,
+        1042
+      ]
+    },
+    {
+      "id": 6655,
+      "name": "Écho de Luden",
+      "prix": 2750,
+      "description": "D'importants dégâts instantanés. Bon contre les ennemis fragiles.",
+      "categorie": "Legendaire",
+      "role": "Mage",
+      "statistiques": {
+        "FlatMPPoolMod": 600,
+        "FlatMagicDamageMod": 100
+      },
+      "tags": [
+        "SpellDamage",
+        "Mana",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3802,
+        3145
+      ]
+    },
+    {
+      "id": 6620,
+      "name": "Échos d'Helia",
+      "prix": 2200,
+      "description": "Blessez des ennemis qui ont peu de PV pour déclencher une explosion maudite qui blesse et ralentit les ennemis proches.",
+      "categorie": "Legendaire",
+      "role": "Support",
+      "statistiques": {
+        "FlatHPPoolMod": 200,
+        "FlatMagicDamageMod": 35
+      },
+      "tags": [
+        "Health",
+        "SpellDamage",
+        "ManaRegen",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3067,
+        4642
+      ]
+    },
+    {
+      "id": 6692,
+      "name": "Éclipse",
+      "prix": 2900,
+      "description": "+60 dégâts d'attaque +15 accélération de compétence Lune ascendante Quand vous touchez un champion avec 2 attaques ou compétences distinctes en moins de 2 sec, vous gagnez un bouclier pendant 2 sec.",
+      "categorie": "Legendaire",
+      "role": "Combattant",
+      "statistiques": {
+        "FlatPhysicalDamageMod": 60
+      },
+      "tags": [
+        "Damage",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3133,
+        1037,
+        1036
+      ]
+    },
+    {
+      "id": 3068,
+      "name": "Égide solaire",
+      "prix": 2800,
+      "description": "Armure élevée. Inflige constamment des dégâts aux ennemis proches. Immobilisez des ennemis pour libérer une vague de feu.",
+      "categorie": "Legendaire",
+      "role": "Tank",
+      "statistiques": {
+        "FlatHPPoolMod": 350,
+        "FlatArmorMod": 50
+      },
+      "tags": [
+        "Health",
+        "Armor",
+        "Aura",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        6660,
+        1031,
+        1028
+      ]
+    },
+    {
+      "id": 2138,
+      "name": "Élixir de fer",
+      "prix": 500,
+      "description": "Augmente temporairement les défenses. Laisse une piste que peuvent suivre les alliés.",
+      "categorie": "Consommable",
+      "role": "Consommable",
+      "statistiques": {},
+      "tags": [
+        "Health",
+        "Consumable",
+        "NonbootsMovement",
+        "Tenacity"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 2140,
+      "name": "Élixir de rage",
+      "prix": 500,
+      "description": "Augmente temporairement les dégâts d'attaque et vous soigne quand vous infligez des dégâts physiques à des champions.",
+      "categorie": "Consommable",
+      "role": "Consommable",
+      "statistiques": {},
+      "tags": [
+        "Consumable",
+        "Damage",
+        "LifeSteal",
+        "SpellVamp"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 2139,
+      "name": "Élixir de sorcellerie",
+      "prix": 500,
+      "description": "Augmente temporairement la puissance et les dégâts infligés aux champions et aux tourelles.",
+      "categorie": "Consommable",
+      "role": "Consommable",
+      "statistiques": {},
+      "tags": [
+        "Consumable",
+        "ManaRegen",
+        "SpellDamage"
+      ],
+      "sub_item_ids": []
+    },
+    {
+      "id": 6609,
+      "name": "Épée dentelée chimico-punk",
+      "prix": 3000,
+      "description": "+45 dégâts d'attaque +450 PV +15 accélération de compétence Cisailles Infliger des dégâts physiques aux champions ennemis leur inflige 40% d'Hémorragie pendant 3 sec.",
+      "categorie": "Legendaire",
+      "role": "Combattant",
+      "statistiques": {
+        "FlatHPPoolMod": 450,
+        "FlatPhysicalDamageMod": 45
+      },
+      "tags": [
+        "Health",
+        "Damage",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "sub_item_ids": [
+        3123,
+        1011,
+        3133
+      ]
+    },
+    {
+      "id": 1036,
+      "name": "Épée longue",
+      "prix": 350,
+      "description": "Augmente légèrement les dégâts d'attaque.",
+      "categorie": "Composant",
+      "role": "Combattant",
+      "statistiques": {
+        "FlatPhysicalDamageMod": 10
+      },
+      "tags": [
+        "Damage",
+        "Lane"
+      ],
+      "sub_item_ids": []
+    }
+  ]
+}
