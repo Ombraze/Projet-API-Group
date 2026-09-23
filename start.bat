@@ -18,7 +18,7 @@ if not exist venv (
 call venv\Scripts\activate.bat
 
 python -m pip --version >nul 2>&1
-if errorlevel 1(
+if errorlevel 1 (
     echo installing pip...
     python -m ensurepip --upgrade
 )
